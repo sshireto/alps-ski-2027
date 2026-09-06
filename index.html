@@ -95,6 +95,14 @@
   .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
   .chip { font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); color: var(--ink-2); }
 
+  /* Booked banner */
+  .booked-banner { background: var(--good-soft); border: 1px solid var(--good); border-radius: 14px; padding: 18px 22px; }
+  .booked-banner .eyebrow { color: var(--good); opacity: .9; }
+  .booked-banner ul { list-style: none; margin: 10px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+  .booked-banner li { font-size: 15px; }
+  .booked-banner li b { font-weight: 700; }
+  .booked-banner p.note { margin: 12px 0 0; font-size: 14px; color: var(--ink-2); }
+
   /* Top 3 */
   .top3-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
   .top3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 14px; }
@@ -197,6 +205,15 @@
       <span class="chip">Free cancellation</span>
     </div>
   </header>
+
+  <div class="booked-banner">
+    <div class="eyebrow">Booked so far · both fully refundable</div>
+    <ul>
+      <li><b>NordOst fineliving</b> — Ischgl · 10–16 Jan · 6 adults · $5,811 · <span class="yes">free cancellation</span></li>
+      <li><b>Aparthotel Die Sonne</b> — Obertauern · 24–30 Jan · 5 adults · $4,696 · <span class="yes">free cancellation</span></li>
+    </ul>
+    <p class="note">Both are holds, not a final decision — free to cancel, so we can drop whichever one the group doesn't go with once we pick a week.</p>
+  </div>
 
   <section>
     <div class="top3-head">
@@ -356,7 +373,7 @@
       <div class="scroll"><table class="ht wk">
         <thead><tr><th>Hotel</th><th>Beds / cancel</th><th class="num">10–16 Jan</th><th class="num">17–23 Jan</th><th class="num">24–30 Jan</th></tr></thead>
         <tbody>
-          <tr class="pick"><td class="name"><a href="https://www.booking.com/hotel/at/alpin-apart-ischgl.html?checkin=2027-01-10&checkout=2027-01-16&group_adults=6&no_rooms=3&group_children=0">NordOst fineliving</a><small>Ischgl · 4★ apartments, sauna, 350 m</small></td><td>Real beds · <span class="yes">free cancel</span></td><td class="eur">$5,811<small>€140 · one 3-bedroom apt</small></td><td class="eur">$6,182<small>€149 · studio + 2-bed</small></td><td class="eur"><span class="no">Full</span></td></tr>
+          <tr class="pick"><td class="name"><a href="https://www.booking.com/hotel/at/alpin-apart-ischgl.html?checkin=2027-01-10&checkout=2027-01-16&group_adults=6&no_rooms=3&group_children=0">NordOst fineliving</a><small>Ischgl · 4★ apartments, sauna, 350 m</small></td><td>Real beds · <span class="yes">free cancel</span></td><td class="eur">$5,811<small>€140 · one 3-bedroom apt</small><br><span class="fit ok">Booked</span></td><td class="eur">$6,182<small>€149 · studio + 2-bed</small></td><td class="eur"><span class="no">Full</span></td></tr>
           <tr><td class="name"><a href="https://www.booking.com/hotel/at/garni-monte-bianco2.html?checkin=2027-01-10&checkout=2027-01-16&group_adults=6&no_rooms=3&group_children=0">Hotel Garni Monte Bianco</a><small>Ischgl · 4★, sauna, steam, hot tub, 100 m from gondola</small></td><td>3 king doubles, breakfast · partially refundable</td><td class="eur">$6,490<small>€157</small></td><td class="eur"><span class="no">Full</span></td><td class="eur"><span class="no">Full</span></td></tr>
           <tr><td class="name"><a href="https://www.booking.com/hotel/at/the-himmlisch-wohlfuhlen.html?checkin=2027-01-17&checkout=2027-01-23&group_adults=6&no_rooms=3&group_children=0">The Hotel</a><small>Ischgl · 4★, spa, 450 m</small></td><td>3 doubles, breakfast · <span class="no">non-refundable</span></td><td class="eur"><span class="no">Full</span></td><td class="eur">$5,901<small>€143</small></td><td class="eur"><span class="no">Full</span></td></tr>
           <tr><td class="name"><a href="https://www.booking.com/hotel/at/alpina-gmbh.html?checkin=2027-01-10&checkout=2027-01-16&group_adults=6&no_rooms=3&group_children=0">Hotel Alpina</a><small>Ischgl · 4★, spa, 150 m</small></td><td>Real beds, breakfast · <span class="yes">free cancel</span></td><td class="eur">$8,614<small>€208</small></td><td class="eur">$7,779<small>€188</small></td><td class="eur">$15,121<small>sofa beds only</small></td></tr>
@@ -417,7 +434,7 @@
         <thead><tr><th>Hotel</th><th>Score</th><th>Lift</th><th>Beds</th><th>What we give up</th><th>Cancel</th><th class="num">Total</th><th class="num">€ pp</th></tr></thead>
         <tbody>
           <tr><td class="name"><a href="https://www.booking.com/searchresults.html?ss=Aparthotel+Bernhof+Obertauern&checkin=2027-01-24&checkout=2027-01-30&group_adults=6&no_rooms=3&group_children=0">Aparthotel Bernhof</a><small>Obertauern · 4★, spa</small></td><td>9.9</td><td>250 m</td><td>65 m², 2 queens + sofa bed</td><td class="give">Sofa bed, no meals</td><td>Check</td><td class="num">$4,824</td><td class="eur">€117</td></tr>
-          <tr><td class="name"><a href="https://www.booking.com/hotel/at/apparthotel-sonne.html?checkin=2027-01-24&checkout=2027-01-30&group_adults=6&no_rooms=3&group_children=0">Aparthotel Die Sonne</a><small>Obertauern · 4★, private sauna</small></td><td>9.7</td><td>350 m</td><td>70 m², queen + 2 twins + sofa bed</td><td class="give">Sofa bed, no meals</td><td class="yes">Free cancellation</td><td class="num">$5,263</td><td class="eur">€127</td></tr>
+          <tr class="pick"><td class="name"><a href="https://www.booking.com/hotel/at/apparthotel-sonne.html?checkin=2027-01-24&checkout=2027-01-30&group_adults=6&no_rooms=3&group_children=0">Aparthotel Die Sonne</a><small>Obertauern · 4★, private sauna</small></td><td>9.7</td><td>350 m</td><td>70 m², queen + 2 twins + sofa bed</td><td class="give">Sofa bed, no meals</td><td><span class="yes">Free cancellation</span><br><span class="fit ok">Booked</span><small style="color:var(--ink-3)">for 5: $4,696</small></td><td class="num">$5,263</td><td class="eur">€127</td></tr>
           <tr><td class="name"><a href="https://www.booking.com/searchresults.html?ss=Hubertus+Alpine+Living+Obertauern&checkin=2027-01-24&checkout=2027-01-30&group_adults=6&no_rooms=3&group_children=0">Hubertus Alpine Living</a><small>Obertauern · 4★, spa</small></td><td>9.4</td><td>150 m</td><td>56 m², 2 kings + sofa bed</td><td class="give">Sofa bed, tight for 6, no meals</td><td>Check</td><td class="num">$3,894</td><td class="eur">€94</td></tr>
           <tr><td class="name"><a href="https://www.booking.com/searchresults.html?ss=Hotel+Almschl%C3%B6ssl+Obertauern&checkin=2027-01-24&checkout=2027-01-30&group_adults=6&no_rooms=3&group_children=0">Almschlössl deluxe apartment</a><small>Obertauern · 4★ hotel with pool</small></td><td>9.3</td><td>350 m</td><td>62 m², 2 kings + sofa bed, 2 bathrooms</td><td class="give">Sofa bed, no meals</td><td>Check</td><td class="num">$5,050</td><td class="eur">€122</td></tr>
           <tr><td class="name"><a href="https://www.booking.com/hotel/at/apart-lamtana.html?checkin=2027-01-17&checkout=2027-01-23&group_adults=6&no_rooms=3&group_children=0">Apartment Lamtana</a><small>Ischgl · 4★ apartments</small></td><td>9.6</td><td>300 m</td><td>3 units, queen + sofa bed each</td><td class="give">Sofa beds, over budget, no meals</td><td>Check</td><td class="num">$7,039</td><td class="eur">€170</td></tr>
