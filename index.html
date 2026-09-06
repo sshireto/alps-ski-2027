@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%E2%9B%B7%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9B%B7%3C/text%3E%3C/svg%3E">
 <title>Alps Ski Trip 2027</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
@@ -95,18 +95,14 @@
   .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
   .chip { font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); color: var(--ink-2); }
 
-  /* Verdict */
-  .verdict {
-    background: var(--accent); color: var(--accent-ink);
-    border-radius: 14px; padding: 26px 28px;
-    display: grid; grid-template-columns: 1fr auto; gap: 18px; align-items: start;
-  }
-  .verdict .eyebrow { color: var(--accent-ink); opacity: .75; }
-  .verdict h2 { font-size: 34px; font-weight: 800; margin-top: 6px; }
-  .verdict p { margin: 10px 0 0; max-width: 58ch; opacity: .95; }
-  .verdict .alt { font-size: 14px; text-align: right; opacity: .85; line-height: 1.4; }
-  .verdict .alt strong { display: block; font-size: 15px; opacity: 1; }
-  @media (max-width: 560px) { .verdict { grid-template-columns: 1fr; } .verdict .alt { text-align: left; } }
+  /* Top 3 */
+  .top3-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .top3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 14px; }
+  .top3 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px; }
+  .top3 .rank { width: 26px; height: 26px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center; }
+  .top3 h3 { font-size: 19px; margin: 12px 0 6px; }
+  .top3 p { color: var(--ink-2); font-size: 14.5px; margin: 0; }
+  @media (max-width: 700px) { .top3 { grid-template-columns: 1fr; } }
 
   section h2 { font-size: 24px; font-weight: 700; }
   section > p.sub { color: var(--ink-2); margin: 6px 0 16px; max-width: 65ch; }
@@ -185,7 +181,6 @@
   footer { font-size: 13px; color: var(--ink-3); border-top: 1px solid var(--line); padding-top: 16px; line-height: 1.6; }
 </style>
 
-<style>img{max-width:100%}[hidden]{display:none!important}</style>
 </head>
 <body>
 <div class="page">
@@ -203,17 +198,29 @@
     </div>
   </header>
 
-  <div class="verdict">
-    <div>
-      <div class="eyebrow">The pick</div>
-      <h2>Ischgl</h2>
-      <p>The only resort that scores top marks on altitude, après and intermediate terrain at once. Skiing runs 2,000–2,872 m, so an El Niño winter doesn't worry us, and the village is compact enough that "5 minutes to the gondola" is the norm.</p>
+  <section>
+    <div class="top3-head">
+      <h2>Best fit for us, in order</h2>
+      <p class="sub" style="margin:0;">No resort ticks every box — this is our closest three.</p>
     </div>
-    <div class="alt">
-      <strong>Runner-up: Obertauern</strong>
-      Highest village in Austria, every hotel on the piste — but a smaller area and ~€200 pp.
+    <div class="top3">
+      <div class="card">
+        <div class="rank">1</div>
+        <h3>Ischgl</h3>
+        <p>Highest and liveliest of the three — 2,000–2,872 m keeps an El Niño winter from worrying us, and the Silvretta Arena après scene is the best of the shortlist. In-budget hotels mean a 5–10 min walk to the lift, not true ski-in/out.</p>
+      </div>
+      <div class="card">
+        <div class="rank">2</div>
+        <h3>Obertauern</h3>
+        <p>Genuinely ski-in/out — every hotel sits on the piste — and the highest village in Austria. Trade-off is a smaller ski area and a spa hotel with real beds runs closer to €200 pp.</p>
+      </div>
+      <div class="card">
+        <div class="rank">3</div>
+        <h3>Zell am See – Kaprun</h3>
+        <p>Cheapest of the three and the easiest to hit budget (650 m walk to the lift), with the Kitzsteinhorn glacier up to 3,030 m as snow insurance. Base village is lower at 750 m, so early-week conditions can be patchier.</p>
+      </div>
     </div>
-  </div>
+  </section>
 
   <section>
     <h2>Resort scorecard</h2>
@@ -243,7 +250,7 @@
             <td class="drive"><b>Zurich 2 h 15</b><small>Munich 3 h</small></td>
             <td><span class="fit mid">Walk 350 m, 10–23 Jan</span></td>
           </tr>
-          <tr>
+          <tr class="pick">
             <td class="name">Obertauern<small>1,740 → 2,313 m</small></td>
             <td><span class="pips"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></td>
             <td><span class="pips"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></td>
@@ -293,7 +300,7 @@
             <td class="drive"><b>Munich 3 h</b><small>Zurich 3 h 15</small></td>
             <td><span class="fit no">€250+ pp</span></td>
           </tr>
-          <tr>
+          <tr class="pick">
             <td class="name">Zell am See – Kaprun<small>750 → 3,030 m (glacier)</small></td>
             <td><span class="pips"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></td>
             <td><span class="pips"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></td>
@@ -482,6 +489,5 @@
   </footer>
 
 </div>
-
 </body>
 </html>
