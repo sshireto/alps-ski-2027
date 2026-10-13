@@ -1,6 +1,7 @@
 const HOTELS = [
   {
     "id": "nordost",
+    "cancelled": "Cancelled free of charge on 13 Oct 2026",
     "notExtended": "NOT extended: still checks out Sat 16 Jan (El Al has no Saturday flight). Booking.com did not allow the extra night as of 13 Oct 2026.",
     "name": "NordOst fineliving",
     "location": "Ischgl",
@@ -130,6 +131,7 @@ const HOTELS = [
   },
   {
     "id": "parseierblick",
+    "cancelled": "Cancelled free of charge on 13 Oct 2026",
     "notExtended": "NOT extended: still checks out Sat 16 Jan (El Al has no Saturday flight). Booking.com did not allow the extra night as of 13 Oct 2026.",
     "name": "Parseierblick",
     "location": "Sankt Anton am Arlberg",
@@ -247,6 +249,7 @@ const HOTELS = [
   },
   {
     "id": "valentin",
+    "cancelled": "Cancelled free of charge on 13 Oct 2026",
     "name": "Valentin Design Apartments",
     "location": "Sölden",
     "week": "early",
@@ -381,6 +384,7 @@ const HOTELS = [
   },
   {
     "id": "die-sonne",
+    "cancelled": "Cancelled free of charge on 13 Oct 2026",
     "notExtended": "NOT extended: still checks out Sat 30 Jan (El Al has no Saturday flight). Booking.com did not allow the extra night as of 13 Oct 2026.",
     "name": "Aparthotel DIE SONNE",
     "location": "Obertauern",
@@ -506,6 +510,7 @@ const HOTELS = [
   },
   {
     "id": "solaria",
+    "cancelled": "Cancelled free of charge on 13 Oct 2026",
     "notExtended": "NOT extended: still checks out Sat 30 Jan (El Al has no Saturday flight). Booking.com did not allow the extra night as of 13 Oct 2026.",
     "name": "Hotel Solaria",
     "location": "Obertauern",
@@ -640,6 +645,7 @@ const HOTELS = [
   },
   {
     "id": "winter",
+    "cancelled": "Cancelled free of charge on 13 Oct 2026",
     "name": "Hotel Appartement Winter",
     "location": "Obertauern",
     "week": "late",
@@ -764,6 +770,7 @@ const HOTELS = [
   },
   {
     "id": "alpenland",
+    "cancelled": "Cancelled free of charge on 13 Oct 2026",
     "name": "Hotel Alpenland",
     "location": "Obertauern · Seekarstraße 15",
     "week": "late",
