@@ -763,6 +763,100 @@ const HOTELS = [
     "photoBadge": "Representative apartment photos"
   },
   {
+    "id": "parseierblick-apt",
+    "name": "Parseierblick · Two-Bedroom Apartment",
+    "location": "Sankt Anton am Arlberg · Dorfstraße 101",
+    "week": "late",
+    "dates": "24–31",
+    "nights": 7,
+    "booked": false,
+    "topOption": true,
+    "verifiedOn": "13 October 2026",
+    "total": 7360,
+    "people": 6,
+    "room": "Two-Bedroom Apartment · 65 m² · 1 living room · 2 bathrooms",
+    "roomShort": "One 2-bedroom / 2-bath apartment",
+    "positioning": "Top unbooked option: ski-in/ski-out apartment ~1 min from Nassereinbahn, Sun–Sun.",
+    "tag": "TOP OPTION · NOT BOOKED",
+    "mealShort": "Room only (meals not confirmed)",
+    "spaShort": "Hotel sauna access unconfirmed for apartment",
+    "bedsTable": "4 twin + 1 king · 6 sleeping spots",
+    "beds": "Booking.com lists 4 twin beds and 1 king bed across two bedrooms: six regular sleeping spots for six adults, no sofa beds needed. Exact split between bedrooms is not confirmed.",
+    "roomCaveat": "Not booked. Availability was shown on Booking.com on 13 October 2026 and may change. This is separate from the booked 10–16 January Parseierblick rooms.",
+    "pros": [
+      "Ski-in/ski-out listed; Nassereinbahn is 95 m (~1 min walk).",
+      "Six regular beds, two bathrooms and a shared living room.",
+      "Sunday–Sunday 7 nights; rated 9.3 from 102 reviews."
+    ],
+    "cons": [
+      "Not booked: price and availability may change.",
+      "€175.24 per person per night — higher than the other late-January options.",
+      "Apartment is 65 m²; wellness inclusion and meals are not confirmed for this unit."
+    ],
+    "spa": "The Parseierblick house has a shared sauna/steam area; inclusion for this apartment offer is unconfirmed.",
+    "access": "Ski-in/ski-out listed by Booking.com. Nassereinbahn valley station 95 m / about 1 min on foot; centre 0.7 km.",
+    "accessShort": "Ski-in/out · Nassereinbahn 95 m / ~1 min",
+    "quoteSummary": "NOT BOOKED. €7,360 total incl. taxes and fees for 6 adults, 24–31 January (7 nights), ≈ €175.24 pp/night. Booking.com search, 13 October 2026.",
+    "meals": "No meal plan confirmed in this quote; check the offer terms before booking.",
+    "bookingUrl": "https://www.booking.com/hotel/at/parseierblick.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
+    "photos": [
+      {
+        "src": "assets/parseierblick-exterior.webp",
+        "alt": "Parseierblick exterior at dusk",
+        "label": "Parseierblick exterior at dusk",
+        "note": "Official property photograph; the apartment interior is not shown.",
+        "source": "https://www.parseierblick.at/galerie/"
+      },
+      {
+        "src": "assets/parseierblick-ski-room.webp",
+        "alt": "Ski room at Parseierblick",
+        "label": "Ski room at Parseierblick",
+        "note": "Official property facility photograph.",
+        "source": "https://www.parseierblick.at/galerie/"
+      }
+    ],
+    "bedPlan": {
+      "headline": "6 people in regular beds · 0 on sofa/extra beds",
+      "regular": "6",
+      "extra": "0",
+      "layout": "Two bedrooms with 4 twin beds + 1 king bed (6 sleeping spots), plus a living room and 2 bathrooms.",
+      "note": "Bed split between bedrooms not confirmed.",
+      "source": "https://www.booking.com/hotel/at/parseierblick.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
+    },
+    "wellness": {
+      "label": "Unconfirmed · House sauna",
+      "facilities": "Parseierblick has a shared sauna/steam and relaxation area.",
+      "inclusion": "Inclusion for this apartment offer unconfirmed",
+      "note": "Check the offer terms on Booking.com.",
+      "source": "https://www.booking.com/hotel/at/parseierblick.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
+    },
+    "skiAccess": {
+      "label": "Ski-in/ski-out · ~1 min walk",
+      "skiIn": "Ski-in listed",
+      "skiOut": "Ski-out listed",
+      "lift": "Nassereinbahn valley station",
+      "walk": "95 m / about 1 min walk (mapped route); 0.7 km to centre.",
+      "note": "Rating 9.3 (102 reviews).",
+      "source": "https://www.booking.com/hotel/at/parseierblick.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
+      "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=47.1344219,10.2734376&destination=47.1347463,10.2729558&travelmode=walking"
+    },
+    "sources": [
+      {
+        "label": "Booking.com · 24–31 Jan, 6 adults",
+        "url": "https://www.booking.com/hotel/at/parseierblick.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
+      },
+      {
+        "label": "Walking route to Nassereinbahn",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=47.1344219,10.2734376&destination=47.1347463,10.2729558&travelmode=walking"
+      },
+      {
+        "label": "Official hotel",
+        "url": "https://www.parseierblick.at/"
+      }
+    ],
+    "photoBadge": "Property photos · apartment not shown"
+  },
+  {
     "id": "manggei",
     "name": "ManggeiBau Deluxe Apartment",
     "location": "Obertauern",
