@@ -763,6 +763,84 @@ const HOTELS = [
     "photoBadge": "Representative apartment photos"
   },
   {
+    "id": "alpenland",
+    "name": "Hotel Alpenland",
+    "location": "Obertauern · Seekarstraße 15",
+    "week": "late",
+    "dates": "24–31",
+    "nights": 7,
+    "booked": true,
+    "verifiedOn": "13 October 2026",
+    "total": 6875.1,
+    "people": 6,
+    "room": "Three-Bedroom Apartment",
+    "roomShort": "One 3-bedroom / 3-bath apartment",
+    "positioning": "Newly booked Sun–Sun apartment: three bedrooms, central Obertauern.",
+    "tag": "NEWLY BOOKED",
+    "mealShort": "Breakfast optional · €25 pp/night",
+    "spaShort": "Hotel spa, sauna & pools (listed)",
+    "bedsTable": "3 queens + 1 sofa bed",
+    "beds": "The Booking.com listing for the Three-Bedroom Apartment (106 m², 3 bedrooms, living room, 3 bathrooms, kitchen) shows 3 queen beds and 1 sofa bed. Six adults fit on the three queens, two per bed; the sofa bed is spare.",
+    "roomCaveat": "The confirmation names the Three-Bedroom Apartment for 6 adults but does not list beds; the bed layout and 106 m² are from the Booking.com search listing, not the confirmation.",
+    "pros": [
+      "Three bedrooms and three bathrooms: everyone on a queen bed, no sofa needed.",
+      "Central Obertauern (~250 m to centre); listing advertises ski-in/ski-out.",
+      "€163.69 per person per night over seven nights, incl. VAT and €4.05 pp/night city tax; free cancellation until 24 Nov 2026."
+    ],
+    "cons": [
+      "Two people share each queen bed.",
+      "Mapped walk to Zentralbahn valley station is ~335 m / ~5 min, longer than the listing's 150 m.",
+      "Breakfast not included (€25 pp/night)."
+    ],
+    "spa": "Booking.com lists swimming pools, spa/wellness centre, sauna and hot tub at the hotel (closed off-season until 25 Nov 2026). Inclusion for apartment guests is not stated in the confirmation.",
+    "access": "The listing advertises ski-in/ski-out and 150 m to the nearest ski lift. The mapped public walking route (OSRM foot) to Zentralbahn valley station is 335 m / about 5 minutes; a shorter piste approach may exist.",
+    "accessShort": "Zentralbahn · mapped walk 335 m / ~5 min",
+    "meals": "Breakfast is optional at €25 per person per night (€1,050 for six adults over seven nights); dinner €55 pp/night.",
+    "quoteSummary": "Booked total €6,875.10: apartment €6,095.45 + VAT €609.55 + city tax €170.10 (€4.05 pp/night, paid at the property). Booking.com charges €6,705 automatically. Free cancellation until 24 Nov 2026 23:59 CET; from 25 Nov 50% (€3,352.50); from 25 Jan / no-show 100%.",
+    "bookingUrl": "https://www.booking.com/hotel/at/alpenland-obertauern.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
+    "photos": [],
+    "bedPlan": {
+      "headline": "6 people in regular beds · 0 on sofa/extra beds",
+      "regular": "6",
+      "extra": "0 (1 sofa bed spare)",
+      "layout": "Three bedrooms, each with a queen bed; living room with sofa bed; 3 bathrooms; kitchen.",
+      "note": "Bed layout from the Booking.com listing; the confirmation names the category only.",
+      "source": "https://www.booking.com/hotel/at/alpenland-obertauern.html"
+    },
+    "wellness": {
+      "label": "Yes · Hotel spa listed",
+      "facilities": "Swimming pools, spa/wellness centre, sauna and hot tub listed by Booking.com.",
+      "inclusion": "Inclusion for apartment guests unconfirmed",
+      "note": "Facilities closed off-season until 25 Nov 2026.",
+      "source": "https://www.booking.com/hotel/at/alpenland-obertauern.html"
+    },
+    "skiAccess": {
+      "label": "Ski-in/ski-out listed · short walk",
+      "skiIn": "Ski-in listed",
+      "skiOut": "Ski-out listed",
+      "lift": "Zentralbahn valley station",
+      "walk": "Mapped walking route: 335 m / about 5 min (listing says 150 m to lift).",
+      "note": "Centre ~250 m. Rating 9.3 (70 reviews).",
+      "source": "https://www.booking.com/hotel/at/alpenland-obertauern.html",
+      "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=47.2502602,13.5590639&destination=47.2518941,13.5574575&travelmode=walking"
+    },
+    "sources": [
+      {
+        "label": "Public Booking listing",
+        "url": "https://www.booking.com/hotel/at/alpenland-obertauern.html"
+      },
+      {
+        "label": "Official hotel",
+        "url": "https://www.dasalpenland.at/"
+      },
+      {
+        "label": "Walking route to Zentralbahn",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=47.2502602,13.5590639&destination=47.2518941,13.5574575&travelmode=walking"
+      }
+    ],
+    "photoBadge": ""
+  },
+  {
     "id": "parseierblick-apt",
     "name": "Parseierblick · Two-Bedroom Apartment",
     "location": "Sankt Anton am Arlberg · Dorfstraße 101",
