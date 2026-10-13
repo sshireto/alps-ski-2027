@@ -1,6 +1,7 @@
 const HOTELS = [
   {
     "id": "nordost",
+    "notExtended": "NOT extended: still checks out Sat 16 Jan (El Al has no Saturday flight). Booking.com did not allow the extra night as of 13 Oct 2026.",
     "name": "NordOst fineliving",
     "location": "Ischgl",
     "week": "early",
@@ -129,6 +130,7 @@ const HOTELS = [
   },
   {
     "id": "parseierblick",
+    "notExtended": "NOT extended: still checks out Sat 16 Jan (El Al has no Saturday flight). Booking.com did not allow the extra night as of 13 Oct 2026.",
     "name": "Parseierblick",
     "location": "Sankt Anton am Arlberg",
     "week": "early",
@@ -248,8 +250,10 @@ const HOTELS = [
     "name": "Valentin Design Apartments",
     "location": "Sölden",
     "week": "early",
-    "dates": "10–16",
-    "total": 5376.53,
+    "dates": "10–17",
+    "nights": 7,
+    "extended": "Extended to Sun 17 Jan (Booking.com modification, 13 Oct 2026; was 10–16 Jan, €5,376.53).",
+    "total": 6835.16,
     "people": 6,
     "room": "Deluxe Apartment",
     "photos": [
@@ -298,7 +302,7 @@ const HOTELS = [
     "cons": [
       "The booked Deluxe label needs matching to an exact layout before promising three bedrooms or no sofa beds.",
       "No breakfast is included.",
-      "About €10.38 more per person per night than NordOst, with no private in-apartment sauna confirmed."
+      "About €23.77 more per person per night than NordOst (which is still booked for six nights only), with no private in-apartment sauna confirmed."
     ],
     "spa": "Finnish and bio saunas, steam bath, ice fountain, lounges, terraces and gym. No on-site pool verified. Wellness access, robes & slippers included. Shared Sky Spa. Treatments are arranged at partner hotels; this is not a verified swimming-pool spa.",
     "access": "Walk back; direct return unverified. Walk to gondola, not direct ski-out. Gaislachkoglbahn I valley station: 350 m / about 5 min via Dorfstraße (mapped walking route). The hotel advertises 150–200 m proximity. That differs from the mapped street route. Allow longer in ski boots or snow.",
@@ -377,6 +381,7 @@ const HOTELS = [
   },
   {
     "id": "die-sonne",
+    "notExtended": "NOT extended: still checks out Sat 30 Jan (El Al has no Saturday flight). Booking.com did not allow the extra night as of 13 Oct 2026.",
     "name": "Aparthotel DIE SONNE",
     "location": "Obertauern",
     "week": "late",
@@ -501,6 +506,7 @@ const HOTELS = [
   },
   {
     "id": "solaria",
+    "notExtended": "NOT extended: still checks out Sat 30 Jan (El Al has no Saturday flight). Booking.com did not allow the extra night as of 13 Oct 2026.",
     "name": "Hotel Solaria",
     "location": "Obertauern",
     "week": "late",
@@ -637,10 +643,12 @@ const HOTELS = [
     "name": "Hotel Appartement Winter",
     "location": "Obertauern",
     "week": "late",
-    "dates": "24–30",
+    "dates": "24–31",
+    "nights": 7,
+    "extended": "Extended to Sun 31 Jan (Booking.com modification, 13 Oct 2026; was 24–30 Jan, €4,995.20).",
     "booked": true,
-    "verifiedOn": "7 October 2026",
-    "total": 4995.2,
+    "verifiedOn": "13 October 2026",
+    "total": 5821.4,
     "people": 6,
     "room": "Extra large Apartment with Balcony",
     "roomShort": "One 2-bedroom apartment",
@@ -654,7 +662,7 @@ const HOTELS = [
     "pros": [
       "One apartment gives the group a shared living space and two bedrooms.",
       "The official hotel page lists included Finnish sauna, steam room and infrared cabin.",
-      "The booked total is €138.76 per person per night, including the listed taxes and mandatory fees."
+      "The booked total is €138.60 per person per night over seven nights, including VAT, cleaning and €4 pp/night city tax."
     ],
     "cons": [
       "Six adults require at least one sofa sleeper in the published layout.",
@@ -664,7 +672,7 @@ const HOTELS = [
     "spa": "The hotel’s official inclusions page advertises free daily Finnish sauna, steam room, infrared cabin, loungers and sauna towels. No on-site swimming pool has been verified.",
     "access": "The hotel advertises ski-in/ski-out. Older guest reports describe a short walk to the lift and ski-back to the door, but the exact current ski route is not confirmed. The checked public road/parking walking route to Grünwaldkopfbahn is 350 m / about 5 minutes; a shorter winter approach may exist but is unverified.",
     "accessShort": "Grünwaldkopfbahn · mapped walk 350 m / 5 min",
-    "meals": "Breakfast is optional at €22 per person per night. For six adults over six nights, this adds €792, for a total of €5,787.20.",
+    "meals": "Breakfast is optional at €22 per person per night. For six adults over seven nights, this adds €924, for a total of €6,745.40.",
     "bookingUrl": "https://www.booking.com/hotel/at/appartement-winter-obertauern.html",
     "photos": [
       {
