@@ -847,35 +847,34 @@ const HOTELS = [
     "week": "late",
     "dates": "24–31",
     "nights": 7,
-    "booked": false,
-    "topOption": true,
+    "booked": true,
     "verifiedOn": "13 October 2026",
     "total": 7360,
     "people": 6,
     "room": "Two-Bedroom Apartment · 65 m² · 1 living room · 2 bathrooms",
     "roomShort": "One 2-bedroom / 2-bath apartment",
-    "positioning": "Top unbooked option: ski-in/ski-out apartment ~1 min from Nassereinbahn, Sun–Sun.",
-    "tag": "TOP OPTION · NOT BOOKED",
-    "mealShort": "Room only (meals not confirmed)",
+    "positioning": "Newly booked Sun–Sun ski-in/ski-out apartment ~1 min from Nassereinbahn, breakfast included.",
+    "tag": "NEWLY BOOKED",
+    "mealShort": "Breakfast included",
     "spaShort": "Hotel sauna access unconfirmed for apartment",
     "bedsTable": "4 twin + 1 king · 6 sleeping spots",
     "beds": "Booking.com lists 4 twin beds and 1 king bed across two bedrooms: six regular sleeping spots for six adults, no sofa beds needed. Exact split between bedrooms is not confirmed.",
-    "roomCaveat": "Not booked. Availability was shown on Booking.com on 13 October 2026 and may change. This is separate from the booked 10–16 January Parseierblick rooms.",
+    "roomCaveat": "Booked: 1 Two-Bedroom Apartment for 6 adults (confirmation names the category only). Bed layout and 65 m² are from the Booking.com listing. This is separate from the booked 10–16 January Parseierblick rooms.",
     "pros": [
       "Ski-in/ski-out listed; Nassereinbahn is 95 m (~1 min walk).",
-      "Six regular beds, two bathrooms and a shared living room.",
-      "Sunday–Sunday 7 nights; rated 9.3 from 102 reviews."
+      "Six regular beds, two bathrooms and a shared living room; breakfast included.",
+      "Sunday–Sunday 7 nights; free cancellation until 24 Nov 2026 23:59 CET."
     ],
     "cons": [
-      "Not booked: price and availability may change.",
-      "€175.24 per person per night — higher than the other late-January options.",
-      "Apartment is 65 m²; wellness inclusion and meals are not confirmed for this unit."
+      "€175.24 per person per night — the priciest St. Anton option, though breakfast is included.",
+      "Non-refundable from 25 Nov 2026 (full €6,930 penalty); city tax and cleaning fee paid in cash on site.",
+      "Apartment is 65 m²; wellness inclusion is not confirmed for this unit."
     ],
     "spa": "The Parseierblick house has a shared sauna/steam area; inclusion for this apartment offer is unconfirmed.",
     "access": "Ski-in/ski-out listed by Booking.com. Nassereinbahn valley station 95 m / about 1 min on foot; centre 0.7 km.",
     "accessShort": "Ski-in/out · Nassereinbahn 95 m / ~1 min",
-    "quoteSummary": "NOT BOOKED. €7,360 total incl. taxes and fees for 6 adults, 24–31 January (7 nights), ≈ €175.24 pp/night. Booking.com search, 13 October 2026.",
-    "meals": "No meal plan confirmed in this quote; check the offer terms before booking.",
+    "quoteSummary": "Booked total €7,360: apartment €6,300 + VAT €630 + city tax €210 (€5 pp/night) + cleaning fee €220. City tax and final cleaning fee are paid in cash at the property; card reserved, prepayment of the total may be charged at any time. Free cancellation until 24 Nov 2026 23:59 CET (property local time); from 25 Nov 2026 00:00 cancellation or no-show costs €6,930. Check-in Sun 24 Jan 15:00–21:00; check-out Sun 31 Jan 08:00–10:00. Property phone +43 664 1546176.",
+    "meals": "Breakfast is included in the final price (per the confirmation).",
     "bookingUrl": "https://www.booking.com/hotel/at/parseierblick.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
     "photos": [
       {
@@ -898,14 +897,14 @@ const HOTELS = [
       "regular": "6",
       "extra": "0",
       "layout": "Two bedrooms with 4 twin beds + 1 king bed (6 sleeping spots), plus a living room and 2 bathrooms.",
-      "note": "Bed split between bedrooms not confirmed.",
+      "note": "Bed split between bedrooms not confirmed; layout from the Booking.com listing.",
       "source": "https://www.booking.com/hotel/at/parseierblick.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
     },
     "wellness": {
       "label": "Unconfirmed · House sauna",
       "facilities": "Parseierblick has a shared sauna/steam and relaxation area.",
-      "inclusion": "Inclusion for this apartment offer unconfirmed",
-      "note": "Check the offer terms on Booking.com.",
+      "inclusion": "Inclusion for this apartment unconfirmed",
+      "note": "Not stated in the booking confirmation; ask the property.",
       "source": "https://www.booking.com/hotel/at/parseierblick.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
     },
     "skiAccess": {
@@ -920,7 +919,7 @@ const HOTELS = [
     },
     "sources": [
       {
-        "label": "Booking.com · 24–31 Jan, 6 adults",
+        "label": "Booking.com listing",
         "url": "https://www.booking.com/hotel/at/parseierblick.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
       },
       {
@@ -933,6 +932,80 @@ const HOTELS = [
       }
     ],
     "photoBadge": "Property photos · apartment not shown"
+  },
+  {
+    "id": "glanz-glory",
+    "name": "Glanz & Glory Hotel",
+    "location": "Sölden · Dorfstraße 50",
+    "week": "late",
+    "dates": "24–31",
+    "nights": 7,
+    "booked": true,
+    "verifiedOn": "13 October 2026",
+    "total": 9570.92,
+    "people": 6,
+    "room": "2 × Deluxe Junior Suite",
+    "roomShort": "Two Deluxe Junior Suites",
+    "positioning": "Newly booked Sun–Sun ski-in/ski-out hotel in Sölden, breakfast included, with spa.",
+    "tag": "NEWLY BOOKED",
+    "mealShort": "Breakfast included",
+    "spaShort": "Sauna, steam room & hot tub (listed)",
+    "bedsTable": "2 Junior Suites · bed layout unconfirmed",
+    "beds": "Two Deluxe Junior Suites are booked for six adults, i.e. three per suite. The confirmation does not list beds, so how the third guest in each suite sleeps (sofa or extra bed) is not confirmed.",
+    "roomCaveat": "Ask the hotel to confirm sleeping arrangements for three adults per Junior Suite. The property notes extra people can be accommodated in Junior Suites on request.",
+    "pros": [
+      "Ski-in/ski-out listed; 50 m to the lift.",
+      "Breakfast included; on-site sauna, steam room and hot tub.",
+      "Free cancellation until 24 Dec 2026 23:59 (property local time) — the latest deadline of the late-January bookings."
+    ],
+    "cons": [
+      "€227.88 per person per night — the most expensive stay on the list.",
+      "Three adults per Junior Suite; bed setup for the third guest unconfirmed.",
+      "Non-refundable from 25 Dec 2026 (full €9,360.92 penalty); city tax paid at the property."
+    ],
+    "spa": "Booking.com lists a spa with sauna, steam room and hot tub. Inclusion is not stated in the confirmation.",
+    "access": "Booking.com lists 'Ski-in, ski-out access' and 50 m to the ski lift. Exact lift and route are not confirmed.",
+    "accessShort": "Ski-in/out · 50 m to lift",
+    "meals": "Breakfast is included in the final price for both suites (per the confirmation).",
+    "quoteSummary": "Booked total €9,570.92: 2 rooms €8,509.93 + VAT €850.99 + city tax €210 (€5 pp/night, collected by the property). Booking.com charges €9,360.92 automatically (€0 paid so far). Free cancellation until 24 Dec 2026 23:59 (property local time); from 25 Dec 2026 00:00 cancellation or no-show costs €4,680.46 per suite (€9,360.92 total). Check-in Sun 24 Jan 15:00–20:30; check-out Sun 31 Jan 07:30–10:00. Photo ID and credit card required at check-in. Property phone +43 5254 2237.",
+    "bookingUrl": "https://www.booking.com/searchresults.html?ss=Glanz+%26+Glory+Hotel+S%C3%B6lden&checkin=2027-01-24&checkout=2027-01-31&group_adults=6&no_rooms=2",
+    "photos": [],
+    "bedPlan": {
+      "headline": "6 people in 2 Junior Suites · bed split unconfirmed",
+      "regular": "Unconfirmed",
+      "extra": "Unconfirmed",
+      "layout": "Two Deluxe Junior Suites, three adults in each.",
+      "note": "The confirmation names the room category only.",
+      "source": "https://www.booking.com/searchresults.html?ss=Glanz+%26+Glory+Hotel+S%C3%B6lden"
+    },
+    "wellness": {
+      "label": "Yes · Hotel spa listed",
+      "facilities": "Sauna, steam room and hot tub listed by Booking.com.",
+      "inclusion": "Inclusion not stated in confirmation",
+      "note": "",
+      "source": "https://www.booking.com/searchresults.html?ss=Glanz+%26+Glory+Hotel+S%C3%B6lden"
+    },
+    "skiAccess": {
+      "label": "Ski-in/ski-out listed · 50 m",
+      "skiIn": "Ski-in listed",
+      "skiOut": "Ski-out listed",
+      "lift": "Nearest ski lift",
+      "walk": "50 m (Booking.com listing).",
+      "note": "Exact lift and route not confirmed.",
+      "source": "https://www.booking.com/searchresults.html?ss=Glanz+%26+Glory+Hotel+S%C3%B6lden",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Glanz+%26+Glory+Hotel+Dorfstra%C3%9Fe+50+S%C3%B6lden"
+    },
+    "sources": [
+      {
+        "label": "Booking.com search · 24–31 Jan",
+        "url": "https://www.booking.com/searchresults.html?ss=Glanz+%26+Glory+Hotel+S%C3%B6lden&checkin=2027-01-24&checkout=2027-01-31&group_adults=6&no_rooms=2"
+      },
+      {
+        "label": "Map · Dorfstraße 50",
+        "url": "https://www.google.com/maps/search/?api=1&query=Glanz+%26+Glory+Hotel+Dorfstra%C3%9Fe+50+S%C3%B6lden"
+      }
+    ],
+    "photoBadge": ""
   },
   {
     "id": "manggei",
