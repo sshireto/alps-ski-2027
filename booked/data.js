@@ -865,8 +865,8 @@ const HOTELS = [
     "mealShort": "Breakfast included",
     "spaShort": "Hotel sauna access unconfirmed for apartment",
     "bedsTable": "4 twin + 1 king · 6 sleeping spots",
-    "beds": "Booking.com lists 4 twin beds and 1 king bed across two bedrooms: six regular sleeping spots for six adults, no sofa beds needed. Exact split between bedrooms is not confirmed.",
-    "roomCaveat": "Booked: 1 Two-Bedroom Apartment for 6 adults (confirmation names the category only). Bed layout and 65 m² are from the Booking.com listing. This is separate from the booked 10–16 January Parseierblick rooms.",
+    "beds": "Public listing: 4 twin beds + 1 king/super-king across two bedrooms in a 65 m² duplex (one bedroom on an open upper floor): six regular beds, no sofa needed. Extra beds are not available for this category.",
+    "roomCaveat": "Booked: 1 Two-Bedroom Apartment for 6 adults (confirmation names the category only). Public listing: 65 m² duplex, 4 twins + 1 king/super-king, one bedroom on an open upper floor, extra beds not available. Separate from the cancelled 10–16 January Parseierblick rooms.",
     "pros": [
       "Ski-in/ski-out listed; Nassereinbahn is 95 m (~1 min walk).",
       "Six regular beds, two bathrooms and a shared living room; breakfast included.",
@@ -904,7 +904,7 @@ const HOTELS = [
       "regular": "6",
       "extra": "0",
       "layout": "Two bedrooms with 4 twin beds + 1 king bed (6 sleeping spots), plus a living room and 2 bathrooms.",
-      "note": "Bed split between bedrooms not confirmed; layout from the Booking.com listing.",
+      "note": "Public listing: duplex with one bedroom on an open upper floor; extra beds not available.",
       "source": "https://www.booking.com/hotel/at/parseierblick.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
     },
     "wellness": {
@@ -958,8 +958,8 @@ const HOTELS = [
     "mealShort": "Breakfast included",
     "spaShort": "Sauna, steam room & hot tub (listed)",
     "bedsTable": "2 Junior Suites · bed layout unconfirmed",
-    "beds": "Two Deluxe Junior Suites are booked for six adults, i.e. three per suite. The confirmation does not list beds, so how the third guest in each suite sleeps (sofa or extra bed) is not confirmed.",
-    "roomCaveat": "Ask the hotel to confirm sleeping arrangements for three adults per Junior Suite. The property notes extra people can be accommodated in Junior Suites on request.",
+    "beds": "Two Deluxe Junior Suites (~32 m² each) for six adults: three per suite. Official/operator listings show 1 king/queen bed plus a sofa/pull-out couch per Deluxe Junior Suite (max 4). So two of six adults sleep on sofa beds.",
+    "roomCaveat": "Verified from hotelsinsolden.at / soelden.com: Deluxe Junior Suite = bedroom with king/queen or twin + seating area with pull-out couch, occupancy 1–4. Confirmation does not name bed types; sofa beds are the listed way to sleep a third adult per suite.",
     "pros": [
       "Ski-in/ski-out listed; 50 m to the lift.",
       "Breakfast included; on-site sauna, steam room and hot tub.",
@@ -978,12 +978,12 @@ const HOTELS = [
     "bookingUrl": "https://www.booking.com/searchresults.html?ss=Glanz+%26+Glory+Hotel+S%C3%B6lden&checkin=2027-01-24&checkout=2027-01-31&group_adults=6&no_rooms=2",
     "photos": [],
     "bedPlan": {
-      "headline": "6 people in 2 Junior Suites · bed split unconfirmed",
-      "regular": "Unconfirmed",
-      "extra": "Unconfirmed",
-      "layout": "Two Deluxe Junior Suites, three adults in each.",
-      "note": "The confirmation names the room category only.",
-      "source": "https://www.booking.com/searchresults.html?ss=Glanz+%26+Glory+Hotel+S%C3%B6lden"
+      "headline": "4 regular · 2 sofa (2 Junior Suites)",
+      "regular": "4",
+      "extra": "2",
+      "layout": "Each Deluxe Junior Suite: king/queen (or twin) + sofa/pull-out couch; three adults per suite.",
+      "note": "Verified from hotelsinsolden.at and soelden.com room pages (occupation 1–4). Confirmation names category only.",
+      "source": "https://www.hotelsinsolden.at/en/property/stefan/rooms.html"
     },
     "wellness": {
       "label": "Yes · Hotel spa listed",
