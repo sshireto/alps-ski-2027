@@ -1015,6 +1015,228 @@ const HOTELS = [
     "photoBadge": ""
   },
   {
+    "week": "late",
+    "dates": "24–31",
+    "nights": 7,
+    "booked": true,
+    "verifiedOn": "15 October 2026",
+    "people": 6,
+    "tag": "NEWLY BOOKED",
+    "photos": [],
+    "photoBadge": "",
+    "id": "lux-alp-chalet",
+    "name": "LUX ALP CHALET am Arlberg",
+    "location": "Warth am Arlberg · Ski Arlberg",
+    "total": 7825.6,
+    "room": "Three-Bedroom Chalet · about 102 m² (1,100 sq ft)",
+    "roomShort": "One 3-bedroom chalet",
+    "positioning": "Newly booked Sun–Sun chalet in Warth (Ski Arlberg), breakfast included, with sauna.",
+    "mealShort": "Breakfast included",
+    "spaShort": "Sauna",
+    "bedsTable": "Own bed for everyone · 6 regular",
+    "beds": "Three-bedroom chalet of about 102 m²; everyone has their own bed.",
+    "roomCaveat": "Booked: 1 Three-Bedroom Chalet for 6 adults. Exact bed types per bedroom not listed here; check the public listing.",
+    "pros": [
+      "About 200–300 m from the Steffisalp lift.",
+      "Breakfast included; sauna; everyone has their own bed.",
+      "Free cancellation until 24 Dec 2026; Booking.com rating 9.7."
+    ],
+    "cons": [
+      "€186.32 per person per night.",
+      "City tax (€151.20) paid at the property.",
+      "Warth is a smaller village, further from St. Anton nightlife."
+    ],
+    "spa": "Sauna listed for the chalet.",
+    "access": "About 200–300 m from the Steffisalp lift in Warth (Ski Arlberg).",
+    "accessShort": "Steffisalp · ~200–300 m",
+    "quoteSummary": "Booked total €7,825.60, including €151.20 city tax paid at the property. Free cancellation until 24 Dec 2026. Check-in Sun 24 Jan; check-out Sun 31 Jan.",
+    "meals": "Breakfast is included.",
+    "bookingUrl": "https://www.booking.com/hotel/at/lux-alp-chalet.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
+    "bedPlan": {
+      "headline": "6 people in regular beds · 0 on sofa/extra beds",
+      "regular": "6",
+      "extra": "0",
+      "layout": "Three bedrooms; everyone has their own bed.",
+      "note": "About 102 m² chalet.",
+      "source": "https://www.booking.com/hotel/at/lux-alp-chalet.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
+    },
+    "wellness": {
+      "label": "Yes · Sauna",
+      "facilities": "Sauna.",
+      "inclusion": "Sauna listed",
+      "note": "",
+      "source": "https://www.booking.com/hotel/at/lux-alp-chalet.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
+    },
+    "skiAccess": {
+      "label": "Walk to lift · ~200–300 m",
+      "skiIn": "Not confirmed",
+      "skiOut": "Not confirmed",
+      "lift": "Steffisalp lift",
+      "walk": "About 200–300 m.",
+      "note": "Rating 9.7.",
+      "source": "https://www.booking.com/hotel/at/lux-alp-chalet.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=LUX%20ALP%20CHALET%20am%20Arlberg%20Warth"
+    },
+    "sources": [
+      {
+        "label": "Booking.com listing",
+        "url": "https://www.booking.com/hotel/at/lux-alp-chalet.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
+      },
+      {
+        "label": "Map · Warth am Arlberg",
+        "url": "https://www.google.com/maps/search/?api=1&query=LUX%20ALP%20CHALET%20am%20Arlberg%20Warth"
+      }
+    ]
+  },
+  {
+    "week": "late",
+    "dates": "24–31",
+    "nights": 7,
+    "booked": true,
+    "verifiedOn": "15 October 2026",
+    "people": 6,
+    "tag": "NEWLY BOOKED",
+    "photos": [],
+    "photoBadge": "",
+    "id": "apart-central",
+    "name": "Apart Central – Premium Mountain&Garden",
+    "location": "Mayrhofen · Zillertal",
+    "total": 9223.04,
+    "room": "Comfort Three-Bedroom Apartment · 75 m²",
+    "roomShort": "One 3-bedroom apartment",
+    "positioning": "Newly booked Sun–Sun central Mayrhofen apartment near the Penkenbahn and the bars.",
+    "mealShort": "No breakfast (room only)",
+    "spaShort": "No spa listed",
+    "bedsTable": "All real beds · shared king beds",
+    "beds": "Comfort Three-Bedroom Apartment (75 m²): all real beds, with people sharing king beds.",
+    "roomCaveat": "Booked: 1 Comfort Three-Bedroom Apartment for 6 adults. No sofa beds, but some guests share king beds.",
+    "pros": [
+      "About 80 m from the Penkenbahn lift.",
+      "Central, near the bars.",
+      "All real beds; Booking.com rating 9.6."
+    ],
+    "cons": [
+      "€219.60 per person per night, with no breakfast.",
+      "People share king beds.",
+      "Free cancellation only until 24 Nov 2026."
+    ],
+    "spa": "No spa or sauna listed for this booking.",
+    "access": "About 80 m from the Penkenbahn lift; central Mayrhofen, near the bars.",
+    "accessShort": "Penkenbahn · ~80 m",
+    "quoteSummary": "Booked total €9,223.04. Free cancellation until 24 Nov 2026. Check-in Sun 24 Jan; check-out Sun 31 Jan.",
+    "meals": "No breakfast included.",
+    "bookingUrl": "https://www.booking.com/hotel/at/apart-central.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
+    "bedPlan": {
+      "headline": "6 people in regular beds · shared king beds",
+      "regular": "6",
+      "extra": "0",
+      "layout": "Three bedrooms; all real beds, with people sharing king beds.",
+      "note": "75 m² apartment.",
+      "source": "https://www.booking.com/hotel/at/apart-central.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
+    },
+    "wellness": {
+      "label": "No · Not listed",
+      "facilities": "No spa listed.",
+      "inclusion": "—",
+      "note": "",
+      "source": "https://www.booking.com/hotel/at/apart-central.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
+    },
+    "skiAccess": {
+      "label": "Walk to lift · ~80 m",
+      "skiIn": "Not confirmed",
+      "skiOut": "Not confirmed",
+      "lift": "Penkenbahn",
+      "walk": "About 80 m.",
+      "note": "Rating 9.6.",
+      "source": "https://www.booking.com/hotel/at/apart-central.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Apart%20Central%20Mayrhofen"
+    },
+    "sources": [
+      {
+        "label": "Booking.com listing",
+        "url": "https://www.booking.com/hotel/at/apart-central.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
+      },
+      {
+        "label": "Map · Mayrhofen",
+        "url": "https://www.google.com/maps/search/?api=1&query=Apart%20Central%20Mayrhofen"
+      }
+    ]
+  },
+  {
+    "week": "late",
+    "dates": "24–31",
+    "nights": 7,
+    "booked": true,
+    "verifiedOn": "15 October 2026",
+    "people": 6,
+    "tag": "NEWLY BOOKED",
+    "photos": [],
+    "photoBadge": "",
+    "id": "regina-solden",
+    "name": "Regina Hotelsuites",
+    "location": "Sölden · booked by Danny",
+    "total": 8494.2,
+    "room": "3 rooms (hotel suites)",
+    "roomShort": "Three hotel suites",
+    "positioning": "Newly booked Sun–Sun Sölden hotel suites (booked by Danny), breakfast included, with indoor pool and spa.",
+    "mealShort": "Breakfast included",
+    "spaShort": "Indoor pool & spa",
+    "bedsTable": "3 suites · bed layout unconfirmed",
+    "beds": "Three hotel suites for six adults; exact bed types not confirmed here.",
+    "roomCaveat": "Booked by Danny: 3 rooms (hotel suites) for 6 adults. Bed types per suite unconfirmed.",
+    "pros": [
+      "About 150 m from the Gaislachkogelbahn lift.",
+      "Breakfast included; indoor pool and spa.",
+      "Three separate suites; Booking.com rating 9.0 (about 1,000 reviews)."
+    ],
+    "cons": [
+      "€202.24 per person per night.",
+      "Free cancellation until 30 days before arrival (about 25 Dec 2026).",
+      "Bed layout per suite unconfirmed."
+    ],
+    "spa": "Indoor pool and spa.",
+    "access": "About 150 m from the Gaislachkogelbahn lift.",
+    "accessShort": "Gaislachkogelbahn · ~150 m",
+    "quoteSummary": "Booked total €8,494.20 (booked by Danny). Free cancellation until 30 days before arrival (about 25 Dec 2026). Check-in Sun 24 Jan; check-out Sun 31 Jan.",
+    "meals": "Breakfast is included.",
+    "bookingUrl": "https://www.booking.com/hotel/at/regina-solden.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
+    "bedPlan": {
+      "headline": "6 people · 3 suites",
+      "regular": "6",
+      "extra": "0",
+      "layout": "Three hotel suites, two adults per suite.",
+      "note": "Bed types per suite unconfirmed.",
+      "source": "https://www.booking.com/hotel/at/regina-solden.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
+    },
+    "wellness": {
+      "label": "Yes · Indoor pool & spa",
+      "facilities": "Indoor pool and spa.",
+      "inclusion": "Listed",
+      "note": "",
+      "source": "https://www.booking.com/hotel/at/regina-solden.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
+    },
+    "skiAccess": {
+      "label": "Walk to lift · ~150 m",
+      "skiIn": "Not confirmed",
+      "skiOut": "Not confirmed",
+      "lift": "Gaislachkogelbahn",
+      "walk": "About 150 m.",
+      "note": "Rating 9.0 (about 1,000 reviews).",
+      "source": "https://www.booking.com/hotel/at/regina-solden.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Regina%20Hotelsuites%20S%C3%B6lden"
+    },
+    "sources": [
+      {
+        "label": "Booking.com listing",
+        "url": "https://www.booking.com/hotel/at/regina-solden.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
+      },
+      {
+        "label": "Map · Sölden",
+        "url": "https://www.google.com/maps/search/?api=1&query=Regina%20Hotelsuites%20S%C3%B6lden"
+      }
+    ]
+  },
+  {
     "id": "manggei",
     "name": "ManggeiBau Deluxe Apartment",
     "location": "Obertauern",
