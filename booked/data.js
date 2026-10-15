@@ -976,7 +976,50 @@ const HOTELS = [
     "meals": "Breakfast is included in the final price for both suites (per the confirmation).",
     "quoteSummary": "Booked total €9,570.92: 2 rooms €8,509.93 + VAT €850.99 + city tax €210 (€5 pp/night, collected by the property). Booking.com charges €9,360.92 automatically (€0 paid so far). Free cancellation until 24 Dec 2026 23:59 (property local time); from 25 Dec 2026 00:00 cancellation or no-show costs €4,680.46 per suite (€9,360.92 total). Check-in Sun 24 Jan 15:00–20:30; check-out Sun 31 Jan 07:30–10:00. Photo ID and credit card required at check-in. Property phone +43 5254 2237.",
     "bookingUrl": "https://www.booking.com/searchresults.html?ss=Glanz+%26+Glory+Hotel+S%C3%B6lden&checkin=2027-01-24&checkout=2027-01-31&group_adults=6&no_rooms=2",
-    "photos": [],
+    "photos": [
+      {
+        "src": "assets/glanz-exterior.webp",
+        "alt": "Glanz & Glory exterior",
+        "label": "Exterior",
+        "note": "Booking.com property gallery photograph.",
+        "source": "https://www.booking.com/hotel/at/fruhstuckspension-glanzer.html"
+      },
+      {
+        "src": "assets/glanz-living.webp",
+        "alt": "Living room",
+        "label": "Living room",
+        "note": "Booking.com property gallery photograph.",
+        "source": "https://www.booking.com/hotel/at/fruhstuckspension-glanzer.html"
+      },
+      {
+        "src": "assets/glanz-kitchen.webp",
+        "alt": "Kitchen and dining",
+        "label": "Kitchen and dining",
+        "note": "Booking.com property gallery photograph.",
+        "source": "https://www.booking.com/hotel/at/fruhstuckspension-glanzer.html"
+      },
+      {
+        "src": "assets/glanz-bedroom.webp",
+        "alt": "Bedroom",
+        "label": "Bedroom",
+        "note": "Booking.com property gallery photograph.",
+        "source": "https://www.booking.com/hotel/at/fruhstuckspension-glanzer.html"
+      },
+      {
+        "src": "assets/glanz-bedroom-white.webp",
+        "alt": "Bedroom with white bed",
+        "label": "Bedroom with white bed",
+        "note": "Booking.com property gallery photograph.",
+        "source": "https://www.booking.com/hotel/at/fruhstuckspension-glanzer.html"
+      },
+      {
+        "src": "assets/glanz-bathroom.webp",
+        "alt": "Bathroom with tub",
+        "label": "Bathroom with tub",
+        "note": "Booking.com property gallery photograph.",
+        "source": "https://www.booking.com/hotel/at/fruhstuckspension-glanzer.html"
+      }
+    ],
     "bedPlan": {
       "headline": "4 regular · 2 sofa (2 Junior Suites)",
       "regular": "4",
@@ -1012,7 +1055,7 @@ const HOTELS = [
         "url": "https://www.google.com/maps/search/?api=1&query=Glanz+%26+Glory+Hotel+Dorfstra%C3%9Fe+50+S%C3%B6lden"
       }
     ],
-    "photoBadge": ""
+    "photoBadge": "Property gallery photos"
   },
   {
     "week": "late",
@@ -1022,8 +1065,51 @@ const HOTELS = [
     "verifiedOn": "15 October 2026",
     "people": 6,
     "tag": "NEWLY BOOKED",
-    "photos": [],
-    "photoBadge": "",
+    "photos": [
+      {
+        "src": "assets/luxalp-exterior.webp",
+        "alt": "LUX ALP CHALET exterior lit up at night in snow",
+        "label": "Exterior, chalet lit up at night in snow",
+        "note": "Booking.com property gallery photo; not confirmed to be the exact booked unit.",
+        "source": "https://www.booking.com/hotel/at/lux-alp-chalet.html"
+      },
+      {
+        "src": "assets/luxalp-living-kitchen.webp",
+        "alt": "Living room with kitchen and dining area",
+        "label": "Living room with kitchen and dining area",
+        "note": "Booking.com property gallery photo; not confirmed to be the exact booked unit.",
+        "source": "https://www.booking.com/hotel/at/lux-alp-chalet.html"
+      },
+      {
+        "src": "assets/luxalp-living-tv.webp",
+        "alt": "Living room with couch and TV",
+        "label": "Living room with couch and TV",
+        "note": "Booking.com property gallery photo; not confirmed to be the exact booked unit.",
+        "source": "https://www.booking.com/hotel/at/lux-alp-chalet.html"
+      },
+      {
+        "src": "assets/luxalp-bedroom-green.webp",
+        "alt": "Bedroom with green headboard",
+        "label": "Bedroom with green headboard",
+        "note": "Booking.com property gallery photo; not confirmed to be the exact booked unit.",
+        "source": "https://www.booking.com/hotel/at/lux-alp-chalet.html"
+      },
+      {
+        "src": "assets/luxalp-bedroom-wood.webp",
+        "alt": "Bedroom with wooden walls",
+        "label": "Bedroom with wooden walls",
+        "note": "Booking.com property gallery photo; not confirmed to be the exact booked unit.",
+        "source": "https://www.booking.com/hotel/at/lux-alp-chalet.html"
+      },
+      {
+        "src": "assets/luxalp-bathroom.webp",
+        "alt": "Bathroom with tub",
+        "label": "Bathroom with tub",
+        "note": "Booking.com property gallery photo; not confirmed to be the exact booked unit.",
+        "source": "https://www.booking.com/hotel/at/lux-alp-chalet.html"
+      }
+    ],
+    "photoBadge": "Property gallery · unit unverified",
     "id": "lux-alp-chalet",
     "name": "LUX ALP CHALET am Arlberg",
     "location": "Warth am Arlberg · Ski Arlberg",
@@ -1096,8 +1182,51 @@ const HOTELS = [
     "verifiedOn": "15 October 2026",
     "people": 6,
     "tag": "NEWLY BOOKED",
-    "photos": [],
-    "photoBadge": "",
+    "photos": [
+      {
+        "src": "assets/apartcentral-exterior.webp",
+        "alt": "Apart Central exterior in snow",
+        "label": "Exterior in snow",
+        "note": "Booking.com property gallery photo; not confirmed to be the exact booked unit.",
+        "source": "https://www.booking.com/hotel/at/apart-central.html"
+      },
+      {
+        "src": "assets/apartcentral-bedroom.webp",
+        "alt": "Apart Central bedroom",
+        "label": "Bedroom",
+        "note": "Booking.com property gallery photo; not confirmed to be the exact booked unit.",
+        "source": "https://www.booking.com/hotel/at/apart-central.html"
+      },
+      {
+        "src": "assets/apartcentral-living-dining.webp",
+        "alt": "Living and dining area",
+        "label": "Living and dining area",
+        "note": "Booking.com property gallery photo; not confirmed to be the exact booked unit.",
+        "source": "https://www.booking.com/hotel/at/apart-central.html"
+      },
+      {
+        "src": "assets/apartcentral-living-couch.webp",
+        "alt": "Living room with couch",
+        "label": "Living room with couch",
+        "note": "Booking.com property gallery photo; not confirmed to be the exact booked unit.",
+        "source": "https://www.booking.com/hotel/at/apart-central.html"
+      },
+      {
+        "src": "assets/apartcentral-dining.webp",
+        "alt": "Dining room",
+        "label": "Dining room",
+        "note": "Booking.com property gallery photo; not confirmed to be the exact booked unit.",
+        "source": "https://www.booking.com/hotel/at/apart-central.html"
+      },
+      {
+        "src": "assets/apartcentral-bathroom.webp",
+        "alt": "Bathroom with two sinks and tub",
+        "label": "Bathroom with two sinks and tub",
+        "note": "Booking.com property gallery photo; not confirmed to be the exact booked unit.",
+        "source": "https://www.booking.com/hotel/at/apart-central.html"
+      }
+    ],
+    "photoBadge": "Property gallery · unit unverified",
     "id": "apart-central",
     "name": "Apart Central – Premium Mountain&Garden",
     "location": "Mayrhofen · Zillertal",
@@ -1170,8 +1299,51 @@ const HOTELS = [
     "verifiedOn": "15 October 2026",
     "people": 6,
     "tag": "NEWLY BOOKED",
-    "photos": [],
-    "photoBadge": "",
+    "photos": [
+      {
+        "src": "assets/regina-exterior.webp",
+        "alt": "Regina Hotelsuites exterior in snow",
+        "label": "Exterior in snow",
+        "note": "Booking.com property gallery photograph.",
+        "source": "https://www.booking.com/hotel/at/regina-solden.html"
+      },
+      {
+        "src": "assets/regina-suite-bed.webp",
+        "alt": "Suite with bed and kitchenette",
+        "label": "Suite with bed and kitchenette",
+        "note": "Booking.com property gallery photograph.",
+        "source": "https://www.booking.com/hotel/at/regina-solden.html"
+      },
+      {
+        "src": "assets/regina-suite-kitchen.webp",
+        "alt": "Suite kitchen and living area",
+        "label": "Suite kitchen and living area",
+        "note": "Booking.com property gallery photograph.",
+        "source": "https://www.booking.com/hotel/at/regina-solden.html"
+      },
+      {
+        "src": "assets/regina-bedroom.webp",
+        "alt": "Bedroom",
+        "label": "Bedroom",
+        "note": "Booking.com property gallery photograph.",
+        "source": "https://www.booking.com/hotel/at/regina-solden.html"
+      },
+      {
+        "src": "assets/regina-bedroom-twins.webp",
+        "alt": "Bedroom with two beds",
+        "label": "Bedroom with two beds",
+        "note": "Booking.com property gallery photograph.",
+        "source": "https://www.booking.com/hotel/at/regina-solden.html"
+      },
+      {
+        "src": "assets/regina-bathroom.webp",
+        "alt": "Bathroom",
+        "label": "Bathroom",
+        "note": "Booking.com property gallery photograph.",
+        "source": "https://www.booking.com/hotel/at/regina-solden.html"
+      }
+    ],
+    "photoBadge": "Property gallery photos",
     "id": "regina-solden",
     "name": "Regina Hotelsuites",
     "location": "Sölden · booked by Danny",
