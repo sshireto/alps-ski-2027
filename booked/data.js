@@ -1347,7 +1347,7 @@ const HOTELS = [
     "id": "regina-solden",
     "name": "Regina Hotelsuites",
     "location": "Sölden · booked by Danny",
-    "total": 8494.2,
+    "total": 8704.2,
     "room": "3 rooms (hotel suites)",
     "roomShort": "Three hotel suites",
     "positioning": "Newly booked Sun–Sun Sölden hotel suites (booked by Danny), breakfast included, with indoor pool and spa.",
@@ -1362,14 +1362,15 @@ const HOTELS = [
       "Three separate suites; Booking.com rating 9.0 (about 1,000 reviews)."
     ],
     "cons": [
-      "€202.24 per person per night.",
+      "€207.24 per person per night (€1,450.70 per person).",
+      "City tax (€210 · €5 pp/night) paid at the property.",
       "Free cancellation until 30 days before arrival (about 25 Dec 2026).",
       "Bed layout per suite unconfirmed."
     ],
     "spa": "Indoor pool and spa.",
     "access": "About 150 m from the Gaislachkogelbahn lift.",
     "accessShort": "Gaislachkogelbahn · ~150 m",
-    "quoteSummary": "Booked total €8,494.20 (booked by Danny). Free cancellation until 30 days before arrival (about 25 Dec 2026). Check-in Sun 24 Jan; check-out Sun 31 Jan.",
+    "quoteSummary": "Booked total €8,704.20: booking €8,494.20 + city tax €210 (€5 pp/night, paid at the property; booked by Danny). €1,450.70 per person · about €207.24 per person per night. Free cancellation until 30 days before arrival (about 25 Dec 2026). Check-in Sun 24 Jan; check-out Sun 31 Jan.",
     "meals": "Breakfast is included.",
     "bookingUrl": "https://www.booking.com/hotel/at/regina-solden.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
     "bedPlan": {
