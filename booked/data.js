@@ -851,6 +851,12 @@ const HOTELS = [
     "id": "parseierblick-apt",
     "name": "Parseierblick · Two-Bedroom Apartment",
     "location": "Sankt Anton am Arlberg · Dorfstraße 101",
+    "resortVideo": {
+      "url": "https://www.youtube.com/watch?v=HhmbzayCd0Q",
+      "title": "Ski Arlberg (St. Anton): Pros & Cons",
+      "channel": "SkiBoyNY",
+      "length": "12:34"
+    },
     "week": "late",
     "dates": "24–31",
     "nights": 7,
@@ -946,6 +952,12 @@ const HOTELS = [
     "id": "glanz-glory",
     "name": "Glanz & Glory Hotel",
     "location": "Sölden · Dorfstraße 50",
+    "resortVideo": {
+      "url": "https://www.youtube.com/watch?v=Z9_9dd1r5r4",
+      "title": "Sölden Ski Resort Review 2024",
+      "channel": "BlastworksTV",
+      "length": "7:23"
+    },
     "week": "late",
     "dates": "24–31",
     "nights": 7,
@@ -1117,6 +1129,13 @@ const HOTELS = [
     "id": "lux-alp-chalet",
     "name": "LUX ALP CHALET am Arlberg",
     "location": "Warth am Arlberg · Ski Arlberg",
+    "resortVideo": {
+      "url": "https://www.youtube.com/watch?v=H4mVXUXW38o",
+      "title": "Größtes Skigebiet Österreichs — Lohnt sich Ski Arlberg? (2026)",
+      "channel": "Marius Quast",
+      "length": "20:11",
+      "chosenBy": "Shahar"
+    },
     "total": 7825.6,
     "cityTax": 151.2,
     "cityTaxPpNight": 3.6,
@@ -1236,6 +1255,12 @@ const HOTELS = [
     "id": "apart-central",
     "name": "Apart Central – Premium Mountain&Garden",
     "location": "Mayrhofen · Zillertal",
+    "resortVideo": {
+      "url": "https://www.youtube.com/watch?v=_Yrc3DJaPMc",
+      "title": "Mayrhofen Ski Resort Review January 2025",
+      "channel": "BlastworksTV",
+      "length": "4:54"
+    },
     "total": 9223.04,
     "cityTax": 134.4,
     "cityTaxPpNight": 3.2,
@@ -1355,6 +1380,12 @@ const HOTELS = [
     "id": "regina-solden",
     "name": "Regina Hotelsuites",
     "location": "Sölden · booked by Danny",
+    "resortVideo": {
+      "url": "https://www.youtube.com/watch?v=Z9_9dd1r5r4",
+      "title": "Sölden Ski Resort Review 2024",
+      "channel": "BlastworksTV",
+      "length": "7:23"
+    },
     "total": 8704.2,
     "cityTax": 210,
     "cityTaxPpNight": 5,
