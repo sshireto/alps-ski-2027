@@ -1449,5 +1449,138 @@ const HOTELS = [
         "url": "https://www.google.com/maps/search/?api=1&query=Regina%20Hotelsuites%20S%C3%B6lden"
       }
     ]
+  },
+  {
+    "week": "late",
+    "dates": "24–31",
+    "nights": 7,
+    "booked": true,
+    "verifiedOn": "16 October 2026",
+    "people": 6,
+    "tag": "NEWLY BOOKED",
+    "photos": [
+      {
+        "src": "assets/alpenland-apt-living.webp",
+        "alt": "Apartment living room",
+        "label": "Apartment living room",
+        "note": "Official Das Alpenland photo; representative, not confirmed to be the exact booked unit.",
+        "source": "https://www.dasalpenland.at/accommodations/apartments.html"
+      },
+      {
+        "src": "assets/alpenland-apt-dining.webp",
+        "alt": "Apartment living and dining area",
+        "label": "Apartment living and dining area",
+        "note": "Official Das Alpenland photo; representative, not confirmed to be the exact booked unit.",
+        "source": "https://www.dasalpenland.at/accommodations/apartments.html"
+      },
+      {
+        "src": "assets/alpenland-apt-lounge.webp",
+        "alt": "Apartment lounge",
+        "label": "Apartment lounge",
+        "note": "Official Das Alpenland photo; representative, not confirmed to be the exact booked unit.",
+        "source": "https://www.dasalpenland.at/accommodations/apartments.html"
+      },
+      {
+        "src": "assets/alpenland-hot-tub.webp",
+        "alt": "Outdoor rooftop panoramic hot tub",
+        "label": "Outdoor rooftop panoramic hot tub",
+        "note": "Official Das Alpenland wellness photo.",
+        "source": "https://www.dasalpenland.at/wellness-spa/pools.html"
+      },
+      {
+        "src": "assets/alpenland-pool.webp",
+        "alt": "Indoor pool",
+        "label": "Indoor pool",
+        "note": "Official Das Alpenland wellness photo.",
+        "source": "https://www.dasalpenland.at/wellness-spa/pools.html"
+      },
+      {
+        "src": "assets/alpenland-exterior.webp",
+        "alt": "Hotel exterior in snow at dusk",
+        "label": "Hotel exterior in snow at dusk",
+        "note": "Official Das Alpenland photo.",
+        "source": "https://www.dasalpenland.at/"
+      }
+    ],
+    "photoBadge": "Official hotel photos · unit unverified",
+    "id": "alpenland-obertauern",
+    "name": "Hotel Alpenland",
+    "location": "Obertauern · Seekarstraße 15",
+    "resortVideo": {
+      "url": "https://www.youtube.com/watch?v=a_gtw258zWw",
+      "title": "Skiing in OBERTAUERN, AUSTRIA | Everything you need to know",
+      "channel": "Ramunas Daugiala",
+      "length": "4:15"
+    },
+    "total": 6875.1,
+    "cityTax": 170.1,
+    "cityTaxPpNight": 4.05,
+    "room": "Three-Bedroom Apartment · about 106 m²",
+    "roomShort": "One 3-bedroom / 3-bath apartment",
+    "positioning": "Newly booked Sun–Sun apartment in Obertauern with a ski room straight onto the piste; pool, saunas and rooftop hot tub included.",
+    "mealShort": "Breakfast optional · €25 pp/night",
+    "spaShort": "Hot tub, 80 m² pool & 4 saunas · included",
+    "bedsTable": "3 queens + 1 sofa bed",
+    "beds": "Three-Bedroom Apartment (about 106 m², 3 bedrooms, living room, 3 bathrooms, kitchen) with 3 queen beds and 1 sofa bed per the Booking.com listing. Six adults fit on the three queens, two per bed; the sofa bed is spare.",
+    "roomCaveat": "Booked: 1 Three-Bedroom Apartment for 6 adults. The confirmation names the category only; bed layout and 106 m² are from the Booking.com listing.",
+    "pros": [
+      "Ski room straight onto the piste; about 150 m to the lift per Booking.com.",
+      "Outdoor panoramic hot tub, 80 m² pool and 4 saunas included for apartment guests; garage space included.",
+      "Three bedrooms and three bathrooms; free cancellation until 24 Nov 2026."
+    ],
+    "cons": [
+      "€163.69 per person per night (€1,145.85 per person).",
+      "City tax (€170.10 · €4.05 pp/night) paid at the property.",
+      "Breakfast not included (€25 pp/night); two people share each queen bed."
+    ],
+    "spa": "Outdoor panoramic rooftop hot tub, 80 m² pool and 4 saunas, included for apartment guests (official hotel site).",
+    "access": "Ski room straight onto the piste; about 150 m to the lift per Booking.com. The mapped walk to the Zentralbahn valley station is 335 m.",
+    "accessShort": "Ski room onto piste · ~150 m to lift",
+    "quoteSummary": "Booked total €6,875.10: apartment €6,095.45 + VAT €609.55 = €6,705 charged by Booking.com, + city tax €170.10 (€4.05 pp/night, excluded, paid at the property). €1,145.85 per person · about €163.69 per person per night. Free cancellation until 24 Nov 2026 23:59 CET; from 25 Nov 50% (€3,352.50). Check-in Sun 24 Jan (14:00–21:00); check-out Sun 31 Jan (08:00–11:00).",
+    "meals": "Breakfast is optional at €25 per person per night; dinner €55 per person per night.",
+    "bookingUrl": "https://www.booking.com/hotel/at/alpenland-obertauern.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
+    "bedPlan": {
+      "headline": "6 people in regular beds · 0 on sofa/extra beds",
+      "regular": "6",
+      "extra": "0 (1 sofa bed spare)",
+      "layout": "Three bedrooms, each with a queen bed; living room with sofa bed; 3 bathrooms; kitchen.",
+      "note": "About 106 m². Bed layout from the Booking.com listing; the confirmation names the category only.",
+      "source": "https://www.booking.com/hotel/at/alpenland-obertauern.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
+    },
+    "wellness": {
+      "label": "Yes · Hot tub, pool & saunas",
+      "facilities": "Outdoor panoramic hot tub, 80 m² pool and 4 saunas.",
+      "inclusion": "Included for apartment guests",
+      "note": "",
+      "source": "https://www.dasalpenland.at/accommodations/apartments.html"
+    },
+    "skiAccess": {
+      "label": "Ski room onto piste · ~150 m to lift",
+      "skiIn": "Ski room straight onto the piste",
+      "skiOut": "Ski room straight onto the piste",
+      "lift": "Zentralbahn",
+      "walk": "About 150 m to the lift per Booking.com; mapped walk to Zentralbahn 335 m.",
+      "note": "Garage space included.",
+      "source": "https://www.booking.com/hotel/at/alpenland-obertauern.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
+      "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=47.2502602,13.5590639&destination=47.2518941,13.5574575&travelmode=walking"
+    },
+    "sources": [
+      {
+        "label": "Booking.com listing",
+        "url": "https://www.booking.com/hotel/at/alpenland-obertauern.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6"
+      },
+      {
+        "label": "Official apartments",
+        "url": "https://www.dasalpenland.at/accommodations/apartments.html"
+      },
+      {
+        "label": "Official pools & hot tub",
+        "url": "https://www.dasalpenland.at/wellness-spa/pools.html"
+      },
+      {
+        "label": "Walking route to Zentralbahn",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=47.2502602,13.5590639&destination=47.2518941,13.5574575&travelmode=walking"
+      }
+    ]
   }
 ];
