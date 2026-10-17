@@ -1582,5 +1582,143 @@ const HOTELS = [
         "url": "https://www.google.com/maps/dir/?api=1&origin=47.2502602,13.5590639&destination=47.2518941,13.5574575&travelmode=walking"
       }
     ]
+  },
+  {
+    "week": "late",
+    "dates": "24–29",
+    "nights": 5,
+    "booked": true,
+    "verifiedOn": "17 October 2026",
+    "people": 6,
+    "tag": "NEWLY BOOKED",
+    "photos": [
+      {
+        "src": "assets/pramstraller-suite-lounge.webp",
+        "alt": "Suite lounge with corner sofa",
+        "label": "Two-Bedroom Suite · lounge",
+        "note": "Official Hotel Pramstraller photo of the Suite category; representative, not confirmed to be the exact booked suite.",
+        "source": "https://www.pramstraller.at/en/suite-mayrhofen-zillertal"
+      },
+      {
+        "src": "assets/pramstraller-suite-bedroom.webp",
+        "alt": "Suite bedroom with double bed",
+        "label": "Two-Bedroom Suite · double bedroom",
+        "note": "Official Hotel Pramstraller photo of the Suite category; representative, not confirmed to be the exact booked suite.",
+        "source": "https://www.pramstraller.at/en/suite-mayrhofen-zillertal"
+      },
+      {
+        "src": "assets/pramstraller-suite-bathroom.webp",
+        "alt": "Suite bathroom with double vanity and walk-in shower",
+        "label": "Two-Bedroom Suite · bathroom",
+        "note": "Official Hotel Pramstraller photo of the Suite category; representative, not confirmed to be the exact booked suite.",
+        "source": "https://www.pramstraller.at/en/suite-mayrhofen-zillertal"
+      },
+      {
+        "src": "assets/pramstraller-superior-double.webp",
+        "alt": "Superior Double Room with double bed and seating corner",
+        "label": "Superior Double Room",
+        "note": "Official Hotel Pramstraller photo of the Superior Double Room category; representative, not confirmed to be the exact booked room.",
+        "source": "https://www.pramstraller.at/en/superior-double-room-mayrhofen-zillertal"
+      },
+      {
+        "src": "assets/pramstraller-exterior-winter.webp",
+        "alt": "Hotel Pramstraller exterior in snow at dusk",
+        "label": "Hotel exterior in winter",
+        "note": "Official Hotel Pramstraller photo.",
+        "source": "https://www.pramstraller.at/en/home"
+      },
+      {
+        "src": "assets/pramstraller-spa-relax.webp",
+        "alt": "Spa relaxation zone with loungers",
+        "label": "Spa relax zone",
+        "note": "Official Hotel Pramstraller wellness photo.",
+        "source": "https://www.pramstraller.at/en/wellness-mayrhofen-zillertal"
+      }
+    ],
+    "photoBadge": "Official hotel photos · unit unverified",
+    "id": "pramstraller-mayrhofen",
+    "name": "Hotel Pramstraller",
+    "location": "Mayrhofen · booked by Danny",
+    "resortVideo": {
+      "url": "https://www.youtube.com/watch?v=_Yrc3DJaPMc",
+      "title": "Mayrhofen - Ski Resort Review - January 2025",
+      "channel": "BlastworksTV",
+      "length": "4:53"
+    },
+    "total": 6537.6,
+    "cityTax": 96,
+    "cityTaxPpNight": 3.2,
+    "room": "2 rooms: Two-Bedroom Suite (75 m²) + Superior Double Room (40 m²)",
+    "roomShort": "Two-Bedroom Suite + Superior Double",
+    "positioning": "Newly booked Sun–Fri 4-star hotel in Mayrhofen (booked by Danny): a two-bedroom suite for four plus a superior double for two, breakfast included, with sauna and whirlpool spa.",
+    "mealShort": "Breakfast included",
+    "spaShort": "Saunas, steam bath & whirlpool",
+    "bedsTable": "2 extra-large doubles + 2 singles",
+    "beds": "Two-Bedroom Suite (75 m², 2–4 adults): bedroom 1 with 2 single beds, bedroom 2 with 1 extra-large double bed, plus a separate lounge. Superior Double Room (40 m²): 1 extra-large double bed. Six adults in regular beds; four share the two doubles.",
+    "roomCaveat": "Booked by Danny as two separate reservations: 1 Two-Bedroom Suite (2-4 Adults) for 4 adults and 1 Superior Double Room for 2 adults. Bed layouts and sizes are from the Booking.com listing and official hotel site; exact rooms are assigned by the hotel.",
+    "pros": [
+      "Free ski bus stop right outside the hotel (to the Penkenbahn and Ahornbahn).",
+      "Breakfast included; Finnish, herbal and salt saunas, steam bath and whirlpool listed.",
+      "Two-bedroom suite with separate lounge; Booking.com rating 9.0 (79 reviews)."
+    ],
+    "cons": [
+      "€217.92 per person per night (€1,089.60 per person).",
+      "City tax (€96 · €3.20 pp/night) paid at the property.",
+      "Only 5 nights: check-out Fri 29 Jan; check-in ends 18:00.",
+      "Penkenbahn about 850 m (Booking.com); mapped walk about 950 m / 13 min, so mostly ski bus."
+    ],
+    "spa": "Finnish sauna, aroma steam bath, organic herbal sauna, salt sauna, infrared cabin, deep-heat cabin, whirlpool and relax room (official hotel site). Spa inclusion not stated in the confirmation.",
+    "access": "Free ski bus stop right in front of the hotel, serving the Penkenbahn and Ahornbahn. Booking.com lists the Penkenbahn at 850 m and the Ahornbahn at 1.3 km; the mapped walk to the Penkenbahn valley station is about 950 m / 13 minutes.",
+    "accessShort": "Ski bus at door · Penkenbahn ~850 m",
+    "quoteSummary": "Booked total €6,537.60 across two reservations: rooms €5,856.00 + VAT €585.60 = €6,441.60 charged by Booking.com (suite €4,377.60 + superior double €2,064), + city tax €96 (€3.20 pp/night, excluded, paid at the property; booked by Danny). €1,089.60 per person · about €217.92 per person per night. Free cancellation until 24 Dec 2026 23:59 CET; from 25 Dec the full price. Check-in Sun 24 Jan (14:00–18:00); check-out Fri 29 Jan (07:30–10:00).",
+    "meals": "Breakfast is included in the price.",
+    "bookingUrl": "https://www.booking.com/hotel/at/pramstraller.html?checkin=2027-01-24&checkout=2027-01-29&group_adults=6",
+    "bedPlan": {
+      "headline": "6 people in regular beds · 0 on sofa/extra beds",
+      "regular": "6",
+      "extra": "0",
+      "layout": "Two-Bedroom Suite: 2 single beds in one bedroom, 1 extra-large double in the other, separate lounge. Superior Double Room: 1 extra-large double.",
+      "note": "Suite 75 m², Superior Double 40 m². Bed layout from the Booking.com listing and official hotel site.",
+      "source": "https://www.booking.com/hotel/at/pramstraller.html?checkin=2027-01-24&checkout=2027-01-29&group_adults=6"
+    },
+    "wellness": {
+      "label": "Yes · Saunas, steam & whirlpool",
+      "facilities": "Finnish, organic herbal and salt saunas, aroma steam bath, infrared and deep-heat cabins, whirlpool, relax room.",
+      "inclusion": "Listed",
+      "note": "Inclusion not stated in the confirmation.",
+      "source": "https://www.pramstraller.at/en/wellness-mayrhofen-zillertal"
+    },
+    "skiAccess": {
+      "label": "Ski bus at the door · Penkenbahn ~850 m",
+      "skiIn": "Not listed · ski bus",
+      "skiOut": "Not listed · ski bus",
+      "lift": "Penkenbahn",
+      "walk": "Booking.com: Penkenbahn 850 m, Ahornbahn 1.3 km; mapped walk to Penkenbahn about 950 m / 13 min.",
+      "note": "Free ski bus stop in front of the hotel; ski boot dryer (official site).",
+      "source": "https://www.pramstraller.at/en/winter-mayrhofen-zillertal",
+      "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=47.167838,11.8679937&destination=47.1634171,11.8606363&travelmode=walking"
+    },
+    "sources": [
+      {
+        "label": "Booking.com listing",
+        "url": "https://www.booking.com/hotel/at/pramstraller.html?checkin=2027-01-24&checkout=2027-01-29&group_adults=6"
+      },
+      {
+        "label": "Official suite",
+        "url": "https://www.pramstraller.at/en/suite-mayrhofen-zillertal"
+      },
+      {
+        "label": "Official superior double",
+        "url": "https://www.pramstraller.at/en/superior-double-room-mayrhofen-zillertal"
+      },
+      {
+        "label": "Official wellness & spa",
+        "url": "https://www.pramstraller.at/en/wellness-mayrhofen-zillertal"
+      },
+      {
+        "label": "Walking route to Penkenbahn",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=47.167838,11.8679937&destination=47.1634171,11.8606363&travelmode=walking"
+      }
+    ]
   }
 ];
