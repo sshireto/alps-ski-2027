@@ -1,0 +1,19 @@
+{
+  // Stores the group's ranked votes for the booked-stays page (booked/vote.js).
+  // Deploy: wrangler deploy --config votes-worker/wrangler.jsonc
+  // Schema: wrangler d1 execute alps-votes --remote --file votes-worker/schema.sql
+  "name": "alps-votes",
+  "account_id": "2208df7d2dba6ad059a4f3d384b7d78c",
+  "workers_dev": true,
+  "preview_urls": false,
+  "main": "src/worker.js",
+  "compatibility_date": "2026-09-17",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "alps-votes",
+      "database_id": "a8683157-cb04-4331-bb3e-e6a4c9c6d39a"
+    }
+  ],
+  "observability": { "enabled": true }
+}
