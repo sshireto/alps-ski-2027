@@ -1720,5 +1720,151 @@ const HOTELS = [
         "url": "https://www.google.com/maps/dir/?api=1&origin=47.167838,11.8679937&destination=47.1634171,11.8606363&travelmode=walking"
       }
     ]
+  },
+  {
+    "week": "late",
+    "dates": "24–31",
+    "nights": 7,
+    "booked": true,
+    "verifiedOn": "18 October 2026",
+    "people": 6,
+    "tag": "NEWLY BOOKED",
+    "photos": [
+      {
+        "src": "assets/franz-roggspitze-living-dining.webp",
+        "alt": "Roggspitze living and dining area with wooden slat divider",
+        "label": "Roggspitze · living & dining",
+        "note": "Official FRANZ alpine living photo from the Roggspitze apartment page (the booked unit).",
+        "source": "https://www.visitfranz.com/en/apartments/roggspitze/"
+      },
+      {
+        "src": "assets/franz-roggspitze-bedroom.webp",
+        "alt": "Roggspitze bedroom with box-spring double bed and mountain-shaped headboard",
+        "label": "Roggspitze · bedroom",
+        "note": "Official FRANZ alpine living photo from the Roggspitze apartment page (the booked unit).",
+        "source": "https://www.visitfranz.com/en/apartments/roggspitze/"
+      },
+      {
+        "src": "assets/franz-roggspitze-bedroom-2.webp",
+        "alt": "Roggspitze bedroom with double bed and TV",
+        "label": "Roggspitze · second bedroom",
+        "note": "Official FRANZ alpine living photo from the Roggspitze apartment page (the booked unit).",
+        "source": "https://www.visitfranz.com/en/apartments/roggspitze/"
+      },
+      {
+        "src": "assets/franz-roggspitze-bathroom.webp",
+        "alt": "En-suite bathroom with walk-in shower and round lit mirror",
+        "label": "Roggspitze · en-suite bathroom",
+        "note": "Official FRANZ alpine living photo from the Roggspitze apartment page (the booked unit).",
+        "source": "https://www.visitfranz.com/en/apartments/roggspitze/"
+      },
+      {
+        "src": "assets/franz-roggspitze-kitchen.webp",
+        "alt": "Roggspitze kitchen with black units, oven and microwave",
+        "label": "Roggspitze · kitchen",
+        "note": "Official FRANZ alpine living photo from the Roggspitze apartment page (the booked unit).",
+        "source": "https://www.visitfranz.com/en/apartments/roggspitze/"
+      },
+      {
+        "src": "assets/franz-exterior.webp",
+        "alt": "FRANZ alpine living building on Marktstraße",
+        "label": "FRANZ building exterior",
+        "note": "Official FRANZ alpine living photo.",
+        "source": "https://www.visitfranz.com/"
+      }
+    ],
+    "photoBadge": "Official photos · booked Roggspitze unit",
+    "id": "franz-st-anton",
+    "name": "FRANZ alpine living · Roggspitze",
+    "location": "St. Anton am Arlberg · Marktstraße 22",
+    "resortVideo": {
+      "url": "https://www.youtube.com/watch?v=HhmbzayCd0Q",
+      "title": "Ski Arlberg (St. Anton): Pros & Cons",
+      "channel": "SkiBoyNY",
+      "length": "12:34"
+    },
+    "total": 6811,
+    "cityTax": 210,
+    "cityTaxPpNight": 5,
+    "room": "Apartment Roggspitze · 88 m² · ground floor · 3 bedrooms, 3 bathrooms, living/dining room, kitchen",
+    "roomShort": "One 3-bedroom / 3-bath apartment (Roggspitze)",
+    "positioning": "Booked direct with the owners: a new 3-bedroom, 3-bathroom apartment in central St. Anton, Sun–Sun, self-catering.",
+    "mealShort": "Self-catering · bread-roll service",
+    "spaShort": "No spa, sauna or hot tub",
+    "bedsTable": "3 box-spring doubles + 1 sofa bed",
+    "beds": "Apartment Roggspitze (88 m², official site): three bedrooms, each with a box-spring double bed (Booking.com: extra-large double) and its own en-suite bathroom; the living-room couch converts into a further box-spring bed. Six adults fit on the three doubles, two per bed; the sofa bed is spare.",
+    "roomCaveat": "Booked direct on visitfranz.com: Apartment Roggspitze for 6 adults (the confirmation names the unit). Bed types and 88 m² are from the official apartment page; Booking.com lists the ground-floor apartment with 3 extra-large double beds.",
+    "pros": [
+      "Booked unit is named and pictured: Roggspitze, a new ground-floor apartment with three bedrooms, each with its own bathroom.",
+      "Central but quiet spot by the church, a few minutes' walk from the pedestrian zone; Booking.com location score 9.8.",
+      "Free ski depot at the Nassereinbahn for FRANZ guests, ski room with drying lockers, 2 free parking spaces.",
+      "Free cancellation until Sun 13 Dec 2026, 20:00."
+    ],
+    "cons": [
+      "€162.17 per person per night (€1,135.17 per person).",
+      "City tax (€210 · €5 pp/night) and final cleaning (€100) are on the invoice, included in the total shown.",
+      "No spa, sauna or hot tub; self-catering only.",
+      "No ski-in/out: mapped walk about 540 m / 7 min to the Nassereinbahn, about 770 m / 10 min to the Galzigbahn.",
+      "Check-in from 16:00 (tell the owners if arriving after 20:00); check-out by 09:00."
+    ],
+    "spa": "No spa, sauna, pool or hot tub at FRANZ. Ski room with drying lockers; in-apartment smart TVs and Nespresso machine (official site).",
+    "access": "Village centre, near the church. Booking.com lists the nearest lifts as the Nasserein practice lift (250 m), Kindlisfeld (300 m) and Fangbahn (300 m). For the main lifts, the mapped walk is about 540 m / 7 minutes to the Nassereinbahn and about 770 m / 10 minutes to the Galzigbahn. Guests get a free ski depot at the Nassereinbahn, so skis and boots can stay at the lift. Train station about 550 m (Booking.com).",
+    "accessShort": "Free ski depot at Nassereinbahn · ~540 m walk",
+    "quoteSummary": "Booked direct on visitfranz.com on 18 Oct 2026. Booked total €6,811.00: apartment €6,501.00 + final cleaning €100.00 + city tax (Ortstaxe) €210.00 (€5 pp/night × 6 adults × 7 nights). €1,135.17 per person · about €162.17 per person per night. Free cancellation until Sun 13 Dec 2026 20:00; from then 50% (€3,405.50); from 3 Jan 2027 20:00, €5,108.25 (75%); from 17 Jan 2027 20:00, the full €6,811.00. Official booking terms: a 40% deposit by bank transfer within 10 days guarantees the booking; the balance is paid on site (cash, debit or credit card) by the morning of departure. Check-in Sun 24 Jan from 16:00 (tell the owners if after 20:00); check-out Sun 31 Jan by 09:00.",
+    "meals": "Self-catering with a fully equipped kitchen (dishwasher, microwave, Nespresso). Bread rolls can be pre-ordered the evening before (official site).",
+    "officialUrl": "https://www.visitfranz.com/",
+    "officialLabel": "View on visitfranz.com (booked direct)",
+    "bookingUrl": "https://www.booking.com/hotel/at/franz-alpine-living-apartments.html",
+    "bedPlan": {
+      "headline": "6 people in regular beds · 0 on sofa/extra beds",
+      "regular": "6",
+      "extra": "0 (1 sofa bed spare)",
+      "layout": "Three bedrooms, each with a box-spring double and its own bathroom; living room with a couch that converts to another box-spring bed; kitchen.",
+      "note": "88 m², ground floor, barrier-friendly (official site). Booking.com lists 3 extra-large double beds.",
+      "source": "https://www.visitfranz.com/en/apartments/roggspitze/"
+    },
+    "wellness": {
+      "label": "No · no spa or hot tub",
+      "facilities": "No sauna, spa, pool or hot tub listed.",
+      "inclusion": "Not applicable",
+      "note": "Ski room with drying lockers on site.",
+      "source": "https://www.visitfranz.com/en/apartments/roggspitze/"
+    },
+    "skiAccess": {
+      "label": "Village centre · ~540 m to Nassereinbahn",
+      "skiIn": "Not listed",
+      "skiOut": "Not listed",
+      "lift": "Nassereinbahn",
+      "walk": "Mapped walk about 540 m / 7 min; Galzigbahn about 770 m / 10 min. Booking.com: nearest practice lifts 250–300 m.",
+      "note": "Free ski depot for FRANZ guests at the Nassereinbahn (official site).",
+      "source": "https://www.visitfranz.com/en/apartments/roggspitze/",
+      "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=47.131419,10.2694573&destination=47.1347375,10.272997&travelmode=walking"
+    },
+    "sources": [
+      {
+        "label": "Official site (booked direct)",
+        "url": "https://www.visitfranz.com/"
+      },
+      {
+        "label": "Official Roggspitze apartment",
+        "url": "https://www.visitfranz.com/en/apartments/roggspitze/"
+      },
+      {
+        "label": "Official booking terms",
+        "url": "https://www.visitfranz.com/de/infos/"
+      },
+      {
+        "label": "Booking.com listing",
+        "url": "https://www.booking.com/hotel/at/franz-alpine-living-apartments.html"
+      },
+      {
+        "label": "Walking route to Nassereinbahn",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=47.131419,10.2694573&destination=47.1347375,10.272997&travelmode=walking"
+      },
+      {
+        "label": "Walking route to Galzigbahn",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=47.131419,10.2694573&destination=47.128138,10.2629731&travelmode=walking"
+      }
+    ]
   }
 ];
