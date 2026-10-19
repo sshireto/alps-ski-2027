@@ -103,41 +103,41 @@ const STAYS = [
     "location": "Alpe d’Huez · Les Balcons du Golf / Bergers",
     "dates": "16–23",
     "nights": 7,
-    "status": "pending",
-    "statusLabel": "REQUESTED · PENDING",
-    "peopleLabel": "6 adults planned · request count unverified",
+    "status": "confirmed",
+    "statusLabel": "CONFIRMED",
+    "peopleLabel": "6 adults · confirmed",
     "roomShort": "4 en-suite bedrooms · 150 m²",
-    "evidence": "Booking request sent on 19 October 2026; awaiting host confirmation. The request email says the host has 24 hours to respond and does not state the guest count or price.",
-    "priceDisplay": "Awaiting price",
-    "priceLabel": "No confirmed booking price",
-    "priceNote": "The request email contains no price. An earlier checkout quote is not presented as a confirmed booking amount.",
+    "evidence": "Confirmed by Airbnb on 19 October 2026 for six adults.",
+    "priceDisplay": "US$7,497.03",
+    "priceLabel": "Confirmed balance due",
+    "priceNote": "The confirmation states a balance due. The full stay total and tax-inclusive total have not been verified. No per-person nightly rate is calculated.",
     "quickBeds": "Four en-suite bedrooms",
     "quickBedNote": "150 m² · bed dimensions unverified",
-    "quickSki": "150 m walk to ski departure",
-    "quickSkiNote": "Ski-back advertised · snow and route dependent",
+    "quickSki": "Towards Marmottes · road crossing",
+    "quickSkiNote": "Host-reported ski-back · route not independently verified",
     "quickSpa": "Terrace Jacuzzi + indoor sauna",
     "quickSpaNote": "Exclusive-use terms need confirmation",
     "meals": "Kitchen · meal plan unverified",
-    "cancelSummary": "Quote only: full before 17 Dec, 16:00 Paris; not confirmed terms.",
-    "cancellationTitle": "Indicative quote terms · not confirmed",
+    "cancelSummary": "Free before 17 Dec 2026, 16:00 Paris (17:00 Israel).",
+    "cancellationTitle": "Confirmed cancellation terms",
     "cancellation": [
-      "An earlier same-day checkout quote offered a full refund before 17 December 2026 at 16:00 Paris, then a partial refund until 9 January 2027 at 16:00 Paris.",
-      "These terms are absent from the request email. Confirm the applicable cancellation terms if the host accepts; no confirmed reservation terms are claimed here."
+      "Free cancellation before 17 December 2026 at 16:00 Europe/Paris (17:00 Israel).",
+      "Partial refund before 9 January 2027 at 16:00 Paris. The confirmation does not specify the refund percentage."
     ],
-    "checkTimes": "Check-in and check-out times for the requested stay await confirmation.",
-    "roomReality": "Public property information describes four en-suite bedrooms in a 150 m² chalet. The group intends six adults, but the booking request email does not confirm the guest count.",
-    "bedCaveat": "Bed dimensions and the selected sleeping arrangement are unverified. The public property’s capacity does not establish the guest count on the request.",
+    "checkTimes": "Check-in after 16:00 on 16 January; check-out by 10:00 on 23 January, local time.",
+    "roomReality": "Confirmed for six adults. Public property information describes four en-suite bedrooms in a 150 m² chalet.",
+    "bedCaveat": "Bed dimensions and the selected sleeping arrangement are unverified.",
     "spa": "A terrace Jacuzzi and indoor sauna are advertised. Exclusive-use terms need confirmation.",
-    "access": "The official property listing describes a 150 m walk from the ski room to ski departure and advertises ski-back. Conditions and the usable return route need checking locally; this is not an unqualified doorstep ski-out claim.",
+    "access": "The official property listing describes ski departure about 150 m from the ski room. The host clarifies that guests can skate/ski towards Marmottes but must cross a road, and reports that guests can return to the chalet on skis. This is host-reported ski-back with a required road crossing, not uninterrupted ski-in/out. The route has not been independently verified; check conditions locally.",
     "apres": "The local Folie Douce is accessed via Marmottes 1 from Les Bergers. Check the permitted return route and final lift times locally before planning the way back.",
     "pros": [
       "Four en-suite bedrooms offer more room to spread out.",
       "Terrace Jacuzzi and indoor sauna advertised.",
-      "Bergers location, with ski departure about 150 m away."
+      "Confirmed for six adults over seven nights."
     ],
     "cons": [
-      "The request is pending host confirmation.",
-      "Guest count, price and reservation cancellation terms are not confirmed by the request email.",
+      "Getting towards Marmottes requires crossing a road.",
+      "Host-reported ski-back has not been independently route-verified.",
       "Bed dimensions and exclusive-use wellness terms need confirmation."
     ],
     "officialUrl": "https://reservation.alpedhuez.com/hebergements/chalet-rebeque-4-chambres-au-bord-du-golf-avec-jacuzzi/",
@@ -149,28 +149,28 @@ const STAYS = [
         "alt": "Chalet Rébèque exterior and terrace Jacuzzi in winter",
         "label": "Rébèque · terrace & exterior",
         "source": "https://reservation.alpedhuez.com/hebergements/chalet-rebeque-4-chambres-au-bord-du-golf-avec-jacuzzi/",
-        "note": "Official Alpe d’Huez reservation listing for Chalet Rébèque. Public property photograph; the booking request remains pending."
+        "note": "Official Alpe d’Huez reservation listing for Chalet Rébèque. Public property photograph; selected bed configuration and exclusive-use wellness terms are not established by the photograph."
       },
       {
         "src": "assets/rebeque-03.webp",
         "alt": "Chalet Rébèque terrace Jacuzzi in winter",
         "label": "Rébèque · Jacuzzi",
         "source": "https://reservation.alpedhuez.com/hebergements/chalet-rebeque-4-chambres-au-bord-du-golf-avec-jacuzzi/",
-        "note": "Official Alpe d’Huez reservation listing for Chalet Rébèque. Public property photograph; the booking request remains pending."
+        "note": "Official Alpe d’Huez reservation listing for Chalet Rébèque. Public property photograph; selected bed configuration and exclusive-use wellness terms are not established by the photograph."
       },
       {
         "src": "assets/rebeque-04.webp",
         "alt": "Chalet Rébèque dining room and kitchen",
         "label": "Rébèque · dining & kitchen",
         "source": "https://reservation.alpedhuez.com/hebergements/chalet-rebeque-4-chambres-au-bord-du-golf-avec-jacuzzi/",
-        "note": "Official Alpe d’Huez reservation listing for Chalet Rébèque. Public property photograph; the booking request remains pending."
+        "note": "Official Alpe d’Huez reservation listing for Chalet Rébèque. Public property photograph; selected bed configuration and exclusive-use wellness terms are not established by the photograph."
       },
       {
         "src": "assets/rebeque-05.webp",
         "alt": "Chalet Rébèque bedroom example with balcony doors",
         "label": "Rébèque · bedroom example",
         "source": "https://reservation.alpedhuez.com/hebergements/chalet-rebeque-4-chambres-au-bord-du-golf-avec-jacuzzi/",
-        "note": "Official Alpe d’Huez reservation listing for Chalet Rébèque. Public property photograph; the booking request remains pending."
+        "note": "Official Alpe d’Huez reservation listing for Chalet Rébèque. Public property photograph; selected bed configuration and exclusive-use wellness terms are not established by the photograph."
       }
     ],
     "sources": [
