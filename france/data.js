@@ -80,6 +80,76 @@ const STAYS = [
         "label": "Snowbel · winter terrace",
         "source": "https://meribelskichalets.co.uk/chalet-snowbel/",
         "note": "Official Chalet Snowbel gallery. Furnishings and bed setup can vary; the selected configuration is unconfirmed."
+      },
+      {
+        "src": "assets/snowbel-lounge-dining-airbnb.webp",
+        "alt": "Chalet Snowbel open-plan lounge and dining area",
+        "label": "Snowbel · lounge & dining",
+        "source": "https://www.airbnb.com/rooms/35694643",
+        "note": "Public photograph from the exact Chalet Snowbel Airbnb listing. Bedroom numbering follows the listing; the selected bed configuration and mattress widths remain unconfirmed."
+      },
+      {
+        "src": "assets/snowbel-hot-tub-winter.webp",
+        "alt": "Chalet Snowbel terrace hot tub lit up in winter",
+        "label": "Snowbel · winter hot tub",
+        "source": "https://www.airbnb.com/rooms/35694643",
+        "note": "Public photograph from the exact Chalet Snowbel Airbnb listing. Winter hot tub; capacity for all six adults at once remains unconfirmed."
+      },
+      {
+        "src": "assets/snowbel-hot-tub-side.webp",
+        "alt": "Side view of Chalet Snowbel hot tub on its snowy terrace",
+        "label": "Snowbel · terrace hot tub",
+        "source": "https://www.airbnb.com/rooms/35694643",
+        "note": "Public photograph from the exact Chalet Snowbel Airbnb listing. Winter hot tub; capacity for all six adults at once remains unconfirmed."
+      },
+      {
+        "src": "assets/snowbel-shower-room.webp",
+        "alt": "Chalet Snowbel shower room with shower enclosure and basin",
+        "label": "Snowbel · shower room 1",
+        "source": "https://www.airbnb.com/rooms/35694643",
+        "note": "Public photograph from the exact Chalet Snowbel Airbnb listing. Bedroom numbering follows the listing; the selected bed configuration and mattress widths remain unconfirmed."
+      },
+      {
+        "src": "assets/snowbel-bathroom-bath.webp",
+        "alt": "Chalet Snowbel bathroom with bathtub",
+        "label": "Snowbel · bathroom 3",
+        "source": "https://www.airbnb.com/rooms/35694643",
+        "note": "Public photograph from the exact Chalet Snowbel Airbnb listing. Bedroom numbering follows the listing; the selected bed configuration and mattress widths remain unconfirmed."
+      },
+      {
+        "src": "assets/snowbel-bedroom-basin.webp",
+        "alt": "Chalet Snowbel bedroom and adjoining washbasin view",
+        "label": "Snowbel · bedroom 2 & washbasin",
+        "source": "https://www.airbnb.com/rooms/35694643",
+        "note": "Public photograph from the exact Chalet Snowbel Airbnb listing. Bedroom numbering follows the listing; the selected bed configuration and mattress widths remain unconfirmed."
+      },
+      {
+        "src": "assets/snowbel-bedroom-twins.webp",
+        "alt": "Chalet Snowbel bedroom 2 with twin beds as shown in the listing",
+        "label": "Snowbel · bedroom 2 twins",
+        "source": "https://www.airbnb.com/rooms/35694643",
+        "note": "Public photograph from the exact Chalet Snowbel Airbnb listing. Bedroom numbering follows the listing; the selected bed configuration and mattress widths remain unconfirmed."
+      },
+      {
+        "src": "assets/snowbel-bedroom-main.webp",
+        "alt": "Chalet Snowbel bedroom 1 with double-bed example and extra single",
+        "label": "Snowbel · bedroom 1",
+        "source": "https://www.airbnb.com/rooms/35694643",
+        "note": "Public photograph from the exact Chalet Snowbel Airbnb listing. Bedroom numbering follows the listing; the selected bed configuration and mattress widths remain unconfirmed."
+      },
+      {
+        "src": "assets/snowbel-street-view.webp",
+        "alt": "Street-side winter view of Chalet Snowbel",
+        "label": "Snowbel · street exterior",
+        "source": "https://www.airbnb.com/rooms/35694643",
+        "note": "Public photograph from the exact Chalet Snowbel Airbnb listing. Bedroom numbering follows the listing; the selected bed configuration and mattress widths remain unconfirmed."
+      },
+      {
+        "src": "assets/snowbel-bedroom-small.webp",
+        "alt": "Chalet Snowbel bedroom 3 twin-bed example",
+        "label": "Snowbel · bedroom 3",
+        "source": "https://www.airbnb.com/rooms/35694643",
+        "note": "Public photograph from the exact Chalet Snowbel Airbnb listing. Bedroom numbering follows the listing; the selected bed configuration and mattress widths remain unconfirmed."
       }
     ],
     "sources": [
@@ -171,6 +241,83 @@ const STAYS = [
         "label": "Rébèque · bedroom example",
         "source": "https://reservation.alpedhuez.com/hebergements/chalet-rebeque-4-chambres-au-bord-du-golf-avec-jacuzzi/",
         "note": "Official Alpe d’Huez reservation listing for Chalet Rébèque. Public property photograph; selected bed configuration and exclusive-use wellness terms are not established by the photograph."
+      },
+      {
+        "src": "assets/rebeque-bedroom-balcony-twins.webp",
+        "alt": "Chalet Rébèque twin bedroom with balcony doors and sloping timber ceiling",
+        "label": "Rébèque · twin bedroom & balcony",
+        "source": "https://www.airbnb.com/rooms/843197873505281903",
+        "note": "Public photograph from the exact Chalet Rébèque Airbnb listing. The selected bed configuration and exclusive-use wellness terms are not established by photographs."
+      },
+      {
+        "src": "assets/rebeque-bedroom-double-pink-wall.webp",
+        "alt": "Chalet Rébèque double bedroom with a pink wall and timber headboard",
+        "label": "Rébèque · double bedroom",
+        "source": "https://www.airbnb.com/rooms/843197873505281903",
+        "note": "Public photograph from the exact Chalet Rébèque Airbnb listing. The selected bed configuration and exclusive-use wellness terms are not established by photographs."
+      },
+      {
+        "src": "assets/rebeque-bedroom-roof-twins.webp",
+        "alt": "Chalet Rébèque twin bedroom under a sloping timber ceiling",
+        "label": "Rébèque · twin bedroom under the roof",
+        "source": "https://www.airbnb.com/rooms/843197873505281903",
+        "note": "Public photograph from the exact Chalet Rébèque Airbnb listing. The selected bed configuration and exclusive-use wellness terms are not established by photographs."
+      },
+      {
+        "src": "assets/rebeque-bathroom-shower-wc.webp",
+        "alt": "Chalet Rébèque shower room with basin and toilet",
+        "label": "Rébèque · shower room",
+        "source": "https://www.airbnb.com/rooms/843197873505281903",
+        "note": "Public photograph from the exact Chalet Rébèque Airbnb listing. The selected bed configuration and exclusive-use wellness terms are not established by photographs."
+      },
+      {
+        "src": "assets/rebeque-bathroom-vanities.webp",
+        "alt": "Chalet Rébèque bathroom with two basins and mirrors",
+        "label": "Rébèque · bathroom vanities",
+        "source": "https://www.airbnb.com/rooms/843197873505281903",
+        "note": "Public photograph from the exact Chalet Rébèque Airbnb listing. The selected bed configuration and exclusive-use wellness terms are not established by photographs."
+      },
+      {
+        "src": "assets/rebeque-living-dining.webp",
+        "alt": "Chalet Rébèque living room and dining area with stone wall",
+        "label": "Rébèque · living & dining",
+        "source": "https://www.airbnb.com/rooms/843197873505281903",
+        "note": "Public photograph from the exact Chalet Rébèque Airbnb listing. The selected bed configuration and exclusive-use wellness terms are not established by photographs."
+      },
+      {
+        "src": "assets/rebeque-sauna-interior.webp",
+        "alt": "Chalet Rébèque sauna interior with timber bench",
+        "label": "Rébèque · sauna interior",
+        "source": "https://www.airbnb.com/rooms/843197873505281903",
+        "note": "Public photograph from the exact Chalet Rébèque Airbnb listing. The selected bed configuration and exclusive-use wellness terms are not established by photographs."
+      },
+      {
+        "src": "assets/rebeque-sauna-shower.webp",
+        "alt": "Chalet Rébèque sauna beside the indoor shower area",
+        "label": "Rébèque · sauna & shower area",
+        "source": "https://www.airbnb.com/rooms/843197873505281903",
+        "note": "Public photograph from the exact Chalet Rébèque Airbnb listing. The selected bed configuration and exclusive-use wellness terms are not established by photographs."
+      },
+      {
+        "src": "assets/rebeque-entrance-storage.webp",
+        "alt": "Chalet Rébèque entrance hallway with coat hooks and storage",
+        "label": "Rébèque · entrance & storage",
+        "source": "https://www.airbnb.com/rooms/843197873505281903",
+        "note": "Public photograph from the exact Chalet Rébèque Airbnb listing. The selected bed configuration and exclusive-use wellness terms are not established by photographs."
+      },
+      {
+        "src": "assets/rebeque-terrace-walkway.webp",
+        "alt": "Chalet Rébèque exterior terrace walkway with mountain view",
+        "label": "Rébèque · terrace walkway",
+        "source": "https://www.airbnb.com/rooms/843197873505281903",
+        "note": "Public photograph from the exact Chalet Rébèque Airbnb listing. Terrace view; this is not independent verification of the host-reported ski route and road crossing."
+      },
+      {
+        "src": "assets/rebeque-building-exterior.webp",
+        "alt": "Building exterior shown in the Chalet Rébèque listing",
+        "label": "Rébèque · building exterior",
+        "source": "https://www.airbnb.com/rooms/843197873505281903",
+        "note": "Public photograph from the exact Chalet Rébèque Airbnb listing. The selected bed configuration and exclusive-use wellness terms are not established by photographs."
       }
     ],
     "sources": [
