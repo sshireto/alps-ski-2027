@@ -1866,5 +1866,118 @@ const HOTELS = [
         "url": "https://www.google.com/maps/dir/?api=1&origin=47.131419,10.2694573&destination=47.128138,10.2629731&travelmode=walking"
       }
     ]
+  },
+  {
+    "id": "sonnleiten-saalbach",
+    "name": "AlpenParks Hotel & Apartment Sonnleiten · Dream SPA",
+    "location": "Saalbach · Kohlmais",
+    "week": "late",
+    "dates": "24–31",
+    "nights": 7,
+    "people": 6,
+    "booked": true,
+    "verifiedOn": "19 October 2026",
+    "total": 8672.11,
+    "photos": [
+      {
+        "src": "assets/sonnleiten-dream-1.webp",
+        "alt": "Dream SPA dining and kitchen area with a regular double bed in the living space",
+        "label": "Dream SPA · living & dining",
+        "source": "https://www.alpenparks.at/en/hotel-apartment-sonnleiten-saalbach/apartment-dream-spa~598",
+        "note": "Official Dream SPA category photograph; a double bed is shown in the open living area. Exact assigned layout is not guaranteed."
+      },
+      {
+        "src": "assets/sonnleiten-dream-2.webp",
+        "alt": "Dream SPA category bedroom with a double bed",
+        "label": "Dream SPA · bedroom",
+        "source": "https://www.alpenparks.at/en/hotel-apartment-sonnleiten-saalbach/apartment-dream-spa~598",
+        "note": "Official Dream SPA category photograph; furnishings and layout may vary."
+      },
+      {
+        "src": "assets/sonnleiten-dream-3.webp",
+        "alt": "Dream SPA balcony overlooking Saalbach and the mountains",
+        "label": "Dream SPA · balcony",
+        "source": "https://www.alpenparks.at/en/hotel-apartment-sonnleiten-saalbach/apartment-dream-spa~598",
+        "note": "Official Dream SPA category photograph; balcony or terrace and view depend on the assigned apartment."
+      },
+      {
+        "src": "assets/sonnleiten-exterior.webp",
+        "alt": "AlpenParks Sonnleiten exterior and shared outdoor pool in winter",
+        "label": "Sonnleiten · outdoor pool",
+        "source": "https://www.alpenparks.at/en/hotel-apartment-sonnleiten-saalbach",
+        "note": "Official property photograph of the shared pool; this is not a private apartment pool."
+      }
+    ],
+    "photoBadge": "Official Dream SPA category · layout varies",
+    "room": "Apartment Dream SPA · six adults · approximately 90 m² category. Two or three enclosed bedrooms; a regular double bed may be in the living area.",
+    "roomShort": "Apartment Dream SPA · 2 or 3 enclosed bedrooms",
+    "positioning": "Booked directly, with breakfast, a private sauna and a shared heated outdoor pool. A cancellable booking on the group shortlist; no final group choice has been made.",
+    "mealShort": "Breakfast included · Flexi Rate",
+    "spaShort": "Private sauna + shared heated outdoor pool",
+    "bedsTable": "3 king beds · sofa bed unused; 2 or 3 enclosed bedrooms",
+    "beds": "Three king beds plus a sofa bed are confirmed. Six adults sleep two per king bed; the sofa bed is unused. A regular double bed may be in the living room.",
+    "roomCaveat": "Three separate bedrooms are not guaranteed. The official Dream SPA category has two or three enclosed bedrooms and may include a double bed in the open living area. Photographs represent the category, not a confirmed assigned unit.",
+    "pros": [
+      "Breakfast included in the booked Flexi Rate.",
+      "Private apartment sauna and shared year-round heated outdoor pool.",
+      "Official property advertises ski-in/out on Kohlmais, with a very short approach to pistes/lifts.",
+      "Free cancellation until 28 November 2026 at 23:59 CET (29 November at 00:59 Israel)."
+    ],
+    "cons": [
+      "Three king beds require sharing in pairs; the sofa bed is unused.",
+      "Layout may have only two enclosed bedrooms, with a regular double bed in the living room.",
+      "Roughly 70–100 m approach from listing/review information; skiing literally from the apartment door is not guaranteed."
+    ],
+    "spa": "Private sauna in the Dream SPA apartment, plus the shared outdoor pool heated year-round.",
+    "access": "The official property advertises ski-in/out on the Kohlmais slope. Listing/review information suggests a very short approach to pistes/lifts, roughly 70–100 m. This is an approximate proximity figure, not a measured walking route or a guarantee of skiing from the apartment door. Snow conditions and the assigned apartment affect access.",
+    "accessShort": "Kohlmais ski-in/out advertised · ~70–100 m approach",
+    "quoteSummary": "Booked directly: Flexi Rate with breakfast, cancellable. All-in total €8,672.11 = €8,348.21 accommodation + €200.00 cleaning + €123.90 local/mobility tax. Approximately €206.48 per person per night for six adults over seven nights. Free cancellation until 28 November 2026 at 23:59 CET (29 November 2026 at 00:59 Israel). Check-in 24 January from 15:00; check-out 31 January by 10:00. This is a booked shortlist option, not the final group choice.",
+    "meals": "Breakfast is included in the booked Flexi Rate. The apartment also has a kitchen.",
+    "officialUrl": "https://www.alpenparks.at/en/hotel-apartment-sonnleiten-saalbach",
+    "officialLabel": "View official site (booked direct)",
+    "bookingUrl": "https://www.booking.com/hotel/at/sonnleiten.en-gb.html",
+    "directUrl": "https://booking-hotel-apartment-sonnleiten-saalbach.alpenparks.at/",
+    "bedPlan": {
+      "headline": "6 people in regular beds · sofa bed unused",
+      "regular": "6",
+      "extra": "0 (sofa bed unused)",
+      "layout": "3 king beds; 2 or 3 enclosed bedrooms. A regular double bed may be in the living area.",
+      "note": "Bed count is confirmed; three separate bedrooms are not guaranteed. Dream SPA category layouts vary.",
+      "source": "https://www.alpenparks.at/en/hotel-apartment-sonnleiten-saalbach/apartment-dream-spa~598"
+    },
+    "wellness": {
+      "label": "Private sauna + shared heated pool",
+      "facilities": "Private apartment sauna; shared year-round heated outdoor pool.",
+      "inclusion": "Included for the booked Dream SPA stay.",
+      "note": "The outdoor pool is shared with other property guests.",
+      "source": "https://www.alpenparks.at/en/hotel-apartment-sonnleiten-saalbach"
+    },
+    "skiAccess": {
+      "label": "Kohlmais · ski-in/out advertised",
+      "skiIn": "Advertised by property; exact apartment-door access unconfirmed",
+      "skiOut": "Advertised by property; very short approach may remain",
+      "lift": "Kohlmais pistes / lifts · ",
+      "walk": "Roughly 70–100 m approach from listing/review information; not a measured walking route.",
+      "note": "Do not assume skiing literally from the apartment door; snow and the assigned apartment matter.",
+      "source": "https://www.alpenparks.at/en/hotel-apartment-sonnleiten-saalbach"
+    },
+    "sources": [
+      {
+        "label": "Official property & pool",
+        "url": "https://www.alpenparks.at/en/hotel-apartment-sonnleiten-saalbach"
+      },
+      {
+        "label": "Official Dream SPA category & layout",
+        "url": "https://www.alpenparks.at/en/hotel-apartment-sonnleiten-saalbach/apartment-dream-spa~598"
+      },
+      {
+        "label": "Public Booking.com listing",
+        "url": "https://www.booking.com/hotel/at/sonnleiten.en-gb.html"
+      },
+      {
+        "label": "Direct booking portal",
+        "url": "https://booking-hotel-apartment-sonnleiten-saalbach.alpenparks.at/"
+      }
+    ]
   }
 ];
