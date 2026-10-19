@@ -33,3 +33,8 @@ function closeHotel(){dialog.close();}
 dialog.addEventListener('close',()=>{document.body.classList.remove('dialog-open');lastFocused?.focus();});
 document.addEventListener('click',e=>{if(e.target.closest('a[href="#compare"]')){document.querySelector('#compare-disclosure').open=true;}const open=e.target.closest('[data-open]');if(open){e.preventDefault();openHotel(open.dataset.open);return}const filter=e.target.closest('[data-date]');if(filter){document.querySelectorAll('[data-date]').forEach(x=>{x.classList.toggle('active',x===filter);x.setAttribute('aria-pressed',x===filter)});render(filter.dataset.date);return}const step=e.target.closest('[data-gallery]');if(step){currentPhoto=(currentPhoto+Number(step.dataset.gallery)+currentHotel.photos.length)%currentHotel.photos.length;renderPhoto();return}const photo=e.target.closest('[data-photo]');if(photo){currentPhoto=Number(photo.dataset.photo);renderPhoto();}});
 document.querySelector('#close-dialog').addEventListener('click',closeHotel);dialog.addEventListener('click',e=>{if(e.target===dialog){const b=dialog.getBoundingClientRect();if(e.clientX<b.left||e.clientX>b.right||e.clientY<b.top||e.clientY>b.bottom)closeHotel();}});dialog.addEventListener('keydown',e=>{if((e.key==='ArrowRight'||e.key==='ArrowLeft')&&currentHotel.photos.length){currentPhoto=(currentPhoto+(e.key==='ArrowRight'?1:-1)+currentHotel.photos.length)%currentHotel.photos.length;renderPhoto();}});render();
+
+// Open a stay gallery when following its shared URL.
+const openLinkedStay=()=>{if(location.hash)openHotel(location.hash.slice(1));};
+window.addEventListener('hashchange',openLinkedStay);
+openLinkedStay();

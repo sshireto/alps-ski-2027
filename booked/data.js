@@ -893,6 +893,27 @@ const HOTELS = [
     "bookingUrl": "https://www.booking.com/hotel/at/parseierblick.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
     "photos": [
       {
+        "src": "assets/parseierblick-apartment-dining.webp",
+        "alt": "Apartment dining area with patterned wallpaper and mirror beside the lounge",
+        "label": "Two-Bedroom Apartment category · dining",
+        "note": "Official Apartment A302 photograph. The dining image also appears in the listing’s Two-Bedroom Apartment gallery, verifying the category imagery. The reservation does not identify the assigned apartment number.",
+        "source": "https://www.parseierblick.at/ausstattung/appartement-302/"
+      },
+      {
+        "src": "assets/parseierblick-apartment-living-stairs.webp",
+        "alt": "Apartment lounge and staircase to the upper sleeping level",
+        "label": "Apartment living area · stairs to upper level",
+        "note": "Official Apartment A302 photograph. The dining image also appears in the listing’s Two-Bedroom Apartment gallery, verifying the category imagery. The reservation does not identify the assigned apartment number.",
+        "source": "https://www.parseierblick.at/ausstattung/appartement-302/"
+      },
+      {
+        "src": "assets/parseierblick-apartment-living-sofa.webp",
+        "alt": "Apartment sofa beneath artwork beside the staircase",
+        "label": "Apartment living area · sofa",
+        "note": "Official Apartment A302 photograph. The dining image also appears in the listing’s Two-Bedroom Apartment gallery, verifying the category imagery. The reservation does not identify the assigned apartment number.",
+        "source": "https://www.parseierblick.at/ausstattung/appartement-302/"
+      },
+      {
         "src": "assets/parseierblick-exterior.webp",
         "alt": "Parseierblick exterior at dusk",
         "label": "Parseierblick exterior at dusk",
@@ -944,10 +965,19 @@ const HOTELS = [
       {
         "label": "Official hotel",
         "url": "https://www.parseierblick.at/"
+      },
+      {
+        "label": "Official photographed apartment A302",
+        "url": "https://www.parseierblick.at/ausstattung/appartement-302/"
+      },
+      {
+        "label": "Two-Bedroom Apartment category photo match",
+        "url": "https://www.getaroomtonight.com/sankt-anton-am-arlberg/parseierblick.htm"
       }
     ],
-    "photoBadge": "Property photos · apartment not shown"
+    "photoBadge": "Apartment photos · category matched"
   },
+
   {
     "id": "glanz-glory",
     "name": "Glanz & Glory Hotel",
