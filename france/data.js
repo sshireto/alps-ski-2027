@@ -12,7 +12,7 @@ const STAYS = [
     "evidence": "Confirmed by Airbnb on 19 October 2026.",
     "priceDisplay": "US$6,798.52",
     "priceLabel": "Confirmed balance due",
-    "priceNote": "The confirmation states a balance due. The full stay total and tax-inclusive total have not been verified. No per-person nightly rate is calculated.",
+    "priceNote": "The confirmation states a balance due. The per-person/night equivalent divides this amount by 6 adults and 7 nights; an itemized, tax-inclusive full-stay total has not been independently verified.",
     "quickBeds": "Three twin/double bedrooms",
     "quickBedNote": "One extra single; third bedroom very small",
     "quickSki": "3-minute walk to slope escalator",
@@ -165,7 +165,9 @@ const STAYS = [
         "label": "Folie Douce access",
         "url": "https://www.lafoliedouce.com/en/meribel-courchevel-contact-booking.html"
       }
-    ]
+    ],
+    "balanceDueCents": 679852,
+    "people": 6
   },
   {
     "id": "chalet-rebeque",
@@ -180,7 +182,7 @@ const STAYS = [
     "evidence": "Confirmed by Airbnb on 19 October 2026 for six adults.",
     "priceDisplay": "US$7,497.03",
     "priceLabel": "Confirmed balance due",
-    "priceNote": "The confirmation states a balance due. The full stay total and tax-inclusive total have not been verified. No per-person nightly rate is calculated.",
+    "priceNote": "The confirmation states a balance due. The per-person/night equivalent divides this amount by 6 adults and 7 nights; an itemized, tax-inclusive full-stay total has not been independently verified.",
     "quickBeds": "Four en-suite bedrooms",
     "quickBedNote": "150 m² · bed dimensions unverified",
     "quickSki": "Towards Marmottes · road crossing",
@@ -333,6 +335,8 @@ const STAYS = [
         "label": "Folie Douce access",
         "url": "https://www.lafoliedouce.com/en/alpe-huez-contact-booking.html"
       }
-    ]
+    ],
+    "balanceDueCents": 749703,
+    "people": 6
   }
 ];
