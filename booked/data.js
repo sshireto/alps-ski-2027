@@ -849,6 +849,7 @@ const HOTELS = [
   },
   {
     "id": "parseierblick-apt",
+    "cancelled": "Cancelled on 24 Oct 2026 by Booking.com (invalid credit card) · €0 cancellation cost",
     "name": "Parseierblick · Two-Bedroom Apartment",
     "location": "Sankt Anton am Arlberg · Dorfstraße 101",
     "resortVideo": {
@@ -868,7 +869,7 @@ const HOTELS = [
     "people": 6,
     "room": "Two-Bedroom Apartment · 65 m² · 1 living room · 2 bathrooms",
     "roomShort": "One 2-bedroom / 2-bath apartment",
-    "positioning": "Newly booked Sun–Sun ski-in/ski-out apartment ~1 min from Nassereinbahn, breakfast included.",
+    "positioning": "Cancelled 24 Oct 2026: Booking.com cancelled this Sun–Sun ski-in/ski-out apartment because the credit card was invalid (€0 cancellation cost).",
     "tag": "NEWLY BOOKED",
     "mealShort": "Breakfast included",
     "spaShort": "Hotel sauna access unconfirmed for apartment",
@@ -878,7 +879,7 @@ const HOTELS = [
     "pros": [
       "Ski-in/ski-out listed; Nassereinbahn is 95 m (~1 min walk).",
       "Six regular beds, two bathrooms and a shared living room; breakfast included.",
-      "Sunday–Sunday 7 nights; free cancellation until 24 Nov 2026 23:59 CET."
+      "Sunday–Sunday 7 nights; was free to cancel until 24 Nov 2026 23:59 CET (cancelled 24 Oct 2026, €0)."
     ],
     "cons": [
       "€175.24 per person per night — the priciest St. Anton option, though breakfast is included.",
@@ -888,7 +889,7 @@ const HOTELS = [
     "spa": "The Parseierblick house has a shared sauna/steam area; inclusion for this apartment offer is unconfirmed.",
     "access": "Ski-in/ski-out listed by Booking.com. Nassereinbahn valley station 95 m / about 1 min on foot; centre 0.7 km.",
     "accessShort": "Ski-in/out · Nassereinbahn 95 m / ~1 min",
-    "quoteSummary": "Booked total €7,360: apartment €6,300 + VAT €630 + city tax €210 (€5 pp/night) + cleaning fee €220. City tax and final cleaning fee are paid in cash at the property; card reserved, prepayment of the total may be charged at any time. Free cancellation until 24 Nov 2026 23:59 CET (property local time); from 25 Nov 2026 00:00 cancellation or no-show costs €6,930. Check-in Sun 24 Jan 15:00–21:00; check-out Sun 31 Jan 08:00–10:00. Property phone +43 664 1546176.",
+    "quoteSummary": "CANCELLED on 24 Oct 2026 by Booking.com because the credit card was invalid; total cancellation cost €0. Former booked total €7,360: apartment €6,300 + VAT €630 + city tax €210 (€5 pp/night) + cleaning fee €220. City tax and final cleaning fee are paid in cash at the property; card reserved, prepayment of the total may be charged at any time. Free cancellation until 24 Nov 2026 23:59 CET (property local time); from 25 Nov 2026 00:00 cancellation or no-show costs €6,930. Check-in Sun 24 Jan 15:00–21:00; check-out Sun 31 Jan 08:00–10:00. Property phone +43 664 1546176.",
     "meals": "Breakfast is included in the final price (per the confirmation).",
     "bookingUrl": "https://www.booking.com/hotel/at/parseierblick.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
     "photos": [
@@ -1020,7 +1021,7 @@ const HOTELS = [
     "access": "Booking.com lists 'Ski-in, ski-out access' and 50 m to the ski lift. Exact lift and route are not confirmed.",
     "accessShort": "Ski-in/out · 50 m to lift",
     "meals": "Breakfast is included in the final price for both suites (per the confirmation).",
-    "quoteSummary": "Booked total €9,570.92: 2 rooms €8,509.93 + VAT €850.99 + city tax €210 (€5 pp/night, collected by the property). Booking.com charges €9,360.92 automatically (€0 paid so far). Free cancellation until 24 Dec 2026 23:59 (property local time); from 25 Dec 2026 00:00 cancellation or no-show costs €4,680.46 per suite (€9,360.92 total). Check-in Sun 24 Jan 15:00–20:30; check-out Sun 31 Jan 07:30–10:00. Photo ID and credit card required at check-in. Property phone +43 5254 2237.",
+    "quoteSummary": "Booked total €9,570.92: 2 rooms €8,509.93 + VAT €850.99 + city tax €210 (€5 pp/night, collected by the property). Booking.com charges €9,360.92 automatically (€0 paid so far). Free cancellation until 24 Dec 2026 23:59 (property local time; 25 Dec 00:59 Israel); from 25 Dec 2026 00:00 cancellation or no-show costs €4,680.46 per suite (€9,360.92 total). Check-in Sun 24 Jan 15:00–20:30; check-out Sun 31 Jan 07:30–10:00. Photo ID and credit card required at check-in. Property phone +43 5254 2237.",
     "bookingUrl": "https://www.booking.com/searchresults.html?ss=Glanz+%26+Glory+Hotel+S%C3%B6lden&checkin=2027-01-24&checkout=2027-01-31&group_adults=6&no_rooms=2",
     "photos": [
       {
@@ -1180,7 +1181,7 @@ const HOTELS = [
     "pros": [
       "About 200–300 m from the Steffisalp lift.",
       "Breakfast included; sauna; everyone has their own bed.",
-      "Free cancellation until 24 Dec 2026; Booking.com rating 9.7."
+      "Free cancellation until 24 Dec 2026 23:59 CET (25 Dec 00:59 Israel); Booking.com rating 9.7."
     ],
     "cons": [
       "€186.32 per person per night.",
@@ -1190,7 +1191,7 @@ const HOTELS = [
     "spa": "Sauna listed for the chalet.",
     "access": "About 200–300 m from the Steffisalp lift in Warth (Ski Arlberg).",
     "accessShort": "Steffisalp · ~200–300 m",
-    "quoteSummary": "Booked total €7,825.60: booking €7,674.40 + city tax €151.20 (€3.60 pp/night, paid at the property). Free cancellation until 24 Dec 2026. Check-in Sun 24 Jan; check-out Sun 31 Jan.",
+    "quoteSummary": "Booked total €7,825.60 (incl. a €106 other fee): booking €7,674.40, charged automatically by Booking.com (€0 paid so far), + city tax €151.20 (€3.60 pp/night, paid at the property). Free cancellation until 24 Dec 2026 23:59 CET (property local time; 25 Dec 00:59 Israel); from 25 Dec 2026 00:00 cancellation or no-show costs €7,568.40. Check-in Sun 24 Jan; check-out Sun 31 Jan.",
     "meals": "Breakfast is included.",
     "bookingUrl": "https://www.booking.com/hotel/at/lux-alp-chalet.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
     "bedPlan": {
@@ -1310,12 +1311,12 @@ const HOTELS = [
     "cons": [
       "€219.60 per person per night, with no breakfast.",
       "People share king beds.",
-      "Free cancellation only until 24 Nov 2026."
+      "Free cancellation only until 24 Nov 2026 23:59 CET (25 Nov 00:59 Israel); after that the full €8,839.64."
     ],
     "spa": "No spa or sauna listed for this booking.",
     "access": "About 80 m from the Penkenbahn lift; central Mayrhofen, near the bars.",
     "accessShort": "Penkenbahn · ~80 m",
-    "quoteSummary": "Booked total €9,223.04: booking €9,088.64 + city tax €134.40 (€3.20 pp/night, paid at the property). Free cancellation until 24 Nov 2026. Check-in Sun 24 Jan; check-out Sun 31 Jan.",
+    "quoteSummary": "Booked total €9,223.04 (incl. €249 cleaning fee): booking €9,088.64, charged automatically by Booking.com (€0 paid so far), + city tax €134.40 (€3.20 pp/night, paid at the property). Free cancellation until 24 Nov 2026 23:59 CET (property local time; 25 Nov 00:59 Israel); from 25 Nov 2026 00:00 cancellation or no-show costs €8,839.64. Check-in Sun 24 Jan; check-out Sun 31 Jan.",
     "meals": "No breakfast included.",
     "bookingUrl": "https://www.booking.com/hotel/at/apart-central.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
     "bedPlan": {
@@ -1435,13 +1436,13 @@ const HOTELS = [
     "cons": [
       "€207.24 per person per night (€1,450.70 per person).",
       "City tax (€210 · €5 pp/night) paid at the property.",
-      "Free cancellation until 30 days before arrival (about 25 Dec 2026).",
+      "Free cancellation until 24 Dec 2026 23:59 (property local time; 25 Dec 00:59 Israel); from 25 Dec €2,831.40 per suite.",
       "Bed layout per suite unconfirmed."
     ],
     "spa": "Indoor pool and spa.",
     "access": "About 150 m from the Gaislachkogelbahn lift.",
     "accessShort": "Gaislachkogelbahn · ~150 m",
-    "quoteSummary": "Booked total €8,704.20: booking €8,494.20 + city tax €210 (€5 pp/night, paid at the property; booked by Danny). €1,450.70 per person · about €207.24 per person per night. Free cancellation until 30 days before arrival (about 25 Dec 2026). Check-in Sun 24 Jan; check-out Sun 31 Jan.",
+    "quoteSummary": "Booked total €8,704.20: booking €8,494.20 + city tax €210 (€5 pp/night, paid at the property; booked by Danny). €1,450.70 per person · about €207.24 per person per night. Booking.com charges €8,494.20 automatically (€0 paid so far). Free cancellation until 24 Dec 2026 23:59 (property local time; 25 Dec 00:59 Israel); from 25 Dec 2026 00:00 cancellation or no-show costs €2,831.40 per suite (€8,494.20 for all three). Check-in Sun 24 Jan; check-out Sun 31 Jan.",
     "meals": "Breakfast is included.",
     "bookingUrl": "https://www.booking.com/hotel/at/regina-solden.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
     "bedPlan": {
@@ -1566,7 +1567,7 @@ const HOTELS = [
     "spa": "Outdoor panoramic rooftop hot tub, 80 m² pool and 4 saunas, included for apartment guests (official hotel site).",
     "access": "Ski room straight onto the piste; about 150 m to the lift per Booking.com. The mapped walk to the Zentralbahn valley station is 335 m.",
     "accessShort": "Ski room onto piste · ~150 m to lift",
-    "quoteSummary": "Booked total €6,875.10: apartment €6,095.45 + VAT €609.55 = €6,705 charged by Booking.com, + city tax €170.10 (€4.05 pp/night, excluded, paid at the property). €1,145.85 per person · about €163.69 per person per night. Free cancellation until 24 Nov 2026 23:59 CET; from 25 Nov 50% (€3,352.50). Check-in Sun 24 Jan (14:00–21:00); check-out Sun 31 Jan (08:00–11:00).",
+    "quoteSummary": "Booked total €6,875.10: apartment €6,095.45 + VAT €609.55 = €6,705 charged automatically by Booking.com (€0 paid so far), + city tax €170.10 (€4.05 pp/night, excluded, paid at the property). €1,145.85 per person · about €163.69 per person per night. Free cancellation until 24 Nov 2026 23:59 CET (25 Nov 00:59 Israel); from 25 Nov 50% (€3,352.50); from 25 Jan 2027 €6,705. Check-in Sun 24 Jan (14:00–21:00); check-out Sun 31 Jan (08:00–11:00).",
     "meals": "Breakfast is optional at €25 per person per night; dinner €55 per person per night.",
     "bookingUrl": "https://www.booking.com/hotel/at/alpenland-obertauern.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
     "bedPlan": {
@@ -1700,7 +1701,7 @@ const HOTELS = [
     "spa": "Finnish sauna, aroma steam bath, organic herbal sauna, salt sauna, infrared cabin, deep-heat cabin, whirlpool and relax room (official hotel site). Spa inclusion not stated in the confirmation.",
     "access": "Free ski bus stop right in front of the hotel, serving the Penkenbahn and Ahornbahn. Booking.com lists the Penkenbahn at 850 m and the Ahornbahn at 1.3 km; the mapped walk to the Penkenbahn valley station is about 950 m / 13 minutes.",
     "accessShort": "Ski bus at door · Penkenbahn ~850 m",
-    "quoteSummary": "Booked total €6,537.60 across two reservations: rooms €5,856.00 + VAT €585.60 = €6,441.60 charged by Booking.com (suite €4,377.60 + superior double €2,064), + city tax €96 (€3.20 pp/night, excluded, paid at the property; booked by Danny). €1,089.60 per person · about €217.92 per person per night. Free cancellation until 24 Dec 2026 23:59 CET; from 25 Dec the full price. Check-in Sun 24 Jan (14:00–18:00); check-out Fri 29 Jan (07:30–10:00).",
+    "quoteSummary": "Booked total €6,537.60 across two reservations: rooms €5,856.00 + VAT €585.60 = €6,441.60 charged automatically by Booking.com, €0 paid so far (suite €4,377.60 + superior double €2,064), + city tax €96 (€3.20 pp/night, excluded, paid at the property; booked by Danny). €1,089.60 per person · about €217.92 per person per night. Free cancellation until 24 Dec 2026 23:59 CET (25 Dec 00:59 Israel); from 25 Dec the full price. Check-in Sun 24 Jan (14:00–18:00); check-out Fri 29 Jan (07:30–10:00).",
     "meals": "Breakfast is included in the price.",
     "bookingUrl": "https://www.booking.com/hotel/at/pramstraller.html?checkin=2027-01-24&checkout=2027-01-29&group_adults=6",
     "bedPlan": {
@@ -1823,24 +1824,24 @@ const HOTELS = [
     "spaShort": "No spa, sauna or hot tub",
     "bedsTable": "3 box-spring doubles + 1 sofa bed",
     "beds": "Apartment Roggspitze (88 m², official site): three bedrooms, each with a box-spring double bed (Booking.com: extra-large double) and its own en-suite bathroom; the living-room couch converts into a further box-spring bed. Six adults fit on the three doubles, two per bed; the sofa bed is spare.",
-    "roomCaveat": "Booked direct on visitfranz.com: Apartment Roggspitze for 6 adults (the confirmation names the unit). Bed types and 88 m² are from the official apartment page; Booking.com lists the ground-floor apartment with 3 extra-large double beds.",
+    "roomCaveat": "Booked direct on visitfranz.com: Apartment Roggspitze for 6 adults. The confirmation email names neither the unit nor the guest count. Bed types and 88 m² are from the official apartment page; Booking.com lists the ground-floor apartment with 3 extra-large double beds.",
     "pros": [
-      "Booked unit is named and pictured: Roggspitze, a new ground-floor apartment with three bedrooms, each with its own bathroom.",
+      "Roggspitze: a new ground-floor apartment with three bedrooms, each with its own bathroom (the confirmation email itself does not name the unit).",
       "Central but quiet spot by the church, a few minutes' walk from the pedestrian zone; Booking.com location score 9.8.",
       "Free ski depot at the Nassereinbahn for FRANZ guests, ski room with drying lockers, 2 free parking spaces.",
-      "Free cancellation until Sun 13 Dec 2026, 20:00."
+      "Free cancellation up to 6 weeks before arrival (by date, until Sun 13 Dec 2026; the confirmation states no time)."
     ],
     "cons": [
       "€162.17 per person per night (€1,135.17 per person).",
       "City tax (€210 · €5 pp/night) and final cleaning (€100) are on the invoice, included in the total shown.",
       "No spa, sauna or hot tub; self-catering only.",
       "No ski-in/out: mapped walk about 540 m / 7 min to the Nassereinbahn, about 770 m / 10 min to the Galzigbahn.",
-      "Check-in from 16:00 (tell the owners if arriving after 20:00); check-out by 09:00."
+      "Check-in 16:00–20:00; check-out 06:00–09:00 (per the confirmation)."
     ],
     "spa": "No spa, sauna, pool or hot tub at FRANZ. Ski room with drying lockers; in-apartment smart TVs and Nespresso machine (official site).",
     "access": "Village centre, near the church. Booking.com lists the nearest lifts as the Nasserein practice lift (250 m), Kindlisfeld (300 m) and Fangbahn (300 m). For the main lifts, the mapped walk is about 540 m / 7 minutes to the Nassereinbahn and about 770 m / 10 minutes to the Galzigbahn. Guests get a free ski depot at the Nassereinbahn, so skis and boots can stay at the lift. Train station about 550 m (Booking.com).",
     "accessShort": "Free ski depot at Nassereinbahn · ~540 m walk",
-    "quoteSummary": "Booked direct on visitfranz.com on 18 Oct 2026. Booked total €6,811.00: apartment €6,501.00 + final cleaning €100.00 + city tax (Ortstaxe) €210.00 (€5 pp/night × 6 adults × 7 nights). €1,135.17 per person · about €162.17 per person per night. Free cancellation until Sun 13 Dec 2026 20:00; from then 50% (€3,405.50); from 3 Jan 2027 20:00, €5,108.25 (75%); from 17 Jan 2027 20:00, the full €6,811.00. Official booking terms: a 40% deposit by bank transfer within 10 days guarantees the booking; the balance is paid on site (cash, debit or credit card) by the morning of departure. Check-in Sun 24 Jan from 16:00 (tell the owners if after 20:00); check-out Sun 31 Jan by 09:00.",
+    "quoteSummary": "Booked direct on visitfranz.com on 18 Oct 2026. Total €6,811.00 (apartment €6,501.00 + final cleaning €100.00 + city tax €210.00 at €5 pp/night); the confirmation email does not state the total. €1,135.17 per person · about €162.17 per person per night. Per the confirmation: the booking is only guaranteed once a 40% deposit is paid by bank transfer, due immediately after booking; no deposit payment confirmation has been received as of 26 Oct 2026. Free cancellation up to 6 weeks before arrival (by date, until Sun 13 Dec 2026; no time stated); from 6 weeks to 22 days before arrival 50% of the total; from 21 to 8 days (from about 3 Jan 2027) 75%; within 7 days (from about 17 Jan 2027) or no-show 100%. Check-in Sun 24 Jan 16:00–20:00; check-out Sun 31 Jan 06:00–09:00.",
     "meals": "Self-catering with a fully equipped kitchen (dishwasher, microwave, Nespresso). Bread rolls can be pre-ordered the evening before (official site).",
     "officialUrl": "https://www.visitfranz.com/",
     "officialLabel": "View on visitfranz.com (booked direct)",
@@ -1961,7 +1962,7 @@ const HOTELS = [
     "spa": "Private sauna in the Dream SPA apartment, plus the shared outdoor pool heated year-round.",
     "access": "The official property advertises ski-in/out on the Kohlmais slope. Listing/review information suggests a very short approach to pistes/lifts, roughly 70–100 m. This is an approximate proximity figure, not a measured walking route or a guarantee of skiing from the apartment door. Snow conditions and the assigned apartment affect access.",
     "accessShort": "Kohlmais ski-in/out advertised · ~70–100 m approach",
-    "quoteSummary": "Booked directly: Flexi Rate with breakfast, cancellable. All-in total €8,672.11 = €8,348.21 accommodation + €200.00 cleaning + €123.90 local/mobility tax. Approximately €206.48 per person per night for six adults over seven nights. Free cancellation until 28 November 2026 at 23:59 CET (29 November 2026 at 00:59 Israel). Check-in 24 January from 15:00; check-out 31 January by 10:00. This is a booked shortlist option, not the final group choice.",
+    "quoteSummary": "Booked directly: Flexi Rate with breakfast, cancellable. All-in total €8,672.11 = €8,348.21 accommodation + €200.00 cleaning + €123.90 local/mobility tax. Approximately €206.48 per person per night for six adults over seven nights. 30% deposit (€2,504.46) paid on 19 October 2026; €6,043.75 balance plus the €123.90 tax due on site. Free cancellation until 28 November 2026 at 23:59 CET (29 November 2026 at 00:59 Israel); after that 30% (€2,504.46), from 12 December 23:59 CET 50% (€4,174.11), from 26 December 23:59 CET 70% (€5,843.75), from 16 January 23:59 CET 100% (€8,348.21). Check-in 24 January from 15:00; check-out 31 January by 10:00. This is a booked shortlist option, not the final group choice.",
     "meals": "Breakfast is included in the booked Flexi Rate. The apartment also has a kitchen.",
     "officialUrl": "https://www.alpenparks.at/en/hotel-apartment-sonnleiten-saalbach",
     "officialLabel": "View official site (booked direct)",
