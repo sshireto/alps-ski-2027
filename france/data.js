@@ -338,5 +338,118 @@ const STAYS = [
     ],
     "balanceDueCents": 749703,
     "people": 6
+  },
+  {
+    "id": "le-levanna",
+    "name": "Hôtel Le Levanna by Les Etincelles",
+    "location": "Tignes le Lac · France",
+    "dates": "24–31",
+    "nights": 7,
+    "status": "confirmed",
+    "statusLabel": "CONFIRMED",
+    "photoBadge": "Official hotel photos · category representative",
+    "peopleLabel": "6 adults · confirmed",
+    "roomShort": "2 Privilege Rooms",
+    "evidence": "Booked via Booking.com on 14 November 2026. Flexible rate; 30% (€2,220.90) already charged. The balance is charged automatically at least 30 days before arrival.",
+    "currency": "EUR",
+    "total": 7521.02,
+    "priceDisplay": "€7,521.02",
+    "priceLabel": "Booked total incl. city tax",
+    "priceNote": "Booked total €7,521.02 including city tax, for two Privilege Rooms, six adults and seven nights, with breakfast included. Approximately €179.07 per person per night.",
+    "quickBeds": "2 doubles + 2 child armchairs",
+    "quickBedNote": "Official description: the 3rd place in each Privilege Room is a convertible armchair for a child under 13",
+    "quickSki": "Ski-in/ski-out · Tovière gondola steps away",
+    "quickSkiNote": "Official hotel page; in the heart of Tignes le Lac",
+    "quickSpa": "Sauna, hammam and hot tub",
+    "quickSpaNote": "Official site: included for hotel guests; ski-season hours 11:00–21:00",
+    "meals": "Breakfast included",
+    "cancelSummary": "Free until 24 Dec 2026, 23:59 Tignes (00:59 Israel on 25 Dec).",
+    "cancellationTitle": "Confirmed cancellation terms",
+    "cancellation": [
+      "Flexible rate: free cancellation until 24 December 2026 at 23:59 Tignes time (Europe/Paris; 00:59 Israel on 25 December).",
+      "30% (€2,220.90) already charged. The balance is charged automatically at least 30 days before arrival."
+    ],
+    "checkTimes": "Official hotel FAQ: check-in from 17:00; check-out before 11:00, local time. Arrival times were not stated in the booking emails reviewed.",
+    "roomReality": "Two Privilege Rooms of 24 m², each officially described for up to three guests: a double bed (twins available on request in some rooms), a convertible armchair intended for a child under 13, a desk, a bathroom with shower or bathtub, and a private balcony.",
+    "bedCaveat": "The official room description says the third sleeping place in a Privilege Room is a convertible armchair intended for a child under 13. For six adults, two people would be on those armchairs unless the hotel confirms a different setup. Photographs show the category, not the assigned rooms.",
+    "spa": "Official hotel pages list a wellness area with sauna, hammam and hot tub, included for hotel guests. The official spa page gives ski-season hours of 11:00–21:00 daily.",
+    "access": "The official hotel page states ski-in/ski-out access, on the slopes in the heart of Tignes le Lac, with the Tovière gondola just steps away.",
+    "apres": "The hotel is in Tignes le Lac, next to the Tovière gondola. A Folie Douce route from this hotel was not independently verified.",
+    "pros": [
+      "Official ski-in/ski-out location in Tignes le Lac, with the Tovière gondola just steps away.",
+      "Breakfast included; sauna, hammam and hot tub listed as included for hotel guests.",
+      "Flexible rate: free cancellation until 24 Dec 2026 at 23:59 Tignes time."
+    ],
+    "cons": [
+      "The official Privilege Room description says the third bed is a convertible armchair intended for a child under 13, so two of the six adults may not have a regular bed.",
+      "Dates overlap the Austria 24–31 Jan week and most of the Chalet Snowbel week (23–30 Jan).",
+      "The 30% deposit has already been charged; the balance is taken automatically at least 30 days before arrival."
+    ],
+    "officialUrl": "https://etincelles.com/en/hotel/le-levanna-hotel/",
+    "officialLabel": "View official hotel page",
+    "listingUrl": "https://www.booking.com/searchresults.html?ss=Hotel+Le+Levanna+Tignes&checkin=2027-01-24&checkout=2027-01-31&group_adults=6&no_rooms=2",
+    "listingLabel": "View on Booking.com",
+    "apresSource": "https://etincelles.com/en/hotel/le-levanna-hotel/",
+    "apresLabel": "Official hotel page",
+    "photos": [
+      {
+        "src": "assets/levanna-pistes.webp",
+        "alt": "Hôtel Le Levanna on the snow front in Tignes le Lac",
+        "label": "Le Levanna · snow-front exterior",
+        "source": "https://levanna.com/",
+        "note": "Official hotel photograph of the property on the slopes in Tignes le Lac."
+      },
+      {
+        "src": "assets/levanna-privilege.webp",
+        "alt": "Privilege Room with a double bed, seating and a balcony",
+        "label": "Privilege Room · category example",
+        "source": "https://levanna.com/en/rooms-and-suites-hotel-le-levanna-at-tignes-le-lac-alps/",
+        "note": "Official Privilege Room category photograph; not confirmed to be an assigned room. The seating shown is consistent with the listed convertible armchair."
+      },
+      {
+        "src": "assets/levanna-privilege-2.webp",
+        "alt": "Another official Privilege Room photograph",
+        "label": "Privilege Room · second category example",
+        "source": "https://levanna.com/en/rooms-and-suites-hotel-le-levanna-at-tignes-le-lac-alps/",
+        "note": "Official Privilege Room category photograph; furnishings can vary and the assigned rooms are not confirmed."
+      },
+      {
+        "src": "assets/levanna-privilege-balcony.webp",
+        "alt": "Privilege Room balcony overlooking the slopes",
+        "label": "Privilege Room · balcony",
+        "source": "https://levanna.com/en/rooms-and-suites-hotel-le-levanna-at-tignes-le-lac-alps/",
+        "note": "Official Privilege Room balcony photograph; views depend on the assigned room."
+      },
+      {
+        "src": "assets/levanna-spa.webp",
+        "alt": "Hot tub in the Hôtel Le Levanna wellness area",
+        "label": "Wellness area · hot tub",
+        "source": "https://levanna.com/spa/",
+        "note": "Official wellness photograph. The spa also lists a sauna and hammam."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Official Etincelles hotel page",
+        "url": "https://etincelles.com/en/hotel/le-levanna-hotel/"
+      },
+      {
+        "label": "Official hotel site",
+        "url": "https://levanna.com/"
+      },
+      {
+        "label": "Official rooms & suites",
+        "url": "https://levanna.com/en/rooms-and-suites-hotel-le-levanna-at-tignes-le-lac-alps/"
+      },
+      {
+        "label": "Official spa page",
+        "url": "https://levanna.com/spa/"
+      },
+      {
+        "label": "Booking.com search · 24–31 Jan",
+        "url": "https://www.booking.com/searchresults.html?ss=Hotel+Le+Levanna+Tignes&checkin=2027-01-24&checkout=2027-01-31&group_adults=6&no_rooms=2"
+      }
+    ],
+    "people": 6
   }
 ];

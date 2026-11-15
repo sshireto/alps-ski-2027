@@ -981,6 +981,7 @@ const HOTELS = [
 
   {
     "id": "glanz-glory",
+    "cancelled": "Cancelled free of charge on 15 Nov 2026",
     "name": "Glanz & Glory Hotel",
     "location": "Sölden · Dorfstraße 50",
     "resortVideo": {
@@ -1000,7 +1001,7 @@ const HOTELS = [
     "people": 6,
     "room": "2 × Deluxe Junior Suite",
     "roomShort": "Two Deluxe Junior Suites",
-    "positioning": "Newly booked Sun–Sun ski-in/ski-out hotel in Sölden, breakfast included, with spa.",
+    "positioning": "Cancelled free of charge on 15 Nov 2026 via Booking.com.",
     "tag": "NEWLY BOOKED",
     "mealShort": "Breakfast included",
     "spaShort": "Sauna, steam room & hot tub (listed)",
@@ -1021,7 +1022,7 @@ const HOTELS = [
     "access": "Booking.com lists 'Ski-in, ski-out access' and 50 m to the ski lift. Exact lift and route are not confirmed.",
     "accessShort": "Ski-in/out · 50 m to lift",
     "meals": "Breakfast is included in the final price for both suites (per the confirmation).",
-    "quoteSummary": "Booked total €9,570.92: 2 rooms €8,509.93 + VAT €850.99 + city tax €210 (€5 pp/night, collected by the property). Booking.com charges €9,360.92 automatically (€0 paid so far). Free cancellation until 24 Dec 2026 23:59 (property local time; 25 Dec 00:59 Israel); from 25 Dec 2026 00:00 cancellation or no-show costs €4,680.46 per suite (€9,360.92 total). Check-in Sun 24 Jan 15:00–20:30; check-out Sun 31 Jan 07:30–10:00. Photo ID and credit card required at check-in. Property phone +43 5254 2237.",
+    "quoteSummary": "CANCELLED free of charge on 15 Nov 2026 via Booking.com, inside the free-cancellation window (was free until 24 Dec 2026 23:59, property local time). Former booked total €9,570.92: 2 rooms €8,509.93 + VAT €850.99 + city tax €210 (€5 pp/night, collected by the property). Booking.com charges €9,360.92 automatically (€0 paid so far). From 25 Dec 2026 00:00 cancellation or no-show would have cost €4,680.46 per suite (€9,360.92 total). Check-in Sun 24 Jan 15:00–20:30; check-out Sun 31 Jan 07:30–10:00. Photo ID and credit card required at check-in. Property phone +43 5254 2237.",
     "bookingUrl": "https://www.booking.com/searchresults.html?ss=Glanz+%26+Glory+Hotel+S%C3%B6lden&checkin=2027-01-24&checkout=2027-01-31&group_adults=6&no_rooms=2",
     "photos": [
       {
@@ -1158,6 +1159,7 @@ const HOTELS = [
     ],
     "photoBadge": "Property gallery · unit unverified",
     "id": "lux-alp-chalet",
+    "cancelled": "Cancelled free of charge on 15 Nov 2026",
     "name": "LUX ALP CHALET am Arlberg",
     "location": "Warth am Arlberg · Ski Arlberg",
     "resortVideo": {
@@ -1172,7 +1174,7 @@ const HOTELS = [
     "cityTaxPpNight": 3.6,
     "room": "Three-Bedroom Chalet · about 102 m² (1,100 sq ft)",
     "roomShort": "One 3-bedroom chalet",
-    "positioning": "Newly booked Sun–Sun chalet in Warth (Ski Arlberg), breakfast included, with sauna.",
+    "positioning": "Cancelled free of charge on 15 Nov 2026 via Booking.com.",
     "mealShort": "Breakfast included",
     "spaShort": "Sauna",
     "bedsTable": "Own bed for everyone · 6 regular",
@@ -1191,7 +1193,7 @@ const HOTELS = [
     "spa": "Sauna listed for the chalet.",
     "access": "About 200–300 m from the Steffisalp lift in Warth (Ski Arlberg).",
     "accessShort": "Steffisalp · ~200–300 m",
-    "quoteSummary": "Booked total €7,825.60 (incl. a €106 other fee): booking €7,674.40, charged automatically by Booking.com (€0 paid so far), + city tax €151.20 (€3.60 pp/night, paid at the property). Free cancellation until 24 Dec 2026 23:59 CET (property local time; 25 Dec 00:59 Israel); from 25 Dec 2026 00:00 cancellation or no-show costs €7,568.40. Check-in Sun 24 Jan; check-out Sun 31 Jan.",
+    "quoteSummary": "CANCELLED free of charge on 15 Nov 2026 via Booking.com, inside the free-cancellation window (was free until 24 Dec 2026 23:59 CET; 25 Dec 00:59 Israel). Former booked total €7,825.60 (incl. a €106 other fee): booking €7,674.40, charged automatically by Booking.com (€0 paid so far), + city tax €151.20 (€3.60 pp/night, paid at the property). From 25 Dec 2026 00:00 cancellation or no-show would have cost €7,568.40. Check-in Sun 24 Jan; check-out Sun 31 Jan.",
     "meals": "Breakfast is included.",
     "bookingUrl": "https://www.booking.com/hotel/at/lux-alp-chalet.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
     "bedPlan": {
@@ -1535,6 +1537,7 @@ const HOTELS = [
     ],
     "photoBadge": "Official hotel photos · unit unverified",
     "id": "alpenland-obertauern",
+    "cancelled": "Cancelled free of charge on 15 Nov 2026",
     "name": "Hotel Alpenland",
     "location": "Obertauern · Seekarstraße 15",
     "resortVideo": {
@@ -1548,7 +1551,7 @@ const HOTELS = [
     "cityTaxPpNight": 4.05,
     "room": "Three-Bedroom Apartment · about 106 m²",
     "roomShort": "One 3-bedroom / 3-bath apartment",
-    "positioning": "Newly booked Sun–Sun apartment in Obertauern with a ski room straight onto the piste; pool, saunas and rooftop hot tub included.",
+    "positioning": "Cancelled free of charge on 15 Nov 2026 via Booking.com.",
     "mealShort": "Breakfast optional · €25 pp/night",
     "spaShort": "Hot tub, 80 m² pool & 4 saunas · included",
     "bedsTable": "3 queens + 1 sofa bed",
@@ -1567,7 +1570,7 @@ const HOTELS = [
     "spa": "Outdoor panoramic rooftop hot tub, 80 m² pool and 4 saunas, included for apartment guests (official hotel site).",
     "access": "Ski room straight onto the piste; about 150 m to the lift per Booking.com. The mapped walk to the Zentralbahn valley station is 335 m.",
     "accessShort": "Ski room onto piste · ~150 m to lift",
-    "quoteSummary": "Booked total €6,875.10: apartment €6,095.45 + VAT €609.55 = €6,705 charged automatically by Booking.com (€0 paid so far), + city tax €170.10 (€4.05 pp/night, excluded, paid at the property). €1,145.85 per person · about €163.69 per person per night. Free cancellation until 24 Nov 2026 23:59 CET (25 Nov 00:59 Israel); from 25 Nov 50% (€3,352.50); from 25 Jan 2027 €6,705. Check-in Sun 24 Jan (14:00–21:00); check-out Sun 31 Jan (08:00–11:00).",
+    "quoteSummary": "CANCELLED free of charge on 15 Nov 2026 via Booking.com, inside the free-cancellation window (was free until 24 Nov 2026 23:59 CET; 25 Nov 00:59 Israel). Former booked total €6,875.10: apartment €6,095.45 + VAT €609.55 = €6,705 charged automatically by Booking.com (€0 paid so far), + city tax €170.10 (€4.05 pp/night, excluded, paid at the property). €1,145.85 per person · about €163.69 per person per night. From 25 Nov 50% (€3,352.50); from 25 Jan 2027 €6,705. Check-in Sun 24 Jan (14:00–21:00); check-out Sun 31 Jan (08:00–11:00).",
     "meals": "Breakfast is optional at €25 per person per night; dinner €55 per person per night.",
     "bookingUrl": "https://www.booking.com/hotel/at/alpenland-obertauern.html?checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
     "bedPlan": {
@@ -1900,6 +1903,7 @@ const HOTELS = [
   },
   {
     "id": "sonnleiten-saalbach",
+    "cancelled": "Cancelled on 15 Nov 2026, within the free-cancellation window",
     "name": "AlpenParks Hotel & Apartment Sonnleiten · Dream SPA",
     "location": "Saalbach · Kohlmais",
     "week": "late",
@@ -1942,7 +1946,7 @@ const HOTELS = [
     "photoBadge": "Official Dream SPA category · layout varies",
     "room": "Apartment Dream SPA · six adults · approximately 90 m² category. Two or three enclosed bedrooms; a regular double bed may be in the living area.",
     "roomShort": "Apartment Dream SPA · 2 or 3 enclosed bedrooms",
-    "positioning": "Booked directly, with breakfast, a private sauna and a shared heated outdoor pool. A cancellable booking on the group shortlist; no final group choice has been made.",
+    "positioning": "Cancelled on 15 Nov 2026, within the free-cancellation window (was free until 28 Nov 2026 at 23:59 CET).",
     "mealShort": "Breakfast included · Flexi Rate",
     "spaShort": "Private sauna + shared heated outdoor pool",
     "bedsTable": "3 king beds · sofa bed unused; 2 or 3 enclosed bedrooms",
@@ -1962,7 +1966,7 @@ const HOTELS = [
     "spa": "Private sauna in the Dream SPA apartment, plus the shared outdoor pool heated year-round.",
     "access": "The official property advertises ski-in/out on the Kohlmais slope. Listing/review information suggests a very short approach to pistes/lifts, roughly 70–100 m. This is an approximate proximity figure, not a measured walking route or a guarantee of skiing from the apartment door. Snow conditions and the assigned apartment affect access.",
     "accessShort": "Kohlmais ski-in/out advertised · ~70–100 m approach",
-    "quoteSummary": "Booked directly: Flexi Rate with breakfast, cancellable. All-in total €8,672.11 = €8,348.21 accommodation + €200.00 cleaning + €123.90 local/mobility tax. Approximately €206.48 per person per night for six adults over seven nights. 30% deposit (€2,504.46) paid on 19 October 2026; €6,043.75 balance plus the €123.90 tax due on site. Free cancellation until 28 November 2026 at 23:59 CET (29 November 2026 at 00:59 Israel); after that 30% (€2,504.46), from 12 December 23:59 CET 50% (€4,174.11), from 26 December 23:59 CET 70% (€5,843.75), from 16 January 23:59 CET 100% (€8,348.21). Check-in 24 January from 15:00; check-out 31 January by 10:00. This is a booked shortlist option, not the final group choice.",
+    "quoteSummary": "CANCELLED on 15 Nov 2026, within the free-cancellation window (was free until 28 November 2026 at 23:59 CET; 29 November 2026 at 00:59 Israel). The €2,504.46 deposit refund has not yet been confirmed. Former all-in total €8,672.11 = €8,348.21 accommodation + €200.00 cleaning + €123.90 local/mobility tax. Approximately €206.48 per person per night for six adults over seven nights. 30% deposit (€2,504.46) paid on 19 October 2026; €6,043.75 balance plus the €123.90 tax were due on site. After the free-cancellation deadline, charges would have been 30% (€2,504.46), from 12 December 23:59 CET 50% (€4,174.11), from 26 December 23:59 CET 70% (€5,843.75), from 16 January 23:59 CET 100% (€8,348.21). Check-in 24 January from 15:00; check-out 31 January by 10:00.",
     "meals": "Breakfast is included in the booked Flexi Rate. The apartment also has a kitchen.",
     "officialUrl": "https://www.alpenparks.at/en/hotel-apartment-sonnleiten-saalbach",
     "officialLabel": "View official site (booked direct)",
@@ -2008,6 +2012,133 @@ const HOTELS = [
       {
         "label": "Direct booking portal",
         "url": "https://booking-hotel-apartment-sonnleiten-saalbach.alpenparks.at/"
+      }
+    ]
+  },
+  {
+    "id": "alpenparks-arlberg",
+    "name": "AlpenParks Hotel & Apartment Arlberg",
+    "location": "Warth am Arlberg · Warth 84",
+    "week": "late",
+    "dates": "24–31",
+    "nights": 7,
+    "people": 6,
+    "booked": true,
+    "verifiedOn": "15 November 2026",
+    "total": 6688,
+    "photos": [
+      {
+        "src": "assets/arlberg-exterior-drone.webp",
+        "alt": "AlpenParks Arlberg winter exterior, infinity pool and piste beside the hotel",
+        "label": "Winter exterior & infinity pool",
+        "source": "https://www.alpenparks.at/en/hotel-apartment-arlberg",
+        "note": "Official property photograph. This shows the hotel and shared pool, not a confirmed apartment unit."
+      },
+      {
+        "src": "assets/arlberg-pool.webp",
+        "alt": "Heated outdoor infinity pool at AlpenParks Arlberg",
+        "label": "Outdoor infinity pool",
+        "source": "https://www.alpenparks.at/en/hotel-apartment-arlberg/holiday-apartments/wellness",
+        "note": "Official wellness photograph of the shared outdoor infinity pool (14 × 6 m on the official site)."
+      },
+      {
+        "src": "assets/arlberg-wellness.webp",
+        "alt": "Relaxation area with loungers at AlpenParks Arlberg",
+        "label": "Wellness relaxation area",
+        "source": "https://www.alpenparks.at/en/hotel-apartment-arlberg/holiday-apartments/wellness",
+        "note": "Official wellness photograph of the shared spa; sauna and steam bath are listed separately."
+      },
+      {
+        "src": "assets/arlberg-exterior.webp",
+        "alt": "AlpenParks Arlberg hotel exterior in summer",
+        "label": "Summer exterior",
+        "source": "https://www.alpenparks.at/en/hotel-apartment-arlberg",
+        "note": "Official property photograph, taken in summer."
+      }
+    ],
+    "photoBadge": "Official property photos · unit unverified",
+    "room": "1 unit for 6 adults. The apartment category is not named in the booking emails.",
+    "roomShort": "One apartment for 6 adults · category unconfirmed",
+    "positioning": "Booked direct on 15 Nov 2026. The hotel says the stay is only confirmed once a €1,962.30 deposit is received (requested within 2 days, around 17 Nov). Cancellation terms are not yet known.",
+    "tag": "NEWLY BOOKED",
+    "mealShort": "Meals not stated in the booking emails",
+    "spaShort": "Sauna area & heated infinity pool · included",
+    "bedsTable": "Bed layout unconfirmed",
+    "beds": "The booking is for 1 unit and 6 adults; the apartment category is not named in the booking emails, so the bed layout is unconfirmed. Official categories that sleep six include 2-bedroom apartments (4–6 guests, 75–115 m²) and 3-bedroom apartments (6–8 guests, 120–140 m²).",
+    "roomCaveat": "Booked direct (Seekda) on 15 Nov 2026: 1 unit, 6 adults, 24–31 Jan 2027. Do not assume a particular apartment type or bed setup until the hotel names the category.",
+    "pros": [
+      "Official site advertises ski-in/ski-out, with the next lift (Dorfbahn Warth) only a few metres away.",
+      "Official included-services page lists the sauna area and heated outdoor infinity pool (14 × 6 m) as included.",
+      "€159.24 per person per night for the stated €6,688.00 total."
+    ],
+    "cons": [
+      "The hotel says the booking is only confirmed once the €1,962.30 deposit is received, requested within 2 days (around 17 Nov 2026).",
+      "Cancellation terms are not yet known. A question was sent to the hotel on 15 Nov 2026 about switching to a non-refundable rate before the deposit is paid; no reply had been received when this was last checked.",
+      "The apartment category and bed layout are unconfirmed.",
+      "Whether breakfast is included in this booking was not stated in the booking emails."
+    ],
+    "spa": "Official wellness and included-services pages list a sauna area (Finnish sauna at 80 °C, steam bath and relaxation area) and a heated outdoor infinity pool (14 × 6 m), included in the price. A guest sauna package of bathrobe and sauna towel is listed against a deposit. These are shared hotel facilities, not a private apartment spa.",
+    "access": "The official site advertises a unique ski-in/ski-out location, directly on the slopes of Dorfbahn Warth, with the next lift only a few metres away. Exact doorstep skiing depends on snow and the assigned apartment and is not independently measured here.",
+    "accessShort": "Ski-in/out advertised · Dorfbahn Warth a few metres",
+    "quoteSummary": "Booked direct (Seekda) on 15 Nov 2026. Stated total €6,688.00 for 1 unit, 6 adults, 7 nights (about €159.24 per person per night). The hotel says the booking is only confirmed once a €1,962.30 deposit is received, requested within 2 days (around 17 Nov 2026). Cancellation terms are not yet known. A question was sent to the hotel on 15 Nov 2026 about switching to a non-refundable rate before the deposit is paid; no reply had been received when this was last checked. Whether the €6,688.00 total includes tourist tax, and whether breakfast is included, was not stated in the booking emails. Official included-services page lists a breakfast buffet and in-house restaurant, with winter half-board available on request.",
+    "meals": "Meals are not stated in the booking emails. The official included-services page lists a breakfast buffet and an in-house restaurant (alp's Restaurant & Bar); winter half-board can be added on request. Do not assume breakfast is included in the €6,688.00 total until the hotel confirms it.",
+    "officialUrl": "https://www.alpenparks.at/en/hotel-apartment-arlberg",
+    "officialLabel": "View official site (booked direct)",
+    "bookingUrl": "https://www.booking.com/searchresults.html?ss=AlpenParks+Hotel+%26+Apartment+Arlberg+Warth&checkin=2027-01-24&checkout=2027-01-31&group_adults=6",
+    "directUrl": "https://booking-hotel-apartment-arlberg.alpenparks.at/",
+    "bedPlan": {
+      "headline": "Bed layout unconfirmed",
+      "regular": "Unconfirmed",
+      "extra": "Unconfirmed",
+      "layout": "1 unit for 6 adults. Official 6-guest categories include 2-bedroom and 3-bedroom apartments; the booked category is not named in the emails.",
+      "note": "Do not assume everyone has a regular bed until the hotel names the apartment type.",
+      "source": "https://www.alpenparks.at/en/hotel-apartment-arlberg/holiday-apartments/overview"
+    },
+    "wellness": {
+      "label": "Yes · Sauna area & heated infinity pool",
+      "facilities": "Finnish sauna (80 °C), steam bath, relaxation area, and a heated outdoor infinity pool (14 × 6 m).",
+      "inclusion": "Sauna area and infinity outdoor pool listed as included on the official included-services page.",
+      "note": "Shared hotel facilities. Bathrobe and sauna towel listed against a deposit.",
+      "source": "https://www.alpenparks.at/en/hotel-apartment-arlberg/holiday-apartments/included-services"
+    },
+    "skiAccess": {
+      "label": "Ski-in/ski-out advertised · a few metres to the lift",
+      "skiIn": "Advertised by the official site; doorstep access unconfirmed",
+      "skiOut": "Advertised by the official site; next lift a few metres away",
+      "lift": "Dorfbahn Warth",
+      "walk": "Official site: next lift only a few metres away, on the slopes of Dorfbahn Warth.",
+      "note": "Not a measured walking route. Snow and the assigned apartment affect access.",
+      "source": "https://www.alpenparks.at/en/hotel-apartment-arlberg",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=AlpenParks+Hotel+%26+Apartment+Arlberg+Warth+84"
+    },
+    "sources": [
+      {
+        "label": "Official property",
+        "url": "https://www.alpenparks.at/en/hotel-apartment-arlberg"
+      },
+      {
+        "label": "Official apartments overview",
+        "url": "https://www.alpenparks.at/en/hotel-apartment-arlberg/holiday-apartments/overview"
+      },
+      {
+        "label": "Official included services",
+        "url": "https://www.alpenparks.at/en/hotel-apartment-arlberg/holiday-apartments/included-services"
+      },
+      {
+        "label": "Official wellness",
+        "url": "https://www.alpenparks.at/en/hotel-apartment-arlberg/holiday-apartments/wellness"
+      },
+      {
+        "label": "Official skiing page",
+        "url": "https://www.alpenparks.at/en/hotel-apartment-arlberg/winter-holiday/skiing-snowboarding"
+      },
+      {
+        "label": "Direct booking portal",
+        "url": "https://booking-hotel-apartment-arlberg.alpenparks.at/"
+      },
+      {
+        "label": "Map · Warth 84",
+        "url": "https://www.google.com/maps/search/?api=1&query=AlpenParks+Hotel+%26+Apartment+Arlberg+Warth+84"
       }
     ]
   }
