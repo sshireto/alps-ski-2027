@@ -144,7 +144,7 @@ dialog figcaption{color:#e6efe8;font-size:13px;margin-top:8px;text-align:center}
 
 <section id="vote">
   <h2>🗳 Group vote</h2>
-  <p class="sub">Everyone ranks all four. Results update live for the whole group.</p>
+  <p class="sub">Everyone ranks all four. Results are revealed once all 6 have voted.</p>
   <div class="vote">
     <div class="panel">
       <h3>Your ranking</h3>
@@ -155,12 +155,12 @@ dialog figcaption{color:#e6efe8;font-size:13px;margin-top:8px;text-align:center}
       <div class="actions"><button class="btn" id="vsubmit" disabled>Submit vote</button><button class="btn ghost" id="vreset">Clear</button><span class="status" id="vstatus" aria-live="polite"></span></div>
     </div>
     <div class="panel">
-      <h3>Live results <span class="live" id="live">Live</span></h3>
+      <h3><span id="rtitle">Results</span> <span class="live" id="live">Live</span></h3>
       <p class="hint">Voting again with the same name replaces your vote.</p>
       <div class="prog" id="vprog"><div class="pt"><strong id="vprogt">0 of 6 voted</strong><span id="vprogs">Waiting for votes</span></div><div class="pb"><i id="vprogb" style="width:0"></i></div></div>
       <div class="voters" id="voters"></div>
       <ol class="results" id="results"></ol>
-      <p class="empty" id="rempty">No votes yet — be the first.</p>
+      <p class="empty" id="rempty">🔒 Results appear once all 6 have voted.</p>
       <ul class="notes" id="vnotes"></ul>
       <p class="scoring">Scoring: #1 = 3 pts, #2 = 2, #3 = 1, #4 = 0. Ties go to more first-place votes.</p>
     </div>
@@ -325,20 +325,22 @@ lb.addEventListener('touchend', e => { if (tx == null) return; const dx = e.chan
     return rows;
   }
   function renderResults() {
-    const rows = tally(), max = Math.max(1, votes.length * (N - 1)), has = votes.length > 0;
-    $('rempty').hidden = has; $('results').hidden = !has;
+    const rows = tally(), max = Math.max(1, votes.length * (N - 1)), has = votes.length > 0, reveal = votes.length >= PEOPLE;
     const done = Math.min(votes.length, PEOPLE);
     $('vprogt').textContent = `${votes.length} of ${PEOPLE} voted`;
-    $('vprogs').textContent = votes.length >= PEOPLE ? '✓ Everyone voted' : `${PEOPLE - votes.length} still to vote`;
+    $('vprogs').textContent = reveal ? '✓ Everyone voted' : `${PEOPLE - votes.length} still to vote`;
     $('vprogb').style.width = `${done / PEOPLE * 100}%`;
-    $('vprog').classList.toggle('done', votes.length >= PEOPLE);
+    $('vprog').classList.toggle('done', reveal);
     $('voters').innerHTML = votes.map(v => `<span>${esc(v.name)}</span>`).join('');
-    $('results').innerHTML = rows.map(r => { const h = byId[r.id], first = has && r.place === 1; return `<li class="res ${first ? 'first' : ''}"><span class="p">${first ? '🏆' : r.place}</span><div><div class="rtop"><strong>${esc(h.name)}</strong><span>${r.pts} pts</span></div><div class="bar"><i style="width:${r.pts / max * 100}%"></i></div><div class="meta">${r.firsts.length ? `#1 for ${r.firsts.map(esc).join(', ')}` : 'No first-place votes'}</div></div></li>`; }).join('');
-    const withNotes = votes.filter(v => v.note);
-    $('vnotes').innerHTML = withNotes.map(v => `<li>“${esc(v.note)}” <small>— ${esc(v.name)}, #1 ${esc(byId[v.ranking[0]]?.name || '')}</small></li>`).join('');
+    $('rtitle').textContent = reveal ? 'Results' : 'Results are hidden';
+    $('rempty').hidden = reveal;
+    $('rempty').textContent = `🔒 Results appear once all ${PEOPLE} have voted.`;
+    $('results').hidden = !reveal;
+    $('results').innerHTML = !reveal ? '' : rows.map(r => { const h = byId[r.id], first = r.place === 1; return `<li class="res ${first ? 'first' : ''}"><span class="p">${first ? '🏆' : r.place}</span><div><div class="rtop"><strong>${esc(h.name)}</strong><span>${r.pts} pts</span></div><div class="bar"><i style="width:${r.pts / max * 100}%"></i></div><div class="meta">${r.firsts.length ? `#1 for ${r.firsts.map(esc).join(', ')}` : 'No first-place votes'}</div></div></li>`; }).join('');
+    $('vnotes').innerHTML = !reveal ? '' : votes.filter(v => v.note).map(v => `<li>“${esc(v.note)}” <small>— ${esc(v.name)}, #1 ${esc(byId[v.ranking[0]]?.name || '')}</small></li>`).join('');
     document.querySelectorAll('.votechip').forEach(n => n.remove());
     document.querySelectorAll('.c.lead').forEach(c => c.classList.remove('lead'));
-    if (has) rows.forEach(r => { document.querySelector(`.photos .c[data-h="${r.id}"]`).insertAdjacentHTML('beforeend', `<a class="votechip" href="#vote">${r.place === 1 ? '🏆 ' : ''}Vote #${r.place} · ${r.pts} pts</a>`); if (r.place === 1) document.querySelectorAll(`.names .c[data-h="${r.id}"]`).forEach(c => c.classList.add('lead')); });
+    if (reveal) rows.forEach(r => { document.querySelector(`.photos .c[data-h="${r.id}"]`).insertAdjacentHTML('beforeend', `<a class="votechip" href="#vote">${r.place === 1 ? '🏆 ' : ''}Vote #${r.place} · ${r.pts} pts</a>`); if (r.place === 1) document.querySelectorAll(`.names .c[data-h="${r.id}"]`).forEach(c => c.classList.add('lead')); });
   }
   async function load() {
     try {
