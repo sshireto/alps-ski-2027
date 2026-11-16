@@ -185,7 +185,7 @@ const ROWS = [
   ['food', '🍳', 'Breakfast'],
 ];
 const HOTELS = [
-  { id:'warth', name:'AlpenParks Arlberg', loc:'Warth · Ski Arlberg', badge:'Cheapest · pool', total:6688,
+  { id:'warth', name:'AlpenParks Arlberg', loc:'Warth · Ski Arlberg', badge:'Cheapest · pool', total:6688, alt:6053,
     verdict:'Best value: proper beds, heated pool, ski-in/out and great breakfast — but quiet evenings.',
     photos:[['../booked/assets/arlberg-exterior-drone.webp','Hotel on the slopes'],['../booked/assets/arlberg-pool.webp','Heated outdoor infinity pool'],['../booked/assets/arlberg-wellness.webp','Wellness area'],['../booked/assets/arlberg-exterior.webp','Exterior']],
     access:['good','Ski-in / ski-out','Dorfbahn lift beside the hotel (advertised)'],
@@ -257,7 +257,7 @@ const key = (ic, lbl) => `<div class="k"><span class="ic" aria-hidden="true">${i
 document.getElementById('mx').innerHTML = [
   `<div class="mrow photos"><div class="k" style="background:#fff"></div>${HOTELS.map(h => `<div class="c" data-h="${h.id}"><span class="hn">${esc(SHORT[h.id])}</span><button class="photo" data-gallery="${h.id}" aria-label="Open ${esc(h.name)} photos"><img src="${h.photos[0][0]}" alt="${esc(h.photos[0][1])}"><span class="count">📷 ${h.photos.length}</span></button><span class="badge">${esc(h.badge)}</span></div>`).join('')}</div>`,
   `<div class="mrow names"><div class="k">Hotel</div>${HOTELS.map(h => `<div class="c" data-h="${h.id}"><strong>${esc(h.name)}</strong><small>${esc(h.loc)}</small></div>`).join('')}</div>`,
-  `<div class="mrow">${key('💶', 'Price<br><small style="font-weight:600;color:var(--muted)">total, 6 people, 7 nights</small>')}${HOTELS.map(h => cell(h, h.price[0], `<div class="price">${eur(h.total)}</div><span class="st ${h.price[0]}" style="font-size:12.5px;margin-top:4px">${h.price[1]}</span><span class="det">${eur(Math.round(pp(h)))} each · ${eur(Math.round(ppn(h)))}/night each</span>`)).join('')}</div>`,
+  `<div class="mrow">${key('💶', 'Price<br><small style="font-weight:600;color:var(--muted)">total, 6 people, 7 nights</small>')}${HOTELS.map(h => cell(h, h.price[0], `<div class="price">${eur(h.total)}${h.alt ? `<span style="font-size:15px;color:var(--muted)"> / ${eur(h.alt)}</span>` : ''}</div>${h.alt ? `<span class="det" style="margin-top:2px">${eur(h.alt)} if non-refundable (−${eur(h.total - h.alt)})</span>` : ''}<span class="st ${h.price[0]}" style="font-size:12.5px;margin-top:4px">${h.price[1]}</span><span class="det">${eur(Math.round(pp(h)))} each · ${eur(Math.round(ppn(h)))}/night each</span>`)).join('')}</div>`,
   ...ROWS.map(([k, ic, lbl]) => `<div class="mrow">${key(ic, lbl)}${HOTELS.map(h => { const [s, t, d] = h[k]; return cell(h, s, `<span class="st ${s}">${esc(t)}</span><span class="det">${esc(d)}</span>`); }).join('')}</div>`),
   `<div class="mrow">${key('⚠', 'Before booking')}${HOTELS.map(h => cell(h, h.fix[0], `<span class="st ${h.fix[0]}">${esc(h.fix[1])}</span><span class="det">${esc(h.fix[2])}</span>`)).join('')}</div>`,
   `<div class="mrow">${key('💬', 'Bottom line')}${HOTELS.map(h => cell(h, '', `<span class="verdict">${esc(h.verdict)}</span>`)).join('')}</div>`,
@@ -288,7 +288,7 @@ lb.addEventListener('touchend', e => { if (tx == null) return; const dx = e.chan
   nameIn.value = store.get('ff-name') || '';
 
   function renderPicks() {
-    $('picks').innerHTML = HOTELS.map(h => { const r = order.indexOf(h.id) + 1; return `<button type="button" class="pick ${r ? 'on' : ''} ${r === 1 ? 'r1' : ''}" data-pick="${h.id}" aria-pressed="${!!r}"><span class="n">${r || '–'}</span><img src="${h.photos[0][0]}" alt=""><span><strong>${esc(h.name)}</strong><small>${esc(h.loc)} · ${eur(h.total)} total</small></span></button>`; }).join('');
+    $('picks').innerHTML = HOTELS.map(h => { const r = order.indexOf(h.id) + 1; return `<button type="button" class="pick ${r ? 'on' : ''} ${r === 1 ? 'r1' : ''}" data-pick="${h.id}" aria-pressed="${!!r}"><span class="n">${r || '–'}</span><img src="${h.photos[0][0]}" alt=""><span><strong>${esc(h.name)}</strong><small>${esc(h.loc)} · ${eur(h.total)}${h.alt ? ` / ${eur(h.alt)}` : ''} total</small></span></button>`; }).join('');
     const ready = order.length === N && nameIn.value.trim();
     btn.disabled = busy || !ready;
     if (!busy && !status.classList.contains('err') && !status.classList.contains('okk')) status.textContent = order.length < N ? `${N - order.length} left to rank` : nameIn.value.trim() ? 'Ready to submit' : 'Add your name';
