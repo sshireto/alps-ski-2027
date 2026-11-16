@@ -89,8 +89,8 @@ h2{font-size:clamp(22px,3vw,30px);letter-spacing:-.03em;margin:0 0 4px}
 .res{display:grid;grid-template-columns:30px minmax(0,1fr);gap:10px;align-items:center}
 .res .p{font-weight:900;font-size:18px;text-align:center;color:var(--muted)}
 .res.first .p{color:#b58a00}
-.res .top{display:flex;justify-content:space-between;gap:8px;font-size:14px}
-.res .top strong{font-weight:800}.res .top span{font-weight:800;white-space:nowrap}
+.res .rtop{display:flex;justify-content:space-between;gap:8px;font-size:14px}
+.res .rtop strong{font-weight:800}.res .rtop span{font-weight:800;white-space:nowrap}
 .bar{height:12px;background:var(--soft);border-radius:99px;overflow:hidden;margin:5px 0 3px;border:1px solid var(--edge)}
 .bar i{display:block;height:100%;background:var(--pine2);border-radius:99px;transition:width .5s}
 .res.first .bar i{background:linear-gradient(90deg,#d9a400,var(--gold))}
@@ -333,7 +333,7 @@ lb.addEventListener('touchend', e => { if (tx == null) return; const dx = e.chan
     $('vprogb').style.width = `${done / PEOPLE * 100}%`;
     $('vprog').classList.toggle('done', votes.length >= PEOPLE);
     $('voters').innerHTML = votes.map(v => `<span>${esc(v.name)}</span>`).join('');
-    $('results').innerHTML = rows.map(r => { const h = byId[r.id], first = has && r.place === 1; return `<li class="res ${first ? 'first' : ''}"><span class="p">${first ? '🏆' : r.place}</span><div><div class="top"><strong>${esc(h.name)}</strong><span>${r.pts} pts</span></div><div class="bar"><i style="width:${r.pts / max * 100}%"></i></div><div class="meta">${r.firsts.length ? `#1 for ${r.firsts.map(esc).join(', ')}` : 'No first-place votes'}</div></div></li>`; }).join('');
+    $('results').innerHTML = rows.map(r => { const h = byId[r.id], first = has && r.place === 1; return `<li class="res ${first ? 'first' : ''}"><span class="p">${first ? '🏆' : r.place}</span><div><div class="rtop"><strong>${esc(h.name)}</strong><span>${r.pts} pts</span></div><div class="bar"><i style="width:${r.pts / max * 100}%"></i></div><div class="meta">${r.firsts.length ? `#1 for ${r.firsts.map(esc).join(', ')}` : 'No first-place votes'}</div></div></li>`; }).join('');
     const withNotes = votes.filter(v => v.note);
     $('vnotes').innerHTML = withNotes.map(v => `<li>“${esc(v.note)}” <small>— ${esc(v.name)}, #1 ${esc(byId[v.ranking[0]]?.name || '')}</small></li>`).join('');
     document.querySelectorAll('.votechip').forEach(n => n.remove());
