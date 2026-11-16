@@ -148,7 +148,7 @@ dialog figcaption{color:#e6efe8;font-size:13px;margin-top:8px;text-align:center}
   <div class="vote">
     <div class="panel">
       <h3>Your ranking</h3>
-      <p class="hint">Type your name, then tap the hotels in order — favourite first. Tap again to undo.</p>
+      <p class="hint">Type your name, then tap the hotels in order — favourite first. Tap again to undo. Once you submit, your vote is final.</p>
       <div class="name"><input id="vname" maxlength="32" autocomplete="given-name" placeholder="Your name"></div>
       <div class="picks" id="picks"></div>
       <div class="name" style="margin:12px 0 0"><input id="vnote" maxlength="160" placeholder="Why your #1? (optional)"></div>
@@ -156,7 +156,7 @@ dialog figcaption{color:#e6efe8;font-size:13px;margin-top:8px;text-align:center}
     </div>
     <div class="panel">
       <h3><span id="rtitle">Results</span> <span class="live" id="live">Live</span></h3>
-      <p class="hint">Voting again with the same name replaces your vote.</p>
+      <p class="hint">🔒 Votes are final — once submitted, they can't be changed.</p>
       <div class="prog" id="vprog"><div class="pt"><strong id="vprogt">0 of 6 voted</strong><span id="vprogs">Waiting for votes</span></div><div class="pb"><i id="vprogb" style="width:0"></i></div></div>
       <div class="voters" id="voters"></div>
       <ol class="results" id="results"></ol>
@@ -289,26 +289,35 @@ lb.addEventListener('touchend', e => { if (tx == null) return; const dx = e.chan
 
   function renderPicks() {
     $('picks').innerHTML = HOTELS.map(h => { const r = order.indexOf(h.id) + 1; return `<button type="button" class="pick ${r ? 'on' : ''} ${r === 1 ? 'r1' : ''}" data-pick="${h.id}" aria-pressed="${!!r}"><span class="n">${r || '–'}</span><img src="${h.photos[0][0]}" alt=""><span><strong>${esc(h.name)}</strong><small>${esc(h.loc)} · ${eur(h.total)}${h.alt ? ` / ${eur(h.alt)}` : ''} total</small></span></button>`; }).join('');
-    const ready = order.length === N && nameIn.value.trim();
-    btn.disabled = busy || !ready;
-    if (!busy && !status.classList.contains('err') && !status.classList.contains('okk')) status.textContent = order.length < N ? `${N - order.length} left to rank` : nameIn.value.trim() ? 'Ready to submit' : 'Add your name';
+    const ready = order.length === N && nameIn.value.trim(), locked = voted(nameIn.value);
+    btn.disabled = busy || !ready || locked;
+    btn.textContent = locked ? 'Vote locked' : 'Submit vote';
+    $('vreset').hidden = locked;
+    $('picks').querySelectorAll('.pick').forEach(b => { b.disabled = locked; b.style.cursor = locked ? 'default' : ''; });
+    if (locked && !status.classList.contains('okk')) { status.className = 'status'; status.textContent = '🔒 You already voted — votes are final.'; }
+    else if (!busy && !status.classList.contains('err') && !status.classList.contains('okk')) status.textContent = order.length < N ? `${N - order.length} left to rank` : nameIn.value.trim() ? 'Ready to submit' : 'Add your name';
   }
+  const voted = n => { const k = keyOf(n || ''); return !!k && votes.some(v => keyOf(v.name) === k); };
   $('picks').addEventListener('click', e => {
-    const b = e.target.closest('[data-pick]'); if (!b) return;
+    const b = e.target.closest('[data-pick]'); if (!b || voted(nameIn.value)) return;
     const id = b.dataset.pick, i = order.indexOf(id);
     if (i >= 0) order = order.slice(0, i); else order.push(id);
     if (order.length === N - 1) order.push(HOTELS.find(h => !order.includes(h.id)).id); // last one fills itself
     status.className = 'status'; renderPicks();
   });
-  nameIn.addEventListener('input', () => { status.className = 'status'; renderPicks(); });
+  let wasLocked = false;
+  nameIn.addEventListener('input', () => { const me = votes.find(v => keyOf(v.name) === keyOf(nameIn.value || '')); if (me) { order = me.ranking.filter(id => byId[id]); wasLocked = true; } else if (wasLocked) { order = []; wasLocked = false; } status.className = 'status'; renderPicks(); });
   $('vreset').onclick = () => { order = []; status.className = 'status'; renderPicks(); };
 
   btn.onclick = async () => {
     const name = nameIn.value.replace(/\s+/g, ' ').trim().slice(0, 32);
-    if (!name || order.length !== N) return;
+    if (!name || order.length !== N || voted(name)) return;
     busy = true; status.className = 'status'; status.textContent = 'Saving…'; renderPicks();
     try {
+      await load();
+      if (voted(name)) { busy = false; status.className = 'status err'; status.textContent = `🔒 ${name} already voted — votes are final.`; renderPicks(); return; }
       const res = await fetch(API, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ poll: POLL, name, ranking: order, note: noteIn.value.trim() }) });
+      if (res.status === 409) { busy = false; status.className = 'status err'; status.textContent = `🔒 ${name} already voted — votes are final.`; await load(); renderPicks(); return; }
       if (!res.ok) throw 0;
       store.set('ff-name', name);
       status.className = 'status okk'; status.textContent = `✓ Saved, ${name}`;
@@ -345,11 +354,13 @@ lb.addEventListener('touchend', e => { if (tx == null) return; const dx = e.chan
   async function load() {
     try {
       const res = await fetch(`${API}?poll=${POLL}`, { cache: 'no-store' });
+      if (res.status === 409) { busy = false; status.className = 'status err'; status.textContent = `🔒 ${name} already voted — votes are final.`; await load(); renderPicks(); return; }
       if (!res.ok) throw 0;
       votes = (await res.json()).votes || [];
       $('live').className = 'live'; $('live').textContent = 'Live';
       const me = votes.find(v => keyOf(v.name) === keyOf(nameIn.value || ''));
-      if (me && !order.length) { order = me.ranking.filter(id => byId[id]); noteIn.value = noteIn.value || me.note || ''; renderPicks(); }
+      if (me) { order = me.ranking.filter(id => byId[id]); noteIn.value = me.note || ''; }
+      renderPicks();
     } catch { $('live').className = 'live off'; $('live').textContent = 'Offline'; }
     renderResults();
   }

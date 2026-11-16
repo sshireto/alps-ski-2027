@@ -6,6 +6,8 @@
 
 const ALLOWED_ORIGINS = [/^https:\/\/sshireto\.github\.io$/, /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/];
 const ID = /^[a-z0-9][a-z0-9-]{0,63}$/;
+// Polls where a ballot is final: it cannot be replaced or withdrawn once cast.
+const LOCKED_POLLS = new Set(['final-four-2027']);
 
 const corsHeaders = origin => {
   const ok = origin && ALLOWED_ORIGINS.some(r => r.test(origin));
@@ -56,6 +58,7 @@ export default {
     if (!name) return json({ error: 'Name required' }, 400, origin);
 
     if (request.method === 'DELETE') {
+      if (LOCKED_POLLS.has(poll)) return json({ error: 'Votes are final' }, 409, origin);
       await env.DB.prepare('DELETE FROM ballots WHERE poll = ? AND voter_key = ?').bind(poll, voterKey(name)).run();
       return json({ ok: true }, 200, origin);
     }
@@ -66,6 +69,13 @@ export default {
         return json({ error: 'Bad ranking' }, 400, origin);
       const note = String(body.note ?? '').trim().slice(0, 160);
       const now = Date.now();
+      if (LOCKED_POLLS.has(poll)) {
+        const r = await env.DB.prepare(
+          'INSERT INTO ballots (poll, voter_key, name, ranking, note, updated_at) VALUES (?, ?, ?, ?, ?, ?) ON CONFLICT (poll, voter_key) DO NOTHING'
+        ).bind(poll, voterKey(name), name, JSON.stringify(ranking), note, now).run();
+        if (!r.meta || !r.meta.changes) return json({ error: 'Already voted' }, 409, origin);
+        return json({ ok: true, updatedAt: now }, 200, origin);
+      }
       await env.DB.prepare(
         `INSERT INTO ballots (poll, voter_key, name, ranking, note, updated_at) VALUES (?, ?, ?, ?, ?, ?)
          ON CONFLICT (poll, voter_key) DO UPDATE SET name = excluded.name, ranking = excluded.ranking,
