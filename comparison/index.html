@@ -1,55 +1,347 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Four shortlisted ski hotels for six adults, January 24–31, 2027: Warth, St. Anton, Tignes and Mayrhofen."><title>Alps 2027 · Final Four Hotels</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Final four ski hotels for six adults, 24–31 January 2027: compare at a glance and vote.">
+<meta name="theme-color" content="#173b31"><link rel="icon" type="image/svg+xml" href="../booked/favicon.svg">
+<title>Alps 2027 · Final Four · Compare & vote</title>
 <style>
-:root{--ink:#193229;--pine:#1b4036;--pine2:#284c40;--bg:#f4f6f2;--card:#fff;--muted:#65756b;--edge:#dce4dc;--gold:#f4e5bb;--danger:#8b3d33;--warn:#fff0e7;--mint:#e7f1e7}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);margin:0;line-height:1.45;font-size:15px}a{color:#176151}a:hover{text-decoration-thickness:2px}.wrap{width:min(1180px,calc(100% - 36px));margin:auto}
-header{background:linear-gradient(125deg,#173b31,#294e3f);color:#f6faf6;padding:30px 0 38px}header .topline{font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#c3ddca;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}header .topline a{color:#e1f2e6}h1{font-size:clamp(34px,6vw,66px);letter-spacing:-.055em;line-height:1.05;margin:26px 0 12px}header p{color:#d3e1d7;margin:0;max-width:660px}h2{font-size:clamp(23px,3vw,32px);letter-spacing:-.035em;margin:0 0 15px}h3{font-size:25px;letter-spacing:-.035em;line-height:1.1;margin:0}
-nav{background:#e9efe9;position:sticky;top:0;z-index:20;border-bottom:1px solid var(--edge)}nav .wrap{display:flex;gap:20px;overflow-x:auto;padding:12px 0;white-space:nowrap;font-size:13px;font-weight:750}nav a{text-decoration:none}
-section{margin:32px auto 44px}.intro{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}.intro div{border:1px solid var(--edge);background:#fff;border-radius:14px;padding:18px}.intro strong{display:block;font-size:16px;margin-bottom:5px}.intro span{display:block;font-size:13px;color:var(--muted)}.intro .danger{background:var(--warn);border-color:#efc4b5}.intro .danger strong{color:var(--danger)}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.hotel{background:var(--card);border:1px solid var(--edge);border-radius:20px;overflow:hidden;box-shadow:0 5px 26px #142f2310;scroll-margin-top:70px}.gallery{display:grid;height:225px;grid-template-columns:2fr 1fr;grid-template-rows:1fr 1fr;gap:3px;background:#e2e6e2}.gallery img{width:100%;height:100%;object-fit:cover;min-width:0;min-height:0;cursor:zoom-in}.gallery .big{grid-row:span 2}.hotel-body{padding:19px 21px 20px}.meta{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}.eyebrow{text-transform:uppercase;color:var(--muted);font-size:11px;letter-spacing:.10em;font-weight:850}.pill{background:var(--mint);color:#286445;font-size:11px;padding:5px 9px;border-radius:30px;font-weight:800}.headline{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-top:13px}.price{text-align:right;flex-shrink:0;font-size:25px;font-weight:850;letter-spacing:-.04em;line-height:1.15}.price small{display:block;font-size:11px;color:var(--muted);font-weight:600;letter-spacing:0;margin-top:5px}.quick{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-top:17px}.quick>div{background:#f6f8f5;border-radius:10px;padding:10px 12px}.quick span{display:block;color:var(--muted);font-size:11px;font-weight:700;margin-bottom:4px}.quick strong{font-size:13px;font-weight:650}.take{font-size:13px;margin-top:14px}.take strong{color:#236345}.warning{background:var(--warn);border-left:3px solid #b85f4c;font-size:12px;border-radius:6px;padding:10px 12px;margin-top:12px}.warning strong{color:var(--danger);display:block;margin-bottom:3px}.out{display:inline-block;font-size:13px;font-weight:800;margin-top:14px}
-.scroll{overflow-x:auto;border:1px solid var(--edge);border-radius:15px;background:#fff}table{border-collapse:collapse;min-width:970px;width:100%;font-size:13px}thead th{background:#204738;color:#fff;text-align:left;padding:17px 14px;min-width:180px}thead th:first-child{min-width:175px}td,tbody th{padding:14px;border-bottom:1px solid var(--edge);text-align:left;vertical-align:top}tbody th{font-weight:800;background:#f5f8f4;position:sticky;left:0;z-index:1}tbody tr:last-child td,tbody tr:last-child th{border-bottom:0}.warncell{background:#fff3e8;color:#863e32;font-weight:650}
-.note{color:var(--muted);font-size:12px;margin:8px 0 0}.tasks{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.tasks article{background:#fff;border:1px solid var(--edge);padding:18px;border-radius:14px}.tasks article b{display:block;font-size:15px;margin-bottom:6px}.tasks article p{color:var(--muted);font-size:13px;margin:0}footer{padding:20px 0 40px;color:var(--muted);font-size:12px}.links a{display:inline-block;margin-right:14px}::backdrop{background:#031b16dd}dialog{max-width:min(1100px,95vw);max-height:94vh;padding:0;background:transparent;border:0;overflow:visible}dialog img{display:block;max-width:95vw;max-height:90vh;object-fit:contain;border-radius:10px}dialog button{position:absolute;right:0;top:-43px;border:0;background:#fff;border-radius:99px;padding:6px 13px;font-size:13px;font-weight:800;cursor:pointer}
-@media(max-width:800px){.grid{grid-template-columns:1fr}.intro{grid-template-columns:1fr}.tasks{grid-template-columns:1fr}.gallery{height:215px}.headline h3{font-size:22px}.price{font-size:23px}}@media(max-width:430px){.quick{grid-template-columns:1fr 1fr;gap:7px}.hotel-body{padding:16px}.quick strong{font-size:12px}.price{font-size:21px}.gallery{height:190px}}
-@media print{nav,dialog{display:none}.grid{display:block}.hotel{break-inside:avoid;margin-bottom:12px}.gallery{height:145px}section{margin:18px auto}header{background:#fff;color:#000;padding:15px 0}header p,header .topline{color:#444}.quick>div{padding:6px}}
+:root{--ink:#16291f;--pine:#173b31;--pine2:#2a5142;--bg:#f3f5f1;--card:#fff;--muted:#617166;--edge:#dfe6df;--soft:#f6f8f5;
+--good:#1f7a4a;--goodbg:#e4f3e8;--ok:#9a6206;--okbg:#fdf1d8;--bad:#b23a2c;--badbg:#fbe5e1;--neu:#55655b;--neubg:#eef1ee;--gold:#f2c94c}
+[hidden]{display:none!important}*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.4;font-size:15px;-webkit-font-smoothing:antialiased}
+a{color:#16624f}.wrap{width:min(1240px,calc(100% - 28px));margin:auto}
+button{font:inherit;color:inherit}
+/* header */
+header{background:linear-gradient(130deg,#12322a,#2a5142);color:#f4f9f5;padding:22px 0 26px}
+.top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:12px;letter-spacing:.11em;text-transform:uppercase;font-weight:800;color:#bfdac7}
+.top a{color:#e3f3e8}
+h1{font-size:clamp(30px,5.4vw,54px);letter-spacing:-.045em;line-height:1.04;margin:16px 0 10px}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.facts li{background:#ffffff1a;border:1px solid #ffffff26;border-radius:99px;padding:6px 12px;font-size:13px;font-weight:650}
+.alert{display:flex;gap:10px;align-items:flex-start;background:#fff4e0;color:#5c3b06;border:1px solid #f0d49b;border-radius:12px;padding:11px 14px;margin-top:16px;font-size:14px;max-width:760px}
+.alert b{color:#8a4b00}
+/* nav */
+nav{position:sticky;top:0;z-index:30;background:#ffffffeb;backdrop-filter:blur(8px);border-bottom:1px solid var(--edge)}
+nav .wrap{display:flex;gap:6px;overflow-x:auto;padding:8px 0;white-space:nowrap}
+nav a{text-decoration:none;font-size:14px;font-weight:750;padding:7px 13px;border-radius:99px;color:var(--ink)}
+nav a:hover{background:var(--soft)}nav a.cta{background:var(--pine);color:#fff;margin-left:auto}
+section{margin:26px auto 40px;scroll-margin-top:60px}
+h2{font-size:clamp(22px,3vw,30px);letter-spacing:-.03em;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 16px;font-size:14px}
+/* legend */
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--muted);margin:0 0 12px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+/* comparison matrix */
+.mx{background:#fff;border:1px solid var(--edge);border-radius:18px;overflow:clip;box-shadow:0 4px 22px #12302410}
+.mrow{display:grid;grid-template-columns:150px repeat(4,minmax(0,1fr));border-top:1px solid var(--edge)}
+.mrow:first-child{border-top:0}
+.k{padding:12px 14px;background:var(--soft);font-weight:800;font-size:13px;display:flex;gap:8px;align-items:flex-start;line-height:1.25}
+.k .ic{font-size:17px;line-height:1}
+.c{padding:11px 13px;border-left:1px solid var(--edge);min-width:0}
+.c.good{background:#f0f9f3}.c.ok{background:#fff8ea}.c.bad{background:#fdeeeb}
+.st{display:inline-flex;align-items:center;gap:6px;font-weight:850;font-size:14px}
+.st::before{content:"";width:9px;height:9px;border-radius:50%;background:currentColor;flex-shrink:0}
+.st.good{color:var(--good)}.st.ok{color:var(--ok)}.st.bad{color:var(--bad)}.st.neu{color:var(--neu)}
+.det{display:block;font-size:12.5px;color:#4d5d53;margin-top:3px}
+.hn{display:none;font-size:11px;font-weight:850;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:3px}
+.price{font-size:22px;font-weight:900;letter-spacing:-.03em;line-height:1.05}
+.verdict{font-size:13px;color:#2e4136}
+/* photo + names rows */
+.photos .c{padding:10px;position:relative}
+.photo{position:relative;aspect-ratio:4/3;background:#dfe5df;border:0;padding:0;cursor:zoom-in;display:block;width:100%;border-radius:11px;overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.photo .count{position:absolute;right:6px;bottom:6px;background:#000a;color:#fff;font-size:11px;font-weight:700;border-radius:99px;padding:3px 8px}
+.badge{display:inline-block;margin-top:8px;background:var(--goodbg);color:var(--good);font-size:11px;font-weight:850;border-radius:99px;padding:4px 9px}
+.votechip{position:absolute;left:16px;top:16px;background:var(--gold);color:#3b2c00;font-size:12px;font-weight:850;border-radius:99px;padding:5px 10px;text-decoration:none;box-shadow:0 2px 8px #0003}
+.names{position:sticky;top:51px;z-index:6;background:#fff;box-shadow:0 3px 10px #12302414}
+.names .c{padding:10px 13px}
+.names strong{display:block;font-size:15.5px;letter-spacing:-.02em;line-height:1.15}
+.names small{color:var(--muted);font-size:12px}
+.names .k{background:#fff;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em;align-items:center}
+.c.lead{box-shadow:inset 0 -4px 0 var(--gold)}
+.tally{display:flex;gap:5px;flex-wrap:wrap}
+.tally span{font-size:12px;font-weight:850;border-radius:99px;padding:3px 8px}
+.t-good{background:var(--goodbg);color:var(--good)}.t-ok{background:var(--okbg);color:var(--ok)}.t-bad{background:var(--badbg);color:var(--bad)}
+.c a{font-size:13px;font-weight:800}
+.note{color:var(--muted);font-size:12px;margin:10px 0 0}
+/* vote */
+.vote{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+.panel{background:#fff;border:1px solid var(--edge);border-radius:18px;padding:18px}
+.panel h3{margin:0 0 4px;font-size:19px;letter-spacing:-.02em}
+.panel .hint{color:var(--muted);font-size:13px;margin:0 0 12px}
+.name{display:flex;gap:8px;margin-bottom:12px}
+.name input{flex:1;min-width:0;font:inherit;font-size:16px;padding:11px 13px;border:1.5px solid var(--edge);border-radius:11px;background:var(--soft)}
+.name input:focus{outline:none;border-color:var(--pine2);background:#fff}
+.picks{display:grid;gap:8px}
+.pick{display:grid;grid-template-columns:38px 64px minmax(0,1fr);gap:10px;align-items:center;text-align:left;background:var(--soft);border:1.5px solid var(--edge);border-radius:13px;padding:7px 10px 7px 7px;cursor:pointer;transition:border-color .15s,background .15s}
+.pick:hover{border-color:#b9c9bd}
+.pick .n{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-weight:900;font-size:16px;background:#fff;border:1.5px dashed #b9c6bc;color:#9aa89e}
+.pick.on{background:#eef7f1;border-color:var(--good)}
+.pick.on .n{background:var(--pine);border:0;color:#fff}
+.pick.on.r1 .n{background:var(--gold);color:#3b2c00}
+.pick img{width:64px;height:44px;object-fit:cover;border-radius:8px;display:block}
+.pick strong{display:block;font-size:14.5px}.pick small{color:var(--muted);font-size:12px}
+.actions{display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap}
+.btn{border:0;border-radius:11px;padding:12px 18px;font-weight:850;cursor:pointer;background:var(--pine);color:#fff;font-size:15px}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn.ghost{background:transparent;color:var(--muted);padding:12px 8px;font-weight:700}
+.status{font-size:13px;color:var(--muted)}.status.err{color:var(--bad);font-weight:700}.status.okk{color:var(--good);font-weight:750}
+.results{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.res{display:grid;grid-template-columns:30px minmax(0,1fr);gap:10px;align-items:center}
+.res .p{font-weight:900;font-size:18px;text-align:center;color:var(--muted)}
+.res.first .p{color:#b58a00}
+.res .top{display:flex;justify-content:space-between;gap:8px;font-size:14px}
+.res .top strong{font-weight:800}.res .top span{font-weight:800;white-space:nowrap}
+.bar{height:12px;background:var(--soft);border-radius:99px;overflow:hidden;margin:5px 0 3px;border:1px solid var(--edge)}
+.bar i{display:block;height:100%;background:var(--pine2);border-radius:99px;transition:width .5s}
+.res.first .bar i{background:linear-gradient(90deg,#d9a400,var(--gold))}
+.res .meta{font-size:12px;color:var(--muted)}
+.voters{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.voters span{font-size:12px;font-weight:750;background:var(--soft);border:1px solid var(--edge);border-radius:99px;padding:4px 10px}
+.live{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:800;color:var(--good);float:right}
+.live::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor;animation:pulse 1.6s infinite}
+.live.off{color:var(--muted)}.live.off::before{animation:none}
+@keyframes pulse{50%{opacity:.25}}
+.empty{color:var(--muted);font-size:14px;padding:18px;text-align:center;background:var(--soft);border-radius:12px}
+.notes{margin:14px 0 0;padding:0;list-style:none;display:grid;gap:6px}
+.notes li{font-size:13px;background:var(--soft);border-radius:10px;padding:8px 10px}
+.notes small{color:var(--muted)}
+.scoring{font-size:12px;color:var(--muted);margin:12px 0 0}
+footer{padding:10px 0 40px;color:var(--muted);font-size:12px}footer a{margin-right:14px}
+/* lightbox */
+dialog{border:0;padding:0;background:transparent;max-width:96vw;max-height:96vh;overflow:visible}
+dialog::backdrop{background:#04140fe6}
+dialog figure{margin:0;position:relative}
+dialog img{display:block;max-width:94vw;max-height:84vh;border-radius:10px;object-fit:contain}
+dialog figcaption{color:#e6efe8;font-size:13px;margin-top:8px;text-align:center}
+.lb{position:absolute;top:50%;transform:translateY(-50%);border:0;background:#fffe;border-radius:50%;width:42px;height:42px;font-size:22px;font-weight:900;cursor:pointer}
+.lb.prev{left:8px}.lb.next{right:8px}
+.lb.close{top:-48px;right:0;transform:none;border-radius:99px;width:auto;height:auto;padding:7px 14px;font-size:13px}
+/* responsive */
+@media(max-width:900px){.mrow{grid-template-columns:118px repeat(4,minmax(0,1fr))}.c{padding:10px}.price{font-size:19px}}
+@media(max-width:760px){.vote{grid-template-columns:1fr}}
+@media(max-width:700px){.mrow{grid-template-columns:1fr 1fr}.k{grid-column:1/-1;padding:10px 12px;font-size:14px}.c{border-left:0;border-top:1px solid var(--edge)}.c:nth-child(odd){border-left:1px solid var(--edge)}.hn{display:block}.names{display:none}.photos .k{display:none}.photos .c{border-top:0}.photos .c:nth-child(n+4){border-top:1px solid var(--edge)}nav a.cta{margin-left:0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media print{nav,dialog,#vote,.alert{display:none}header{background:#fff;color:#000}.facts li{border-color:#ccc}.names{position:static}.mx{box-shadow:none}.mrow{break-inside:avoid}}
 </style></head>
-<body><header><div class="wrap"><div class="topline"><span>THE ALPS EDIT · WINTER 2027</span><a href="../booked/">Austria bookings ↗</a></div><h1>Four hotels. One ski trip.</h1><p>Side-by-side comparison for 6 adults · 24–31 January 2027 · 7 nights. Prices from your saved booking records.</p></div></header>
-<nav><div class="wrap"><a href="#overview">Overview</a><a href="#hotels">Photos & hotels</a><a href="#table">Full comparison</a><a href="#before">Before choosing</a></div></nav>
+<body>
+<header><div class="wrap">
+  <div class="top"><span>Alps 2027 · Final decision</span><a href="../booked/">All bookings ↗</a></div>
+  <h1>The final four. Pick one.</h1>
+  <ul class="facts"><li>👥 6 adults</li><li>📅 24–31 Jan 2027</li><li>🌙 7 nights</li><li>💶 Prices = saved bookings, not live quotes</li></ul>
+  <div class="alert">⏰ <span><b>Deadline:</b> AlpenParks (Warth) asked for a <b>€1,962.30 deposit by ~17 Nov</b> — decide today or ask them for more time.</span></div>
+</div></header>
+<nav><div class="wrap"><a href="#compare">Compare</a><a class="cta" href="#vote">🗳 Vote</a></div></nav>
+
 <main class="wrap">
-<div class="intro" id="overview"><div><strong>⛷ Best all-round: FRANZ</strong><span>Central St. Anton, 3 en-suite bedrooms, excellent terrain and restaurants.</span></div><div><strong>♨ Best pool + access: AlpenParks</strong><span>Outdoor infinity pool and doorstep skiing, but exact apartment not confirmed.</span></div><div class="danger"><strong>⚠ Tignes bedding warning</strong><span>Le Levanna's third sleeping place in each room is a child armchair, not a proper adult bed.</span></div></div>
-<section id="hotels"><h2>Property photos & quick facts</h2><div class="grid"><article class="hotel" id="warth">
-<div class="gallery"><img class="big" src="../booked/assets/arlberg-exterior-drone.webp" alt="Hotel on the snowy slopes" loading="eager"><img src="../booked/assets/arlberg-pool.webp" alt="Heated outdoor infinity pool" loading="lazy"><img src="../booked/assets/arlberg-wellness.webp" alt="Wellness relaxation area" loading="lazy"></div>
-<div class="hotel-body"><div class="meta"><span class="eyebrow">Warth · Ski Arlberg</span><span class="pill">Best ski-in/out + pool</span></div>
-<div class="headline"><h3>AlpenParks Arlberg</h3><div class="price">€6,688<small>total · €159 / person/night</small></div></div>
-<div class="quick"><div><span>⛷ Ski access</span><strong>Ski-in/out advertised · Dorfbahn beside hotel</strong></div><div><span>♨ Wellness</span><strong>Outdoor infinity pool 28–29°C, sauna, steam</strong></div><div><span>🛏 Sleeping</span><strong>Apartment category and beds NOT confirmed</strong></div><div><span>🍽 Evenings</span><strong>Restaurants and a few pubs nearby; quiet evenings</strong></div></div>
-<div class="take"><strong>Verdict</strong> Best value if the apartment has six proper beds and the deposit is secured.</div>
-<div class="warning"><strong>Check before choosing</strong> Deposit €1,962.30 requested by ~17 Nov. Confirm apartment category and beds before paying.</div>
-<a class="out" target="_blank" rel="noopener noreferrer" href="https://www.alpenparks.at/en/hotel-apartment-arlberg">Property details ↗</a></div></article><article class="hotel" id="franz">
-<div class="gallery"><img class="big" src="../booked/assets/franz-roggspitze-living-dining.webp" alt="Roggspitze living and dining" loading="lazy"><img src="../booked/assets/franz-roggspitze-bedroom.webp" alt="Roggspitze bedroom" loading="lazy"><img src="../booked/assets/franz-roggspitze-kitchen.webp" alt="Roggspitze kitchen" loading="lazy"></div>
-<div class="hotel-body"><div class="meta"><span class="eyebrow">St. Anton · Ski Arlberg</span><span class="pill">Best all-round base</span></div>
-<div class="headline"><h3>FRANZ · Roggspitze</h3><div class="price">€6,811<small>total · €162 / person/night</small></div></div>
-<div class="quick"><div><span>⛷ Ski access</span><strong>~540 m / 7–9 min walk to Nassereinbahn</strong></div><div><span>♨ Wellness</span><strong>No pool, sauna, spa or hot tub</strong></div><div><span>🛏 Sleeping</span><strong>3 proper double bedrooms · 3 en-suite bathrooms</strong></div><div><span>🍽 Evenings</span><strong>Excellent dining, pubs and famous après-ski on foot</strong></div></div>
-<div class="take"><strong>Verdict</strong> Most dependable all-round fit: great terrain, beds, restaurants, and only €123 more than Warth.</div>
-<div class="warning"><strong>Check before choosing</strong> Confirm Roggspitze on the booking confirmation; free ski depot is available at Nassereinbahn.</div>
-<a class="out" target="_blank" rel="noopener noreferrer" href="https://www.visitfranz.com/en/apartments/roggspitze/">Property details ↗</a></div></article><article class="hotel" id="tignes">
-<div class="gallery"><img class="big" src="../france/assets/levanna-pistes.webp" alt="Le Levanna on the Tignes snowfront" loading="lazy"><img src="../france/assets/levanna-privilege.webp" alt="Privilege bedroom example" loading="lazy"><img src="../france/assets/levanna-spa.webp" alt="Indoor hot tub" loading="lazy"></div>
-<div class="hotel-body"><div class="meta"><span class="eyebrow">Tignes Le Lac · Tignes–Val d’Isère</span><span class="pill">Best snow + real hot tub</span></div>
-<div class="headline"><h3>Hôtel Le Levanna</h3><div class="price">€7,521<small>total · €179 / person/night</small></div></div>
-<div class="quick"><div><span>⛷ Ski access</span><strong>True ski-in/out · Tovière gondola steps away</strong></div><div><span>♨ Wellness</span><strong>Indoor hot tub, sauna and hammam included</strong></div><div><span>🛏 Sleeping</span><strong>2 Privilege Rooms: 2 double beds + 2 child armchairs</strong></div><div><span>🍽 Evenings</span><strong>Good restaurants and pubs; Folie Douce via ski lifts</strong></div></div>
-<div class="take"><strong>Verdict</strong> Potential #1 for skiing if the hotel can provide six proper adult beds at a similar price.</div>
-<div class="warning"><strong>Check before choosing</strong> CRITICAL: the third bed in each room is advertised for a child under 13. Not suitable for six adults without a room change.</div>
-<a class="out" target="_blank" rel="noopener noreferrer" href="https://etincelles.com/en/hotel/le-levanna-hotel/">Property details ↗</a></div></article><article class="hotel" id="mayrhofen">
-<div class="gallery"><img class="big" src="../booked/assets/apartcentral-exterior.webp" alt="Apart Central exterior in winter" loading="lazy"><img src="../booked/assets/apartcentral-bedroom.webp" alt="Apart Central bedroom" loading="lazy"><img src="../booked/assets/apartcentral-living-dining.webp" alt="Living and dining room" loading="lazy"></div>
-<div class="hotel-body"><div class="meta"><span class="eyebrow">Mayrhofen · Zillertal</span><span class="pill">Best lift + village location</span></div>
-<div class="headline"><h3>Apart Central</h3><div class="price">€9,223<small>total · €220 / person/night</small></div></div>
-<div class="quick"><div><span>⛷ Ski access</span><strong>~80 m walk to Penkenbahn</strong></div><div><span>♨ Wellness</span><strong>No spa or sauna confirmed for booked apartment</strong></div><div><span>🛏 Sleeping</span><strong>3 bedrooms, proper double beds (shared)</strong></div><div><span>🍽 Evenings</span><strong>Excellent restaurants, bars and lively après-ski</strong></div></div>
-<div class="take"><strong>Verdict</strong> Very convenient, but weaker value unless Mayrhofen is your clear preferred resort.</div>
-<div class="warning"><strong>Check before choosing</strong> Most expensive option (€2,535 more than Warth), with no confirmed wellness benefit.</div>
-<a class="out" target="_blank" rel="noopener noreferrer" href="https://www.booking.com/hotel/at/apart-central.html">Property details ↗</a></div></article></div><p class="note">Click a property photo to enlarge. Photographs are from your existing Alps website; room photos may be representative, not the assigned unit.</p></section>
-<section id="table"><h2>Full comparison</h2><div class="scroll"><table><thead><tr><th>Category</th><th>AlpenParks Arlberg<div style="opacity:.75;font-size:11px;margin-top:5px">Warth · Ski Arlberg</div></th><th>FRANZ · Roggspitze<div style="opacity:.75;font-size:11px;margin-top:5px">St. Anton · Ski Arlberg</div></th><th>Hôtel Le Levanna<div style="opacity:.75;font-size:11px;margin-top:5px">Tignes Le Lac · Tignes–Val d’Isère</div></th><th>Apart Central<div style="opacity:.75;font-size:11px;margin-top:5px">Mayrhofen · Zillertal</div></th></tr></thead><tbody><tr><th scope="row">Total, 7 nights</th><td class="">€6,688</td><td class="">€6,811</td><td class="">€7,521</td><td class="">€9,223</td></tr><tr><th scope="row">Per person/night</th><td class="">€159.24</td><td class="">€162.17</td><td class="">€179.07</td><td class="">€219.60</td></tr><tr><th scope="row">Nearest lift / access</th><td class="">Ski-in/out advertised · Dorfbahn beside hotel</td><td class="">~540 m / 7–9 min walk to Nassereinbahn</td><td class="">True ski-in/out · Tovière gondola steps away</td><td class="">~80 m walk to Penkenbahn</td></tr><tr><th scope="row">Ski area</th><td class="">62 km locally · 301 km Arlberg network</td><td class="">301 km connected Ski Arlberg</td><td class="">150 km Tignes · 300 km connected with Val d’Isère</td><td class="">~142 km local Mayrhofen ski area</td></tr><tr><th scope="row">January snow</th><td class="">Excellent; very snowy village</td><td class="">Excellent; high-altitude upper slopes</td><td class="">Exceptional; highest terrain reaches 3,456 m</td><td class="">Good; lower than Tignes, Sölden and Arlberg</td></tr><tr><th scope="row">Pool / spa</th><td class="">Outdoor infinity pool 28–29°C, sauna, steam</td><td class="">No pool, sauna, spa or hot tub</td><td class="">Indoor hot tub, sauna and hammam included</td><td class="">No spa or sauna confirmed for booked apartment</td></tr><tr><th scope="row">Jacuzzi</th><td class="">No Jacuzzi; pool is not hot-tub temperature</td><td class="">No</td><td class="">Yes · indoor</td><td class="">Not confirmed</td></tr><tr><th scope="row">6-adult bed setup</th><td class="warncell">Apartment category and beds NOT confirmed</td><td class="">3 proper double bedrooms · 3 en-suite bathrooms</td><td class="warncell">2 Privilege Rooms: 2 double beds + 2 child armchairs</td><td class="">3 bedrooms, proper double beds (shared)</td></tr><tr><th scope="row">Breakfast</th><td class="">Not confirmed as included</td><td class="">No; self-catering apartment</td><td class="">Included</td><td class="">No; self-catering apartment</td></tr><tr><th scope="row">Restaurants &amp; nightlife</th><td class="">Restaurants and a few pubs nearby; quiet evenings</td><td class="">Excellent dining, pubs and famous après-ski on foot</td><td class="">Good restaurants and pubs; Folie Douce via ski lifts</td><td class="">Excellent restaurants, bars and lively après-ski</td></tr></tbody></table></div><p class="note">Swipe the table sideways on mobile. Piste totals use full connected resort areas unless marked local. Snow assessment describes typical January conditions, not a forecast.</p></section>
-<section id="before"><h2>Before choosing</h2><div class="tasks"><article><b>1 · AlpenParks Warth</b><p>Confirm deposit, cancellation conditions, breakfast inclusion, exact apartment category and six proper adult beds.</p></article><article><b>2 · Le Levanna Tignes</b><p>Ask for a room change that gives all six adults proper beds. Current booked Privilege rooms do not meet that requirement.</p></article><article><b>3 · FRANZ / Apart Central</b><p>Confirm the Roggspitze unit on FRANZ's booking. At Apart Central, confirm whether your specific apartment includes any wellness facilities.</p></article></div></section>
-</main><footer><div class="wrap"><div class="links"><a href="../booked/">All Austria bookings</a><a href="../france/#le-levanna">Le Levanna booking</a></div><p>Based on your comparison pages as of 16 November 2026. Booked totals are not live quotes. No reservation was changed by publishing this comparison.</p></div></footer>
-<dialog id="viewer"><button type="button" id="close">Close ✕</button><img alt="Enlarged property photograph"></dialog><script>
-document.querySelectorAll('.gallery img').forEach(img=>img.addEventListener('click',()=>{const d=document.getElementById('viewer');d.querySelector('img').src=img.src;d.querySelector('img').alt=img.alt;d.showModal()}));
-document.getElementById('close').onclick=()=>document.getElementById('viewer').close();
-document.getElementById('viewer').onclick=e=>{if(e.target.id==='viewer')e.target.close()};
-</script></body></html>
+<section id="compare">
+  <h2>Side by side</h2>
+  <p class="sub">One row per category, cheapest hotel on the left. Tap a photo for the gallery.</p>
+  <div class="legend"><span><i class="st good"></i>Fits what we want</span><span><i class="st ok"></i>Compromise</span><span><i class="st bad"></i>Problem</span><span><i class="st neu"></i>Neutral</span></div>
+  <div class="mx" id="mx"></div>
+  <p class="note">Room photos may show the category, not the exact unit. Snow notes describe typical January conditions, not a forecast. Prices are from saved bookings, not live quotes.</p>
+</section>
+
+<section id="vote">
+  <h2>🗳 Group vote</h2>
+  <p class="sub">Everyone ranks all four. Results update live for the whole group.</p>
+  <div class="vote">
+    <div class="panel">
+      <h3>Your ranking</h3>
+      <p class="hint">Type your name, then tap the hotels in order — favourite first. Tap again to undo.</p>
+      <div class="name"><input id="vname" maxlength="32" autocomplete="given-name" placeholder="Your name"></div>
+      <div class="picks" id="picks"></div>
+      <div class="name" style="margin:12px 0 0"><input id="vnote" maxlength="160" placeholder="Why your #1? (optional)"></div>
+      <div class="actions"><button class="btn" id="vsubmit" disabled>Submit vote</button><button class="btn ghost" id="vreset">Clear</button><span class="status" id="vstatus" aria-live="polite"></span></div>
+    </div>
+    <div class="panel">
+      <h3>Live results <span class="live" id="live">Live</span></h3>
+      <p class="hint">Voting again with the same name replaces your vote.</p>
+      <div class="voters" id="voters"></div>
+      <ol class="results" id="results"></ol>
+      <p class="empty" id="rempty">No votes yet — be the first.</p>
+      <ul class="notes" id="vnotes"></ul>
+      <p class="scoring">Scoring: #1 = 3 pts, #2 = 2, #3 = 1, #4 = 0. Ties go to more first-place votes.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer><div class="wrap"><a href="../booked/">All Austria bookings</a><a href="../france/#le-levanna">Le Levanna booking</a><p>Based on the saved booking records as of 16 November 2026. Publishing this page did not change any reservation.</p></div></footer>
+
+<dialog id="lightbox"><figure><button class="lb close" id="lbclose">Close ✕</button><img alt=""><button class="lb prev" aria-label="Previous photo">‹</button><button class="lb next" aria-label="Next photo">›</button><figcaption></figcaption></figure></dialog>
+
+<script>
+const PEOPLE = 6, NIGHTS = 7;
+const ROWS = [
+  ['access', '⛷', 'Ski access'],
+  ['beds', '🛏', 'Proper beds for 6'],
+  ['spa', '♨', 'Spa / wellness'],
+  ['snow', '❄', 'January snow'],
+  ['terrain', '🗺', 'Ski area'],
+  ['apres', '🍻', 'Après & evenings'],
+  ['food', '🍳', 'Breakfast'],
+];
+const HOTELS = [
+  { id:'warth', name:'AlpenParks Arlberg', loc:'Warth · Ski Arlberg', badge:'Cheapest · pool', total:6688,
+    verdict:'Best value — if the apartment really has six proper beds.',
+    photos:[['../booked/assets/arlberg-exterior-drone.webp','Hotel on the slopes'],['../booked/assets/arlberg-pool.webp','Heated outdoor infinity pool'],['../booked/assets/arlberg-wellness.webp','Wellness area'],['../booked/assets/arlberg-exterior.webp','Exterior']],
+    access:['good','Ski-in / ski-out','Dorfbahn lift beside the hotel (advertised)'],
+    beds:['ok','Not confirmed','Apartment category & six adult beds unconfirmed'],
+    spa:['good','Pool + sauna','Outdoor infinity pool 28–29°C, sauna, steam · no hot tub'],
+    snow:['good','Excellent','Very snowy village'],
+    terrain:['good','301 km','62 km local, part of Ski Arlberg'],
+    apres:['bad','Quiet','A few restaurants & pubs'],
+    food:['ok','Not confirmed','Check if breakfast is included'],
+    fix:['bad','Urgent','Deposit €1,962.30 by ~17 Nov. Before paying: confirm apartment, 6 proper beds, breakfast & cancellation terms.'],
+    link:'https://www.alpenparks.at/en/hotel-apartment-arlberg' },
+  { id:'franz', name:'FRANZ · Roggspitze', loc:'St. Anton · Ski Arlberg', badge:'Best all-round', total:6811,
+    verdict:'Most dependable fit: terrain, beds and après — only €123 more than Warth.',
+    photos:[['../booked/assets/franz-roggspitze-living-dining.webp','Living & dining'],['../booked/assets/franz-roggspitze-bedroom.webp','Bedroom'],['../booked/assets/franz-roggspitze-bedroom-2.webp','Second bedroom'],['../booked/assets/franz-roggspitze-kitchen.webp','Kitchen'],['../booked/assets/franz-roggspitze-bathroom.webp','Bathroom'],['../booked/assets/franz-exterior.webp','Exterior']],
+    access:['ok','7–9 min walk','~540 m to Nassereinbahn · free ski depot at the lift'],
+    beds:['good','3 doubles · 3 en-suite','Everyone in a proper bed, own bathroom per couple'],
+    spa:['bad','None','No pool, sauna, spa or hot tub'],
+    snow:['good','Excellent','High-altitude upper slopes'],
+    terrain:['good','301 km','Full Ski Arlberg, connected'],
+    apres:['good','Famous','St. Anton après & dining on foot'],
+    food:['neu','Self-catering','Kitchen in the apartment'],
+    fix:['ok','To check','Confirm the Roggspitze unit is on the booking confirmation.'],
+    link:'https://www.visitfranz.com/en/apartments/roggspitze/' },
+  { id:'tignes', name:'Hôtel Le Levanna', loc:'Tignes Le Lac · France', badge:'Best snow + hot tub', total:7521,
+    verdict:'Could be #1 for skiing — only if six adults get proper beds.',
+    photos:[['../france/assets/levanna-pistes.webp','On the Tignes snowfront'],['../france/assets/levanna-privilege.webp','Privilege room'],['../france/assets/levanna-spa.webp','Indoor hot tub'],['../france/assets/levanna-privilege-2.webp','Privilege room'],['../france/assets/levanna-privilege-balcony.webp','Balcony view']],
+    access:['good','Ski-in / ski-out','True ski-in/out · Tovière gondola steps away'],
+    beds:['bad','2 adults short','2 rooms = 2 doubles + 2 child armchairs'],
+    spa:['good','Hot tub + sauna','Indoor hot tub, sauna and hammam'],
+    snow:['good','Best of the four','Terrain up to 3,456 m'],
+    terrain:['good','300 km','Tignes + Val d’Isère connected'],
+    apres:['ok','Good','Restaurants & pubs · Folie Douce by lift'],
+    food:['good','Included','Breakfast in the price'],
+    fix:['bad','Deal-breaker as booked','Needs a room change so all six adults get proper beds — at a similar price.'],
+    link:'https://etincelles.com/en/hotel/le-levanna-hotel/' },
+  { id:'mayrhofen', name:'Apart Central', loc:'Mayrhofen · Zillertal', badge:'Best village location', total:9223,
+    verdict:'Very convenient, but weak value unless Mayrhofen is the clear favourite.',
+    photos:[['../booked/assets/apartcentral-exterior.webp','Exterior in winter'],['../booked/assets/apartcentral-living-dining.webp','Living & dining'],['../booked/assets/apartcentral-bedroom.webp','Bedroom'],['../booked/assets/apartcentral-living-couch.webp','Living room'],['../booked/assets/apartcentral-dining.webp','Dining'],['../booked/assets/apartcentral-bathroom.webp','Bathroom']],
+    access:['good','1-min walk','~80 m to Penkenbahn'],
+    beds:['good','3 double bedrooms','Proper doubles (shared)'],
+    spa:['bad','None confirmed','No spa or sauna for this apartment'],
+    snow:['ok','Good','Lower altitude than the other three'],
+    terrain:['ok','142 km','Mayrhofen local area'],
+    apres:['good','Lively','Excellent bars & après-ski'],
+    food:['neu','Self-catering','Kitchen in the apartment'],
+    fix:['ok','To check','Most expensive (+€2,535). Ask if any wellness is included.'],
+    link:'https://www.booking.com/hotel/at/apart-central.html' },
+];
+const byId = Object.fromEntries(HOTELS.map(h => [h.id, h]));
+const eur = (n, d = 0) => '€' + n.toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+const cheapest = Math.min(...HOTELS.map(h => h.total));
+const pp = h => h.total / PEOPLE, ppn = h => h.total / PEOPLE / NIGHTS;
+
+/* ---------- comparison matrix ---------- */
+const SHORT = { warth:'AlpenParks · Warth', franz:'FRANZ · St. Anton', tignes:'Le Levanna · Tignes', mayrhofen:'Apart Central · Mayrhofen' };
+HOTELS.forEach(h => {
+  const d = Math.round(pp(h) - cheapest / PEOPLE);
+  h.price = [d === 0 ? 'good' : d < 60 ? 'good' : d < 250 ? 'ok' : 'bad', d === 0 ? 'Cheapest' : `+${eur(d)} each vs cheapest`];
+  h.score = { good: 0, ok: 0, bad: 0 };
+  ROWS.forEach(([k]) => { if (h[k][0] in h.score) h.score[h[k][0]]++; });
+});
+const cell = (h, cls, inner) => `<div class="c ${cls}" data-h="${h.id}"><span class="hn">${esc(SHORT[h.id])}</span>${inner}</div>`;
+const key = (ic, lbl) => `<div class="k"><span class="ic" aria-hidden="true">${ic}</span><span>${lbl}</span></div>`;
+document.getElementById('mx').innerHTML = [
+  `<div class="mrow photos"><div class="k" style="background:#fff"></div>${HOTELS.map(h => `<div class="c" data-h="${h.id}"><span class="hn">${esc(SHORT[h.id])}</span><button class="photo" data-gallery="${h.id}" aria-label="Open ${esc(h.name)} photos"><img src="${h.photos[0][0]}" alt="${esc(h.photos[0][1])}"><span class="count">📷 ${h.photos.length}</span></button><span class="badge">${esc(h.badge)}</span></div>`).join('')}</div>`,
+  `<div class="mrow names"><div class="k">Hotel</div>${HOTELS.map(h => `<div class="c" data-h="${h.id}"><strong>${esc(h.name)}</strong><small>${esc(h.loc)}</small></div>`).join('')}</div>`,
+  `<div class="mrow">${key('💶', 'Price<br><small style="font-weight:600;color:var(--muted)">each, whole week</small>')}${HOTELS.map(h => cell(h, h.price[0], `<div class="price">${eur(Math.round(pp(h)))}</div><span class="st ${h.price[0]}" style="font-size:12.5px;margin-top:4px">${h.price[1]}</span><span class="det">${eur(Math.round(ppn(h)))}/night each · ${eur(h.total)} total</span>`)).join('')}</div>`,
+  ...ROWS.map(([k, ic, lbl]) => `<div class="mrow">${key(ic, lbl)}${HOTELS.map(h => { const [s, t, d] = h[k]; return cell(h, s, `<span class="st ${s}">${esc(t)}</span><span class="det">${esc(d)}</span>`); }).join('')}</div>`),
+  `<div class="mrow">${key('⚠', 'Before booking')}${HOTELS.map(h => cell(h, h.fix[0], `<span class="st ${h.fix[0]}">${esc(h.fix[1])}</span><span class="det">${esc(h.fix[2])}</span>`)).join('')}</div>`,
+  `<div class="mrow">${key('💬', 'Bottom line')}${HOTELS.map(h => cell(h, '', `<span class="verdict">${esc(h.verdict)}</span>`)).join('')}</div>`,
+  `<div class="mrow">${key('📊', 'Score')}${HOTELS.map(h => cell(h, '', `<div class="tally" title="Categories that fit / compromise / problem"><span class="t-good">✓ ${h.score.good}</span><span class="t-ok">~ ${h.score.ok}</span><span class="t-bad">✗ ${h.score.bad}</span></div><div style="margin-top:8px"><a href="${h.link}" target="_blank" rel="noopener noreferrer">Property page ↗</a></div>`)).join('')}</div>`,
+].join('');
+
+/* ---------- lightbox ---------- */
+const lb = document.getElementById('lightbox'), lbImg = lb.querySelector('img'), lbCap = lb.querySelector('figcaption');
+let lbSet = [], lbI = 0, lbName = '';
+const lbShow = () => { const [src, alt] = lbSet[lbI]; lbImg.src = src; lbImg.alt = alt; lbCap.textContent = `${lbName} · ${alt} (${lbI + 1}/${lbSet.length})`; };
+const lbStep = d => { lbI = (lbI + d + lbSet.length) % lbSet.length; lbShow(); };
+document.addEventListener('click', e => { const g = e.target.closest('[data-gallery]'); if (!g) return; const h = byId[g.dataset.gallery]; lbSet = h.photos; lbI = 0; lbName = h.name; lbShow(); lb.showModal(); });
+lb.querySelector('.prev').onclick = () => lbStep(-1); lb.querySelector('.next').onclick = () => lbStep(1);
+document.getElementById('lbclose').onclick = () => lb.close();
+lb.addEventListener('click', e => { if (e.target === lb) lb.close(); });
+lb.addEventListener('keydown', e => { if (e.key === 'ArrowLeft') lbStep(-1); if (e.key === 'ArrowRight') lbStep(1); });
+let tx = null; lb.addEventListener('touchstart', e => tx = e.touches[0].clientX, { passive: true });
+lb.addEventListener('touchend', e => { if (tx == null) return; const dx = e.changedTouches[0].clientX - tx; if (Math.abs(dx) > 40) lbStep(dx < 0 ? 1 : -1); tx = null; });
+
+/* ---------- vote (uses the alps-votes Worker, poll final-four-2027) ---------- */
+(() => {
+  const API = 'https://alps-votes.sshireto.workers.dev/api/votes', POLL = 'final-four-2027', N = HOTELS.length;
+  const store = { get(k) { try { return localStorage.getItem(k); } catch { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
+  const keyOf = n => String(n).toLocaleLowerCase('en').replace(/\s+/g, '');
+  const $ = id => document.getElementById(id);
+  const nameIn = $('vname'), noteIn = $('vnote'), btn = $('vsubmit'), status = $('vstatus');
+  let order = [], votes = [], busy = false;
+  nameIn.value = store.get('ff-name') || '';
+
+  function renderPicks() {
+    $('picks').innerHTML = HOTELS.map(h => { const r = order.indexOf(h.id) + 1; return `<button type="button" class="pick ${r ? 'on' : ''} ${r === 1 ? 'r1' : ''}" data-pick="${h.id}" aria-pressed="${!!r}"><span class="n">${r || '–'}</span><img src="${h.photos[0][0]}" alt=""><span><strong>${esc(h.name)}</strong><small>${esc(h.loc)} · ${eur(Math.round(pp(h)))} each</small></span></button>`; }).join('');
+    const ready = order.length === N && nameIn.value.trim();
+    btn.disabled = busy || !ready;
+    if (!busy && !status.classList.contains('err') && !status.classList.contains('okk')) status.textContent = order.length < N ? `${N - order.length} left to rank` : nameIn.value.trim() ? 'Ready to submit' : 'Add your name';
+  }
+  $('picks').addEventListener('click', e => {
+    const b = e.target.closest('[data-pick]'); if (!b) return;
+    const id = b.dataset.pick, i = order.indexOf(id);
+    if (i >= 0) order = order.slice(0, i); else order.push(id);
+    if (order.length === N - 1) order.push(HOTELS.find(h => !order.includes(h.id)).id); // last one fills itself
+    status.className = 'status'; renderPicks();
+  });
+  nameIn.addEventListener('input', () => { status.className = 'status'; renderPicks(); });
+  $('vreset').onclick = () => { order = []; status.className = 'status'; renderPicks(); };
+
+  btn.onclick = async () => {
+    const name = nameIn.value.replace(/\s+/g, ' ').trim().slice(0, 32);
+    if (!name || order.length !== N) return;
+    busy = true; status.className = 'status'; status.textContent = 'Saving…'; renderPicks();
+    try {
+      const res = await fetch(API, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ poll: POLL, name, ranking: order, note: noteIn.value.trim() }) });
+      if (!res.ok) throw 0;
+      store.set('ff-name', name);
+      status.className = 'status okk'; status.textContent = `✓ Saved, ${name}`;
+      await load();
+    } catch { status.className = 'status err'; status.textContent = 'Could not save — check connection and try again.'; }
+    busy = false; renderPicks();
+  };
+
+  function tally() {
+    const rows = HOTELS.map(h => ({ id: h.id, pts: 0, firsts: [] })), m = Object.fromEntries(rows.map(r => [r.id, r]));
+    votes.forEach(v => v.ranking.filter(id => m[id]).forEach((id, i) => { m[id].pts += N - 1 - i; if (!i) m[id].firsts.push(v.name); }));
+    rows.sort((a, b) => b.pts - a.pts || b.firsts.length - a.firsts.length);
+    rows.forEach((r, i) => { const p = rows[i - 1]; r.place = p && p.pts === r.pts && p.firsts.length === r.firsts.length ? p.place : i + 1; });
+    return rows;
+  }
+  function renderResults() {
+    const rows = tally(), max = Math.max(1, votes.length * (N - 1)), has = votes.length > 0;
+    $('rempty').hidden = has; $('results').hidden = !has;
+    $('voters').innerHTML = has ? `<span>${votes.length} voted</span>` + votes.map(v => `<span>${esc(v.name)}</span>`).join('') : '';
+    $('results').innerHTML = rows.map(r => { const h = byId[r.id], first = has && r.place === 1; return `<li class="res ${first ? 'first' : ''}"><span class="p">${first ? '🏆' : r.place}</span><div><div class="top"><strong>${esc(h.name)}</strong><span>${r.pts} pts</span></div><div class="bar"><i style="width:${r.pts / max * 100}%"></i></div><div class="meta">${r.firsts.length ? `#1 for ${r.firsts.map(esc).join(', ')}` : 'No first-place votes'}</div></div></li>`; }).join('');
+    const withNotes = votes.filter(v => v.note);
+    $('vnotes').innerHTML = withNotes.map(v => `<li>“${esc(v.note)}” <small>— ${esc(v.name)}, #1 ${esc(byId[v.ranking[0]]?.name || '')}</small></li>`).join('');
+    document.querySelectorAll('.votechip').forEach(n => n.remove());
+    document.querySelectorAll('.c.lead').forEach(c => c.classList.remove('lead'));
+    if (has) rows.forEach(r => { document.querySelector(`.photos .c[data-h="${r.id}"]`).insertAdjacentHTML('beforeend', `<a class="votechip" href="#vote">${r.place === 1 ? '🏆 ' : ''}Vote #${r.place} · ${r.pts} pts</a>`); if (r.place === 1) document.querySelectorAll(`.names .c[data-h="${r.id}"]`).forEach(c => c.classList.add('lead')); });
+  }
+  async function load() {
+    try {
+      const res = await fetch(`${API}?poll=${POLL}`, { cache: 'no-store' });
+      if (!res.ok) throw 0;
+      votes = (await res.json()).votes || [];
+      $('live').className = 'live'; $('live').textContent = 'Live';
+      const me = votes.find(v => keyOf(v.name) === keyOf(nameIn.value || ''));
+      if (me && !order.length) { order = me.ranking.filter(id => byId[id]); noteIn.value = noteIn.value || me.note || ''; renderPicks(); }
+    } catch { $('live').className = 'live off'; $('live').textContent = 'Offline'; }
+    renderResults();
+  }
+  renderPicks(); renderResults(); load();
+  setInterval(() => { if (!document.hidden) load(); }, 8000);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) load(); });
+})();
+</script>
+</body></html>
