@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Group vote · Aviv</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0c2533">
+<link rel="icon" type="image/svg+xml" href="../booked/favicon.svg">
+<style>
+:root{--ink:#0c2533;--muted:#506674;--paper:#f3f6f8;--line:#d8e2e7;--accent:#226476;--warm:#e6bc74;--yes:#2f7d4f;--no:#a23b5b;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper)}
+*{box-sizing:border-box}[hidden]{display:none!important}
+body{margin:0;font-size:16px;line-height:1.5}
+button{font:inherit;cursor:pointer}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+.masthead{background:var(--ink);color:#fff}
+.masthead .wrap{display:flex;justify-content:space-between;align-items:center;min-height:58px;font-size:12px;letter-spacing:.14em;font-weight:700}
+.masthead a{color:#c1e8ef;text-decoration:none}
+.vote{margin:36px auto 60px;padding:40px 40px 36px;border-radius:14px;color:#fff;background:radial-gradient(1200px 380px at 85% -10%,#2b6f84 0%,transparent 60%),linear-gradient(160deg,#0c2533 0%,#123649 55%,#0f2d3e 100%);position:relative;overflow:hidden;isolation:isolate}
+.vote:before{content:'';position:absolute;inset:auto 0 0 0;height:140px;z-index:-1;opacity:.13;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 140' preserveAspectRatio='none'%3E%3Cpath d='M0 140 L0 95 L120 40 L210 88 L330 18 L450 92 L560 52 L640 80 L760 8 L880 86 L980 46 L1080 90 L1200 30 L1200 140Z' fill='%23fff'/%3E%3C/svg%3E") bottom/100% 100% no-repeat}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.18em;color:#9fd3dd;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.lock{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;background:#ffffff1a;color:#f3d595;letter-spacing:.1em}
+.lock svg{width:12px;height:12px;fill:none;stroke:currentColor;stroke-width:2.4}
+h1{font:400 38px/1.15 Georgia,serif;letter-spacing:-.03em;margin:0 0 10px}
+.sub{max-width:560px;margin:0 0 28px;font-size:14px;line-height:1.55;color:#c3d6dd}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:start}
+.card{background:#fff;color:var(--ink);border-radius:10px;padding:24px;box-shadow:0 18px 50px #02121c55}
+.card-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px;min-height:34px}
+.card h2{font:400 25px/1.2 Georgia,serif;letter-spacing:-.02em;margin:0}
+.voter-line{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+.voter-line strong{color:var(--ink)}
+.link-button{background:none;border:0;padding:4px 0;color:var(--accent);font-size:13px;text-decoration:underline;text-underline-offset:3px}
+.dot{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--c);color:#fff;font-size:11px;font-weight:700;flex:none;border:2px solid #fff;box-shadow:0 0 0 1px #0c253318}
+.dot.is-me{box-shadow:0 0 0 2px var(--warm)}
+.name-box{margin-bottom:18px;padding:14px;border-radius:8px;background:#f3f7f9;border:1px solid var(--line)}
+.name-box label,.field>span{display:block;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:7px}
+input{width:100%;min-height:44px;padding:10px 12px;border:1px solid #c3d2d9;border-radius:6px;font:inherit;font-size:16px;color:var(--ink);background:#fff}
+input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px #22647633}
+.pick-name{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:11px;font-size:12px;color:var(--muted)}
+.pick-name>span{width:100%}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:3px 10px 3px 3px;border:1px solid var(--line);border-radius:999px;background:#fff;font-size:13px;color:var(--ink)}
+.chip .dot{width:22px;height:22px;font-size:9px;border-width:1px}
+.choices{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.choice{display:flex;flex-direction:column;align-items:center;gap:6px;padding:22px 10px;border:2px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);transition:border-color .15s,background .15s,transform .1s}
+.choice svg{width:34px;height:34px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.choice strong{font:400 26px/1 Georgia,serif}
+.choice:hover{border-color:#b6cad2}
+.choice:active{transform:scale(.98)}
+.choice[data-choice=yes][aria-pressed=true]{border-color:var(--yes);background:#eaf5ee;color:var(--yes)}
+.choice[data-choice=no][aria-pressed=true]{border-color:var(--no);background:#f9ecf0;color:var(--no)}
+.field{display:block;margin-top:18px}
+.field small{font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted)}
+.actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:16px}
+.submit{min-height:48px;padding:12px 22px;border:0;border-radius:6px;background:var(--ink);color:#fff;font-size:15px;font-weight:700}
+.submit:hover:not(:disabled){background:var(--accent)}
+.submit:disabled{cursor:default;opacity:.55}
+.submit.is-saved{opacity:1;background:#e3f1ec;color:#245c43}
+.status{font-size:13px;color:var(--muted)}.status.warn{color:#8d492e}
+.withdraw{margin-top:12px;background:none;border:0;padding:0;color:var(--muted);font-size:13px;text-decoration:underline}
+.privacy{margin:16px 0 0;font-size:12px;color:var(--muted)}
+.live{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:#245c43}
+.live span{width:8px;height:8px;border-radius:50%;background:#2f9d63;box-shadow:0 0 0 0 #2f9d6380;animation:pulse 2s infinite}
+.live.off{color:var(--muted)}.live.off span{background:#9aa9b1;animation:none}
+@keyframes pulse{70%{box-shadow:0 0 0 8px #2f9d6300}100%{box-shadow:0 0 0 0 #2f9d6300}}
+.voter-row{display:flex;align-items:center;gap:10px;margin-bottom:16px;font-size:14px;color:var(--muted)}
+.voter-row strong{color:var(--ink);font-size:18px}
+.dots{display:flex}.dots .dot+.dot{margin-left:-6px}
+.sealed{padding:26px 18px;border:1px dashed #b6cad2;border-radius:10px;text-align:center;background:#f7fafb}
+.sealed svg{width:38px;height:38px;fill:none;stroke:var(--accent);stroke-width:1.8}
+.sealed p{margin:8px 0 0;font-size:14px;color:var(--muted)}
+.sealed strong{display:block;font:400 21px/1.3 Georgia,serif;color:var(--ink)}
+.bar-row{margin-bottom:16px}
+.bar-top{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
+.bar-top b{font:400 22px/1 Georgia,serif}
+.bar-top span{font-size:14px;color:var(--muted)}.bar-top span strong{color:var(--ink);font-size:18px}
+.bar{height:12px;border-radius:999px;background:#eef3f6;overflow:hidden}
+.bar i{display:block;height:100%;border-radius:999px;transition:width .5s cubic-bezier(.2,.7,.3,1)}
+.bar-row.yes i{background:var(--yes)}.bar-row.no i{background:var(--no)}
+.bar-row .dots{margin-top:8px}
+.verdict{margin:4px 0 18px;padding:12px 14px;border-radius:8px;font-weight:700;background:#f3f7f9}
+.notes h3{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:18px 0 8px}
+.notes ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.notes li{display:flex;gap:10px;align-items:flex-start}
+.notes p{margin:0;font-size:14px}.notes small{color:var(--muted);font-size:12px}
+.admin{margin-top:22px;padding:16px;border-radius:8px;background:#fff8e8;border:1px solid #e7c98a;font-size:14px}
+.admin h3{margin:0 0 8px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6c4400}
+.admin .row{display:flex;gap:8px;margin-top:8px}.admin .row input{flex:1}
+.admin button{min-height:44px;padding:10px 16px;border:0;border-radius:6px;background:var(--ink);color:#fff;font-weight:700}
+.admin button.danger{background:#8d492e}
+.admin p{margin:0 0 6px;color:#5b4a2a}
+.empty{font-size:14px;color:var(--muted)}
+.shake{animation:shake .4s}@keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (max-width:760px){.vote{padding:28px 18px 26px;margin:20px auto 40px;border-radius:12px}.grid{grid-template-columns:1fr}h1{font-size:30px}.card{padding:20px 16px}}
+</style>
+</head>
+<body>
+<header class="masthead"><div class="wrap"><a href="../booked/">THE AUSTRIA EDIT · WINTER 2027</a><span>GROUP VOTE</span></div></header>
+<main class="wrap">
+<section class="vote" id="vote" aria-labelledby="q">
+  <div class="eyebrow">GROUP VOTE <span class="lock"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>CONFIDENTIAL</span></div>
+  <h1 id="q">Should Aviv join the ski trip?</h1>
+  <p class="sub">Vote yes or no. Nobody can see how anyone voted until the results are published, only who has voted so far. You can change your vote until then.</p>
+  <noscript><p>This vote needs JavaScript.</p></noscript>
+  <div class="grid">
+    <section class="card" aria-labelledby="ballot-title">
+      <div class="card-head"><h2 id="ballot-title">Your vote</h2><div class="voter-line" id="voter-line"></div></div>
+      <div class="name-box" id="name-box"></div>
+      <div class="choices" role="group" aria-label="Your answer">
+        <button type="button" class="choice" data-choice="yes" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><strong>Yes</strong></button>
+        <button type="button" class="choice" data-choice="no" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg><strong>No</strong></button>
+      </div>
+      <label class="field"><span>Anything to add? <small>optional, shown only once results are published</small></span><input id="note" maxlength="160" autocomplete="off" placeholder="One line on why"></label>
+      <div class="actions"><button type="button" class="submit" id="submit"></button><span class="status" id="status" aria-live="polite"></span></div>
+      <button type="button" class="withdraw" id="withdraw" hidden>Withdraw my vote</button>
+      <p class="privacy">Your choice is remembered on this device only, so you can see what you picked.</p>
+    </section>
+    <section class="card" aria-labelledby="results-title">
+      <div class="card-head"><h2 id="results-title">Results</h2><span class="live" id="live"><span></span>Live</span></div>
+      <div class="voter-row" id="voter-row"></div>
+      <div id="results"></div>
+      <div class="admin" id="admin" hidden></div>
+    </section>
+  </div>
+</section>
+</main>
+<script>
+(() => {
+const API = 'https://alps-votes.sshireto.workers.dev/api', POLL = 'aviv-2027', REFRESH_MS = 10000;
+const LABEL = { yes: 'Yes', no: 'No' };
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+const store = {
+  get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+  set(k, v) { try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch {} },
+};
+const keyOf = n => String(n).toLocaleLowerCase('en').replace(/\s+/g, '');
+const cleanName = s => String(s ?? '').replace(/\s+/g, ' ').trim().slice(0, 32);
+const HUES = ['#226476', '#b0662c', '#6a4c93', '#2f7d4f', '#a23b5b', '#3d5a99', '#8a6d1d', '#1f7a80'];
+const colorOf = n => { let h = 0; for (const c of keyOf(n)) h = (h * 31 + c.charCodeAt(0)) >>> 0; return HUES[h % HUES.length]; };
+const initials = n => n.split(' ').filter(Boolean).slice(0, 2).map(w => w[0]).join('').toUpperCase();
+const avatar = (n, extra = '') => `<span class="dot ${extra}" style="--c:${colorOf(n)}" title="${esc(n)}">${esc(initials(n))}</span>`;
+const ago = t => { const s = Math.round((Date.now() - t) / 1000); if (s < 45) return 'just now'; const m = Math.round(s / 60); if (m < 60) return `${m} min ago`; const h = Math.round(m / 60); if (h < 24) return `${h} h ago`; return new Date(t).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }); };
+
+// Admin: open the page with ?admin once and enter the key; it is kept on that device.
+const params = new URLSearchParams(location.search);
+if (params.has('key')) { store.set('alps-admin-key', params.get('key')); history.replaceState(null, '', location.pathname + '?admin'); }
+const isAdminPage = params.has('admin') || params.has('key') || !!store.get('alps-admin-key');
+let adminKey = store.get('alps-admin-key') || '';
+
+let votes = [], sealed = true, published = false, admin = false, loaded = false, loadFailed = false, saving = false, statusMsg = '', adminMsg = '';
+let name = cleanName(store.get('aviv-vote-name'));
+let mine = JSON.parse(store.get('aviv-vote-mine') || 'null'); // { name, choice, note, at } as last saved from this device
+let choice = mine && keyOf(mine.name) === keyOf(name) ? mine.choice : null;
+let note = mine && keyOf(mine.name) === keyOf(name) ? mine.note : '';
+$('#note').value = note;
+
+const onServer = () => name && votes.find(v => keyOf(v.name) === keyOf(name));
+const savedHere = () => mine && name && keyOf(mine.name) === keyOf(name) && onServer() ? mine : null;
+const dirty = () => { const s = savedHere(); return !s || s.choice !== choice || s.note !== note.trim(); };
+
+function renderName() {
+  const box = $('#name-box'), line = $('#voter-line');
+  if (name) {
+    box.hidden = true; box.innerHTML = '';
+    line.innerHTML = `${avatar(name, 'is-me')}<span>Voting as <strong>${esc(name)}</strong></span><button type="button" class="link-button" id="change-name">Not you?</button>`;
+    return;
+  }
+  line.innerHTML = ''; box.hidden = false;
+  const others = votes.map(v => v.name), sig = others.join('\n');
+  if (box.dataset.sig === sig && box.querySelector('#voter-name')) return;
+  box.dataset.sig = sig;
+  const prev = box.querySelector('#voter-name'), typed = prev?.value || '', focused = prev && document.activeElement === prev;
+  box.innerHTML = `<label for="voter-name">Your name</label><input id="voter-name" maxlength="32" autocomplete="given-name" placeholder="So we know who voted">${others.length ? `<div class="pick-name"><span>Already voted? Pick your name to change your vote:</span>${others.map(n => `<button type="button" class="chip" data-name="${esc(n)}">${avatar(n)}${esc(n)}</button>`).join('')}</div>` : ''}`;
+  const input = box.querySelector('#voter-name'); input.value = typed; if (focused) input.focus();
+}
+
+function renderBallot() {
+  document.querySelectorAll('.choice').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.choice === choice)));
+  const btn = $('#submit'), st = $('#status'), s = savedHere(), voted = !!onServer();
+  btn.disabled = saving || (!!s && !dirty());
+  btn.textContent = saving ? 'Saving…' : !voted ? 'Submit my vote' : s && !dirty() ? 'Vote saved' : 'Update my vote';
+  btn.classList.toggle('is-saved', !!s && !dirty() && !saving);
+  st.textContent = statusMsg || (s ? (dirty() ? 'You have changes that are not saved yet' : `Saved ${ago(s.at)}`) : voted ? 'You have voted. Pick again to change it.' : '');
+  st.classList.toggle('warn', !!s && dirty() && !statusMsg);
+  $('#withdraw').hidden = !voted;
+}
+
+function renderResults() {
+  const count = votes.length;
+  $('#voter-row').innerHTML = count ? `<strong>${count}</strong> ${count === 1 ? 'vote' : 'votes'}<span class="dots">${votes.map(v => avatar(v.name, keyOf(v.name) === keyOf(name) ? 'is-me' : '')).join('')}</span>` : '';
+  const box = $('#results');
+  if (!loaded && !loadFailed) { box.innerHTML = '<p class="empty">Loading…</p>'; }
+  else if (loadFailed && !count) { box.innerHTML = '<p class="empty">Could not load the vote. It will appear when the connection is back.</p>'; }
+  else if (sealed) {
+    box.innerHTML = `<div class="sealed"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><strong>Results are sealed</strong><p>${count ? `${count} ${count === 1 ? 'person has' : 'people have'} voted. ` : 'No votes yet. '}Results will show here once Shahar publishes them.</p></div>`;
+  } else if (!count) { box.innerHTML = '<p class="empty">No votes yet.</p>'; }
+  else {
+    const by = c => votes.filter(v => v.ranking?.[0] === c), yes = by('yes'), no = by('no');
+    const row = (c, list) => `<div class="bar-row ${c}"><div class="bar-top"><b>${LABEL[c]}</b><span><strong>${list.length}</strong> · ${Math.round(list.length / count * 100)}%</span></div><div class="bar"><i style="width:${list.length / count * 100}%"></i></div>${list.length ? `<div class="dots">${list.map(v => avatar(v.name)).join('')}</div>` : ''}</div>`;
+    const verdict = yes.length > no.length ? 'The group says yes.' : no.length > yes.length ? 'The group says no.' : 'It’s a tie.';
+    const notes = votes.filter(v => v.note);
+    box.innerHTML = `${admin && !published ? '<p class="verdict" style="background:#fff8e8">Only you can see this. Results are still sealed for everyone else.</p>' : `<p class="verdict">${verdict}</p>`}${row('yes', yes)}${row('no', no)}${notes.length ? `<div class="notes"><h3>What people added</h3><ul>${notes.map(v => `<li>${avatar(v.name)}<div><p>${esc(v.note)}</p><small>${esc(v.name)} · ${LABEL[v.ranking?.[0]] || ''}</small></div></li>`).join('')}</ul></div>` : ''}`;
+  }
+  renderAdmin();
+}
+
+function renderAdmin() {
+  const box = $('#admin');
+  box.hidden = !isAdminPage;
+  if (!isAdminPage) return;
+  if (!admin) {
+    box.innerHTML = `<h3>Organiser</h3><p>${adminMsg || 'Enter the admin key to see the results and publish them.'}</p><div class="row"><input id="admin-key" type="password" autocomplete="off" placeholder="Admin key" value="${esc(adminKey)}"><button type="button" id="admin-go">Unlock</button></div>`;
+    return;
+  }
+  box.innerHTML = `<h3>Organiser</h3><p>${published ? 'Results are <strong>published</strong>. Everyone can see them.' : 'Results are <strong>sealed</strong>. Only you can see them.'}</p>${adminMsg ? `<p>${esc(adminMsg)}</p>` : ''}<div class="row">${published ? '<button type="button" class="danger" id="admin-publish" data-value="0">Hide results again</button>' : '<button type="button" id="admin-publish" data-value="1">Publish results to everyone</button>'}<button type="button" class="link-button" id="admin-forget" style="background:none;color:var(--ink)">Lock this device</button></div>`;
+}
+
+async function load() {
+  try {
+    const res = await fetch(`${API}/votes?poll=${POLL}`, { cache: 'no-store', headers: adminKey ? { 'X-Admin-Key': adminKey } : {} });
+    if (!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    votes = data.votes;
+    // Never show choices unless the server says this poll is open to us.
+    sealed = data.sealed !== false || !('sealed' in data);
+    published = !!data.published; admin = !!data.admin;
+    if (sealed) votes = votes.map(v => ({ name: v.name, updatedAt: v.updatedAt }));
+    if (adminKey && !admin && isAdminPage && !adminMsg) adminMsg = 'That key was not accepted.';
+    loaded = true; loadFailed = false; $('#live').classList.remove('off');
+  } catch { loadFailed = true; $('#live').classList.add('off'); }
+  if (!name) renderName();
+  renderResults(); renderBallot();
+}
+
+async function submit() {
+  if (!name) {
+    const input = $('#voter-name'), n = cleanName(input?.value);
+    if (!n) { input?.focus(); statusMsg = 'Add your name first'; renderBallot(); input?.classList.add('shake'); setTimeout(() => input?.classList.remove('shake'), 450); return; }
+    const existing = votes.find(v => keyOf(v.name) === keyOf(n));
+    if (existing && !confirm(`${existing.name} has already voted. Replace that vote with this one?`)) return;
+    name = n; store.set('aviv-vote-name', name); renderName();
+  }
+  if (!choice) { statusMsg = 'Pick Yes or No first'; renderBallot(); return; }
+  saving = true; statusMsg = ''; renderBallot();
+  try {
+    const res = await fetch(`${API}/votes`, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ poll: POLL, name, ranking: [choice], note: note.trim() }) });
+    if (!res.ok) throw new Error(res.status);
+    const { updatedAt } = await res.json();
+    mine = { name, choice, note: note.trim(), at: updatedAt }; store.set('aviv-vote-mine', JSON.stringify(mine));
+    votes = votes.filter(v => keyOf(v.name) !== keyOf(name)).concat(sealed ? { name, updatedAt } : { name, ranking: [choice], note: note.trim(), updatedAt });
+    renderResults();
+  } catch { statusMsg = 'Could not save. Check your connection and try again.'; }
+  saving = false; renderBallot();
+}
+
+async function withdraw() {
+  if (!name || !confirm('Remove your vote?')) return;
+  try {
+    const res = await fetch(`${API}/votes`, { method: 'DELETE', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ poll: POLL, name }) });
+    if (!res.ok) throw new Error(res.status);
+    votes = votes.filter(v => keyOf(v.name) !== keyOf(name));
+    mine = null; store.set('aviv-vote-mine', null); statusMsg = 'Your vote was removed';
+    renderResults(); renderBallot();
+  } catch { statusMsg = 'Could not remove your vote. Try again.'; renderBallot(); }
+}
+
+async function setPublished(value) {
+  if (value && !confirm('Publish the results? Everyone with the link will see who voted what.')) return;
+  try {
+    const res = await fetch(`${API}/polls`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Admin-Key': adminKey }, body: JSON.stringify({ poll: POLL, published: value }) });
+    if (!res.ok) throw new Error(res.status);
+    adminMsg = '';
+  } catch { adminMsg = 'Could not change it. Try again.'; }
+  load();
+}
+
+document.addEventListener('click', e => {
+  const c = e.target.closest('.choice');
+  if (c) { choice = c.dataset.choice; statusMsg = ''; renderBallot(); return; }
+  const chip = e.target.closest('[data-name]');
+  if (chip) {
+    name = cleanName(chip.dataset.name); store.set('aviv-vote-name', name);
+    const s = savedHere(); choice = s ? s.choice : null; note = s ? s.note : ''; $('#note').value = note;
+    renderName(); renderBallot(); renderResults(); return;
+  }
+  if (e.target.closest('#change-name')) { name = ''; store.set('aviv-vote-name', null); choice = null; note = ''; $('#note').value = ''; statusMsg = ''; renderName(); renderBallot(); renderResults(); $('#voter-name')?.focus(); return; }
+  if (e.target.closest('#submit')) { submit(); return; }
+  if (e.target.closest('#withdraw')) { withdraw(); return; }
+  if (e.target.closest('#admin-go')) { adminKey = $('#admin-key').value.trim(); store.set('alps-admin-key', adminKey || null); adminMsg = ''; load(); return; }
+  if (e.target.closest('#admin-publish')) { setPublished(e.target.closest('#admin-publish').dataset.value === '1'); return; }
+  if (e.target.closest('#admin-forget')) { adminKey = ''; store.set('alps-admin-key', null); admin = false; adminMsg = ''; load(); }
+});
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Enter') return;
+  if (e.target.id === 'voter-name') { e.preventDefault(); submit(); }
+  if (e.target.id === 'admin-key') { e.preventDefault(); $('#admin-go').click(); }
+});
+$('#note').addEventListener('input', e => { note = e.target.value; statusMsg = ''; renderBallot(); });
+
+renderName(); renderBallot(); renderResults();
+load();
+setInterval(() => { if (!document.hidden) load(); }, REFRESH_MS);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) load(); });
+})();
+</script>
+</body>
+</html>

@@ -8,3 +8,11 @@ CREATE TABLE IF NOT EXISTS ballots (
   updated_at INTEGER NOT NULL, -- ms since epoch
   PRIMARY KEY (poll, voter_key)
 );
+
+-- Sealed polls: ballots stay secret (GET returns only names) until published = 1.
+-- Polls without a row here are open, as before. admin_key unlocks results and the publish switch.
+CREATE TABLE IF NOT EXISTS polls (
+  poll TEXT PRIMARY KEY,
+  published INTEGER NOT NULL DEFAULT 0,
+  admin_key TEXT NOT NULL
+);
